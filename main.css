@@ -22,3 +22,8 @@ article a {display: inline-block; padding: 0; margin:0;width: 200px; height:200p
 article a { opacity: 0.5;transition: opacity 0.3s;white-space:nowrap; text-decoration: none; color:#fff;font-weight: bold;font-size:22px;text-shadow:1px 1px 8px #000;background-color: #fff;}
 article a:hover {opacity: 1;}
 article .mantra {padding-bottom: 42px;}
+footer {position: fixed; bottom: 0;left: 0; overflow:hidden; width: 100%; height: 100px; background: transparent url('bg.png') 0 0 repeat-x;}
+footer td>a {font-size: 18px; color: #fff; text-decoration: none; padding: 0 20px; height:100px; width: 100%; display: table-cell; vertical-align: middle;}
+footer td>a:hover {background-color: #000; opacity: 0.3;}
+footer i.fa {font-size: 3em; vertical-align: middle;}
+footer table {margin:0 auto; height: 100%;}
