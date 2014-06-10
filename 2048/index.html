@@ -22,7 +22,6 @@
         <div class="best-container">0</div>
       </div>
     </div>
-    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
 
     <div class="game-container">
       <div class="game-message">
@@ -64,17 +63,11 @@
 
       </div>
     </div>
-
-    <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
-    </p>
-    <hr>
     <p>
-    <strong class="important">Note:</strong> This site is the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+      Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> 
     </p>
-    <hr>
     <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+      Modified by <a href="http://hamdouni.github.io" target="_blank">Brahim Hamdouni.</a>
     </p>
   </div>
 
@@ -86,17 +79,5 @@
   <script src="js/local_score_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
-  <script src="js/gremlins.min.js"></script>
-  <script>
-	gremlins.createHorde()
-		.gremlin(function() {
-			var ev = document.createEvent("KeyboardEvent"),
-			    key = 37;
-			ev.initKeyboardEvent("keypress",true, true, window, false, false,  false,  false,  key, 0);
-			document.dispatchEvent(ev);
-			console.log("fire key " + key);
-		})
-	.unleash();
-  </script>
 </body>
 </html>
