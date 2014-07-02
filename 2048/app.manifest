@@ -4,11 +4,14 @@ CACHE MANIFEST
 
 CACHE:
 index.html
+style/main.css
 js/animframe_polyfill.js
-keyboard_input_manager.js
-html_actuator.js
-grid.js
-tile.js
-local_score_manager.js
-game_manager.js
-application.js
+js/keyboard_input_manager.js
+js/html_actuator.js
+js/grid.js
+js/tile.js
+js/local_score_manager.js
+js/game_manager.js
+js/application.js
+favicon.ico
+apple-touch-icon.png
