@@ -1,0 +1,14 @@
+{
+	"name": "2048 Application Manifest",
+	"icons": [
+		{
+			"src": "apple-touch-icon.png",
+			"sizes": "152x152",
+			"type": "image/png",
+			"densisty": "1.0"
+		}
+	],
+	"start_url": "index.html,
+	"display": "standalone",
+	"orientation": "landscape"
+}
