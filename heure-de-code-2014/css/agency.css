@@ -121,12 +121,13 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #fed136;
     border-radius: 3px;
+    background-color: #fed136;
     text-transform: uppercase;
+    text-shadow: grey 1px 1px 1px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
 }
 
 .btn-xl:hover,
@@ -253,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+    	background-color: #424242;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -264,14 +265,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-color: #424242;
 }
 
 header .intro-text {
@@ -635,6 +629,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-width: 200px;
 }
 
 .team-member h4 {
@@ -653,7 +648,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
