@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html manifest="app.manifest">
+<head>
+	<meta charset="utf-8">
+	<title>Thorn Gram</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<style type="text/css">
+		* {box-sizing: border-box;}
+		html, body {width: 100%; height: 100%; padding: 0; margin: 0;}
+		body {font-family:sans;}
+		ul.list {margin:0; padding:0;}
+		ul.list li {list-style: none; border-bottom: 1px dashed #eee;}
+		.footer {font-size: 1.2em; position: absolute; bottom: 0; width:100%;}
+		.main {text-align: center; padding: 30px 15px;}
+		.input {width:100%; padding:12px 8px; font-size: 32px; outline: 0; border-radius: 4px;border: 1px solid #ccc;}
+		.input:focus {border-color: #0074bf;}
+		.date {border: 1px dashed #333; font-size: 1em; font-weight: bold; }
+		.action {float:left; text-decoration: none; font-size: 1em; margin: 1px; padding: 7px 14px; border-radius: 4px;background-color:#eee; color:#333; border: 1px solid #686;}
+		.add {float: right;}
+		.delete {background-color: #d02552;border: 1px solid transparent;color: #fff;border-radius:3px;font-weight:100;}
+		.info {position:fixed;top:0;right:0;background-color: #383127;color:#ccc;padding:4px;border-radius:3px;}
+		.action{  margin: 8px;  font-family: arial, sans-serif; font-size: 16px;  color: #777; text-shadow: 1px 1px 0px white; background: #ffffff; /* Old browsers */  background: -moz-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dfdfdf)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* Opera11.10+ */  background: -ms-linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* IE10+ */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf',GradientType=0 ); /* IE6-9 */  background: linear-gradient(top, #ffffff 0%,#dfdfdf 100%); /* W3C */  -moz-border-radius: 3px;  -webkit-border-radius: 3px;  border-radius: 3px;  -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  padding: 6px 12px;  }  
+		.action:hover{  background: #ffffff; /* Old browsers */  background: -moz-linear-gradient(top, #ffffff 0%, #eee 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eee)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top, #ffffff 0%,#eee 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top, #ffffff 0%,#eee 100%); /* Opera11.10+ */  background: -ms-linear-gradient(top, #ffffff 0%,#eee 100%); /* IE10+ */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eee',GradientType=0 ); /* IE6-9 */  background: linear-gradient(top, #ffffff 0%,#eee 100%); /* W3C */  -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4); box-shadow: 0 1px 3px 0px rgba(0,0,0,0.4);  }  
+		.button a:active{  background: #dfdfdf; /* Old browsers */  background: -moz-linear-gradient(top, #dfdfdf 0%, #f1f1f1 100%); /* FF3.6+ */  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfdf), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */  background: -webkit-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */  background: -o-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* Opera11.10+ */  background: -ms-linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* IE10+ */  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */  background: linear-gradient(top, #dfdfdf 0%,#f1f1f1 100%); /* W3C */  -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1); -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2) inset, 0px 1px 1px 0 rgba(255,255,255,1);  }
+		#graphdiv {height: 400px; width: 100%;}
+		#tablediv table {border-collapse: collapse;}
+		#tablediv table td {border-bottom: 1px solid #eee; white-space: nowrap; text-align: left;}
+	</style>
+	<script type='text/javascript' src="alight.last.min.js"></script>
+	<script type='text/javascript' src="dygraph-combined.js"></script>
+</head>
+<body al-app="thornApp">
+	<form al-submit="add()">
+		<div class="main">
+			<input type="number" step="any" min="0" autofocus="autofocus" class="input"  al-value="gram" /> 
+			<div id="graphdiv" al-show="graphIsVisible"></div>
+			<div id="tablediv" al-show="tableIsVisible">
+				<table>
+					<tr al-repeat="elem in thornTable">
+						<td>{{elem[0]}}</td><td>{{elem[1]}}</td>
+					</tr>
+				</table>
+				<button class="delete" al-click="empty()">✖ Del</button>
+			</div>
+		</div>
+		<div class="footer">
+			<input class="action" type="date" class="date" al-value="date" al-show="changeDateIsVisible" al-blur="changeDateIsVisible=false" al-focused="changeDateIsVisible" /> 
+			<a class="action" href="#" al-show="!changeDateIsVisible" al-click="changeDateIsVisible=true">{{date}}</a>
+		        <a class="action" href="#" al-click="graphIsVisible=true;tableIsVisible=false">G</a>
+		        <a class="action" href="#" al-click="graphIsVisible=false;tableIsVisible=true">T</a> 
+			<button class="action add">➕</button>
+		</div>
+	</form>
+
+	<script type='text/javascript'>//<![CDATA[ 
+		function thornApp(scope) {
+			function load(key) { return JSON.parse(localStorage.getItem(key)); }
+			function save(list) { localStorage.setItem('thornTable', JSON.stringify(list)); }
+			function destroy(key) { localStorage.removeItem(key); }
+			function regenerateData(table) { 
+				table.forEach(function(elem, ind, arr) { 
+					elem[0] = new Date(elem[0]); 
+					elem[1] = parseInt(elem[1],10);
+				}) 
+			}
+			function updateTable() {
+				scope.thornTable.sort(function(a,b){ if(a[0] < b[0]) {return -1} else return 1 })
+				save(scope.thornTable);
+				scope.g.updateOptions({'file': scope.thornTable});
+			}
+			scope.add = function () {
+				dd = new Date(scope.date);
+				elem = [dd, scope.gram];
+				scope.thornTable.push(elem);
+				scope.gram = "";
+				updateTable();
+			}
+			scope.empty = function () {
+				destroy('thornTable');
+				scope.thornTable = [];
+				updateTable();
+			}
+
+			// INIT
+			scope.thornTable = load('thornTable') || [];
+			regenerateData(scope.thornTable);
+			
+			dd = new Date();
+			scope.date = dd.toISOString().substring(0,10);
+
+			if (scope.thornTable.length > 0) {
+				scope.g = new Dygraph(
+				 	// containing div
+			   		document.getElementById("graphdiv"),
+			   		scope.thornTable,
+			   		{
+			   			labels: ['Date', 'Weight']
+			   		}
+				);
+			}
+		}
+	</script>
+</body>
+</html>
