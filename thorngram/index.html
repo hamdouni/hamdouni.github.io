@@ -51,7 +51,7 @@
 			function regenerateData(table) { 
 				table.forEach(function(elem, ind, arr) { 
 					elem[0] = new Date(elem[0]); 
-					elem[1] = parseInt(elem[1],10);
+					elem[1] = parseFloat(elem[1]);
 				}) 
 			}
 			function drawGraph() {
