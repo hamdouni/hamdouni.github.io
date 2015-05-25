@@ -1,7 +1,14 @@
 
 <todo>
 
+<h1>{ this.text }</h1>
+
   <h3>{ opts.title }</h3>
+
+  <form onsubmit={ add }>
+    <input name="input" onkeyup={ edit } autofocus="autofocus">
+    <button disabled={ !text }>Add #{ items.filter(filter).length + 1 }</button>
+  </form>
 
   <ul>
     <li each={ items.filter(filter) }>
@@ -10,11 +17,6 @@
       </label>
     </li>
   </ul>
-
-  <form onsubmit={ add }>
-    <input name="input" onkeyup={ edit } autofocus="autofocus">
-    <button disabled={ !text }>Add #{ items.filter(filter).length + 1 }</button>
-  </form>
 
   if(opts.items) this.items = opts.items
   else this.items = []
@@ -32,7 +34,7 @@
 
   // an example how to filter items on the list
   filter(item) {
-    return !item.hidden
+    return !item.done
   }
 
   toggle(e) {

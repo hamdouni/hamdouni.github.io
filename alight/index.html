@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head></head>
+<body al-app>
+	<h1>Experiment Angular Light</h1>
+	<h3>{{foo}}</h3>
+	<input value="lopo" al-text />
+
+	<script src="http://angularlight.org/bin/alight_0.8.last.min.js"></script>
+	<script language="javascript">
+		alight.directives.al.text = function(element, name, scope, env) {  // DOM-element, name - value of attribute, Scope, env - access to aLight processor
+			var setter = function(text) {  // a function to set a text to the DOM-element
+				$(element).text(value)
+			}
+			var r = scope.$watch(name, setter);  // Track to the variable
+			setter(r.value);  // Set the initial value of an element.
+		};
+	</script>
+</body>
+</html>

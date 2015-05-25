@@ -3,12 +3,11 @@ body {
   font-family: 'myriad pro', sans-serif;
   font-size: 20px;
   border: 0;
-  background-color: #000;
 }
 
 todo {
   display: block;
-  max-width: 400px;
+  max-width: 600px;
   margin: 5% auto;
 }
 
@@ -20,8 +19,8 @@ form input {
 }
 
 button {
-  background-color: #1FADC5;
-  border: 1px solid rgba(0,0,0,.2);
+  background-color: #00E676;
+  border: 1px solid #00D666;
   font-size: 100%;
   color: #fff;
   padding: .6em 1.2em;
@@ -33,6 +32,7 @@ button {
 
 button[disabled] {
   background-color: #ddd;
+  border: 1px solid #ccc;
   color: #aaa;
 }
 
