@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/</link>
+    <description>Recent content in Tags on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 30 Jun 2014 15:58:25 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Angular Light</title>
+      <link>/en/tags/angular-light/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/angular-light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Annyang</title>
+      <link>/en/tags/annyang/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/annyang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application</title>
+      <link>/en/tags/application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/application/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Background</title>
+      <link>/en/tags/background/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/en/tags/background/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boot</title>
+      <link>/en/tags/boot/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/en/tags/boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bug</title>
+      <link>/en/tags/bug/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/en/tags/bug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cheyenne</title>
+      <link>/en/tags/cheyenne/</link>
+      <pubDate>Mon, 03 Oct 2016 13:49:50 +0000</pubDate>
+      
+      <guid>/en/tags/cheyenne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Console</title>
+      <link>/en/tags/console/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/console/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>/en/tags/css/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/en/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css3</title>
+      <link>/en/tags/css3/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/en/tags/css3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dbus</title>
+      <link>/en/tags/dbus/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/dbus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desktop</title>
+      <link>/en/tags/desktop/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>/en/tags/dev/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/en/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distribution</title>
+      <link>/en/tags/distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/distribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/en/tags/docker/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/en/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dwm</title>
+      <link>/en/tags/dwm/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/dwm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/en/tags/git/</link>
+      <pubDate>Tue, 07 Jun 2016 09:25:33 +0000</pubDate>
+      
+      <guid>/en/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gnome Settings Daemon</title>
+      <link>/en/tags/gnome-settings-daemon/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/gnome-settings-daemon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>/en/tags/go/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/en/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/en/tags/golang/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/en/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howto</title>
+      <link>/en/tags/howto/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>/en/tags/html/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html5</title>
+      <link>/en/tags/html5/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/en/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Imagemagick</title>
+      <link>/en/tags/imagemagick/</link>
+      <pubDate>Mon, 27 Mar 2017 23:06:02 +0000</pubDate>
+      
+      <guid>/en/tags/imagemagick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iso</title>
+      <link>/en/tags/iso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/iso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/en/tags/javascript/</link>
+      <pubDate>Mon, 24 Aug 2015 05:30:57 +0000</pubDate>
+      
+      <guid>/en/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/en/tags/linux/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minimal</title>
+      <link>/en/tags/minimal/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/en/tags/minimal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>/en/tags/mysql/</link>
+      <pubDate>Mon, 20 Feb 2017 16:54:46 +0000</pubDate>
+      
+      <guid>/en/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>/en/tags/network/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>/en/tags/opensource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outlook</title>
+      <link>/en/tags/outlook/</link>
+      <pubDate>Mon, 31 Aug 2015 05:30:05 +0000</pubDate>
+      
+      <guid>/en/tags/outlook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/en/tags/php/</link>
+      <pubDate>Fri, 05 Dec 2014 14:42:56 +0000</pubDate>
+      
+      <guid>/en/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policykit</title>
+      <link>/en/tags/policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/policykit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prompt</title>
+      <link>/en/tags/prompt/</link>
+      <pubDate>Fri, 26 Dec 2014 16:58:41 +0000</pubDate>
+      
+      <guid>/en/tags/prompt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samba</title>
+      <link>/en/tags/samba/</link>
+      <pubDate>Wed, 10 Jan 2018 15:48:35 +0000</pubDate>
+      
+      <guid>/en/tags/samba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scratch</title>
+      <link>/en/tags/scratch/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/en/tags/scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>/en/tags/shell/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Space</title>
+      <link>/en/tags/space/</link>
+      <pubDate>Mon, 26 May 2014 12:55:19 +0000</pubDate>
+      
+      <guid>/en/tags/space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech Recognition</title>
+      <link>/en/tags/speech-recognition/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>/en/tags/storage/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>/en/tags/text/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/en/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>/en/tags/tmux/</link>
+      <pubDate>Wed, 08 Jul 2015 11:46:33 +0000</pubDate>
+      
+      <guid>/en/tags/tmux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/en/tags/ubuntu/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Udev</title>
+      <link>/en/tags/udev/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/udev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usb</title>
+      <link>/en/tags/usb/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/en/tags/usb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>/en/tags/video/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/en/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>/en/tags/vim/</link>
+      <pubDate>Wed, 03 Dec 2014 17:44:07 +0000</pubDate>
+      
+      <guid>/en/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/en/tags/web/</link>
+      <pubDate>Mon, 24 Aug 2015 05:30:57 +0000</pubDate>
+      
+      <guid>/en/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Speech Api</title>
+      <link>/en/tags/web-speech-api/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/web-speech-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webapp</title>
+      <link>/en/tags/webapp/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/en/tags/webapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wifi</title>
+      <link>/en/tags/wifi/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/en/tags/windows/</link>
+      <pubDate>Mon, 31 Aug 2015 05:30:05 +0000</pubDate>
+      
+      <guid>/en/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/en/tags/wordpress/</link>
+      <pubDate>Fri, 05 Dec 2014 14:42:56 +0000</pubDate>
+      
+      <guid>/en/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zen</title>
+      <link>/en/tags/zen/</link>
+      <pubDate>Mon, 26 May 2014 12:55:19 +0000</pubDate>
+      
+      <guid>/en/tags/zen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>/en/tags/zsh/</link>
+      <pubDate>Fri, 26 Dec 2014 16:58:41 +0000</pubDate>
+      
+      <guid>/en/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Console on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/console/</link>
+    <description>Recent content in Console on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/console/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force #wifi interface name on #Ubuntu 18.04</title>
+      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
+
+&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>#Docker from scratch, #Golang and Multipart upload</title>
+      <link>/docker-from-scratch-golang-and-multipart-upload/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/docker-from-scratch-golang-and-multipart-upload/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Samba public share</title>
+      <link>/samba-public-share/</link>
+      <pubDate>Wed, 10 Jan 2018 15:48:35 +0000</pubDate>
+      
+      <guid>/samba-public-share/</guid>
+      <description>&lt;p&gt;How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Convert PDF to PNG with enough resolution</title>
+      <link>/convert-pdf-to-png-with-enough-resolution/</link>
+      <pubDate>Mon, 27 Mar 2017 23:06:02 +0000</pubDate>
+      
+      <guid>/convert-pdf-to-png-with-enough-resolution/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;screenshot wp-image-1714 size-full alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png&#34; alt=&#34;ImageMagick logo&#34; width=&#34;256&#34; height=&#34;256&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png 256w, http://brahim.hamdouni.com/wp-uploads/téléchargement-150x150.png 150w&#34; sizes=&#34;(max-width: 256px) 100vw, 256px&#34; /&gt;As &amp;#8216;man convert&amp;#8217; states :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Boot Linux in text console</title>
+      <link>/boot-linux-in-text-console/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/boot-linux-in-text-console/</guid>
+      <description>&lt;p&gt;Get rid of graphic boot on Linux with a few modifications in grub configuration :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer un iso sur une clé USB dans une console #Linux</title>
+      <link>/p1867/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/p1867/</guid>
+      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

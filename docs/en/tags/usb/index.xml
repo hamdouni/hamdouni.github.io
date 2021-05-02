@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usb on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/usb/</link>
+    <description>Recent content in Usb on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 18 Jun 2014 21:41:51 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/usb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>usb mount and policykit [EN]</title>
+      <link>/usb-mount-and-polykit-en/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/usb-mount-and-polykit-en/</guid>
+      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
+But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+    </item>
+    
+    <item>
+      <title>Installer un iso sur une clé USB dans une console #Linux</title>
+      <link>/p1867/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/p1867/</guid>
+      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Angular Light on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/angular-light/</link>
+    <description>Recent content in Angular Light on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 30 Jun 2014 15:58:25 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/angular-light/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speech Tasks : a voice driven todo webapp</title>
+      <link>/speech-tasks-a-todo-webapp-driven-by-your-voice/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/speech-tasks-a-todo-webapp-driven-by-your-voice/</guid>
+      <description>With the Web Speech Api, some good javascript libs and several lines of code, you can easily add speech recognition in your web application. All is done thanks to AnnYang JS lib made by Tal Ater, plumbing with Angular Light by Oleg Nechaev and served by a Go http server. (By the way, I love opensource community !)
+Try the demo ! See the code ! And thanks to Mark McGranaghan for his tutorial to deploy go app on Heroku</description>
+    </item>
+    
+  </channel>
+</rss>

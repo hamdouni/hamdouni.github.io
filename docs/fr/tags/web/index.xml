@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Documentation de Brahim Hamdouni</title>
+    <link>/fr/tags/web/</link>
+    <description>Recent content in Web on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 28 Apr 2014 17:17:07 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2048 Gremlins [FR]</title>
+      <link>/2048-gremlins/</link>
+      <pubDate>Mon, 28 Apr 2014 17:17:07 +0000</pubDate>
+      
+      <guid>/2048-gremlins/</guid>
+      <description>&lt;p&gt;&lt;a title=&#34;Laissez jouer les Gremlins à 2048 !&#34; href=&#34;http://github.hamdouni.com/2048Gremlins/&#34; target=&#34;_blank&#34;&gt;&lt;img class=&#34;alignleft size-full wp-image-919&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/2048.png&#34; alt=&#34;2048 le jeu&#34; width=&#34;194&#34; height=&#34;194&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Connaissez vous &lt;a title=&#34;Gabriele Cirulli website&#34; href=&#34;http://gabrielecirulli.com/about.html&#34; target=&#34;_blank&#34;&gt;Gabriele Cirulli&lt;/a&gt; ? Ce jeune homme d&amp;#8217;à peine 20 ans a codé &lt;a title=&#34;Le jeu 2048&#34; href=&#34;http://gabrielecirulli.github.io/2048/&#34; target=&#34;_blank&#34;&gt;2048&lt;/a&gt;, un petit jeu qui fait le buzz en ce moment : en faisant glisser les tuiles numérotées pour combiner celles qui sont identiques, on les cumule en espérant atteindre une tuile de 2048 !&lt;/p&gt;
+
+&lt;p&gt;Maintenant, connaissez vous &lt;a title=&#34;Gremlins.js Github&#34; href=&#34;https://github.com/marmelab/gremlins.js&#34; target=&#34;_blank&#34;&gt;Gremlins.js&lt;/a&gt; ? La lib Javascript de la société &lt;a title=&#34;Marmelab website&#34; href=&#34;http://marmelab.com/&#34; target=&#34;_blank&#34;&gt;Marmelab&lt;/a&gt; pour faire du test d&amp;#8217;application web en mode bourrin : on lâche une myriade de gremlins qui s&amp;#8217;amusent à cliquer partout, à entrer n&amp;#8217;importe quoi au clavier, dans le but de détecter des failles de votre application.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

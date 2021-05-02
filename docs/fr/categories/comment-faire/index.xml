@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comment Faire on Documentation de Brahim Hamdouni</title>
+    <link>/fr/categories/comment-faire/</link>
+    <description>Recent content in Comment Faire on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/categories/comment-faire/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forcer le nom de l’interface #wifi sous #Ubuntu 18.04</title>
+      <link>/forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Avec Udev, il est possible de modifier le nom de l&amp;#8217;interface wifi.&lt;/p&gt;
+
+&lt;p&gt;Tout d&amp;#8217;abord, on doit récupérer l&amp;#8217;adresse mac de la carte wifi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Minimal #Docker &#43; #Golang et le téléversement Multipart</title>
+      <link>/minimal-docker-golang-et-le-televersement-multipart/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Démarrer Linux sur la console texte</title>
+      <link>/demarrer-linux-sur-la-console-texte/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/demarrer-linux-sur-la-console-texte/</guid>
+      <description>&lt;p&gt;Pour se débarraser du démarrage graphique sur Linux, on peut modifier sa configuration grub :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>French Git Log</title>
+      <link>/french-git-log/</link>
+      <pubDate>Tue, 07 Jun 2016 09:25:33 +0000</pubDate>
+      
+      <guid>/french-git-log/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-full wp-image-1501 aligncenter&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/french-git.png&#34; alt=&#34;french git example&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/french-git.png 782w, http://brahim.hamdouni.com/wp-uploads/french-git-300x135.png 300w, http://brahim.hamdouni.com/wp-uploads/french-git-768x345.png 768w, http://brahim.hamdouni.com/wp-uploads/french-git-600x269.png 600w, http://brahim.hamdouni.com/wp-uploads/french-git-624x280.png 624w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mysql client : ne pas afficher le nom des colonnes et les tirets du tableau</title>
+      <link>/mysql-client-ne-pas-afficher-le-nom-des-colonnes-et-les-tirets-du-tableau/</link>
+      <pubDate>Mon, 30 May 2016 08:33:23 +0000</pubDate>
+      
+      <guid>/mysql-client-ne-pas-afficher-le-nom-des-colonnes-et-les-tirets-du-tableau/</guid>
+      <description>&lt;p&gt;Le client mysql affiche les résultats sous forme d&amp;#8217;un tableau dessiné avec des caractères ascii comme l&amp;#8217;exemple ci-dessous, mais comment faire si on veut le résultat brut sans fioriture ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Autoriser les dates invalides dans MySQL</title>
+      <link>/autoriser-les-dates-invalides-dans-mysql/</link>
+      <pubDate>Mon, 23 May 2016 13:55:55 +0000</pubDate>
+      
+      <guid>/autoriser-les-dates-invalides-dans-mysql/</guid>
+      <description>&lt;p&gt;Dans le cas où vous avez absolument besoin d&amp;#8217;insérer une date dans MySQL, qui n&amp;#8217;est pas valide, par exemple le 30 février 2014, vous pouvez exécuter le server MySQL dans un mode spécial pour autoriser ces dates :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Speech tasks : une webapp avec reconnaissance vocale</title>
+      <link>/speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;[màj du 1/7/14 : version française]&lt;/strong&gt; Grâce à &lt;a title=&#34;annyang reconnaissance vocale en JS&#34; href=&#34;https://www.talater.com/annyang/&#34; target=&#34;_blank&#34;&gt;annyang&lt;/a&gt;, la librairie javascript de reconnaissance vocale de Tal Alter, on peut aisément ajouter le pilotage par la voix à ses applications web. Voilà une démo de ce que j&amp;#8217;ai pu faire pour ajouter cette fonctionnalité à une appli de TODO que j&amp;#8217;avais faites pour tester &lt;a title=&#34;Angular Light&#34; href=&#34;http://angularlight.org/&#34; target=&#34;_blank&#34;&gt;Angular Light&lt;/a&gt; :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>usb disk et policykit</title>
+      <link>/usb-disk-et-policykit-fr/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/usb-disk-et-policykit-fr/</guid>
+      <description>&lt;p&gt;Lorsqu&amp;#8217;on tente de monter un disque usb via son file manager (Thunar ou Nautilus), on peut avoir un message d&amp;#8217;erreur &amp;#8216;not authorized&amp;#8217;. Lorsqu&amp;#8217;on a un environnement de bureau à la Gnome ou KDE, toutes ces histoires de gestion des droits est pris en charge de façon transparente. Mais quand on veut avoir un environnement hyper léger, il y a des manipulations  à faire pour contourner certains problèmes. Voici la marche à suivre :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vidéo background [FR]</title>
+      <link>/video-background-fr/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/video-background-fr/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;La mode n&amp;#8217;est plus aux photos géantes en fond de page. Maintenant, c&amp;#8217;est au tour des vidéos !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Comme ça, vous voulez carrément afficher une vidéo comme fond de votre site web ? Grâce à HTML5 et CSS3, c&amp;#8217;est super simple. Suivez le guide !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bon à savoir : partager un Google Calendar en dehors du domaine</title>
+      <link>/bon-a-savoir-partager-un-google-calendar-en-dehors-du-domaine/</link>
+      <pubDate>Mon, 31 Mar 2014 14:00:06 +0000</pubDate>
+      
+      <guid>/bon-a-savoir-partager-un-google-calendar-en-dehors-du-domaine/</guid>
+      <description>&lt;p&gt;Google Calendar permet de partager un calendrier avec d&amp;#8217;autres utilisateurs du domaine Apps. Mais dès qu&amp;#8217;on veut donner la possibilité à une personne extérieure au domaine, de modifier l&amp;#8217;agenda, on se heurte à un problème de taille : la liste de choix ne permet que d&amp;#8217;afficher les disponibilités. Rien pour le détail et encore moins pour modifier l&amp;#8217;agenda.&lt;/p&gt;
+
+&lt;p&gt;Mais heureusement, Google a écouté ses utilisateurs et a donné la possibilité d&amp;#8217;étendre les paramètres de partage. Seulement voilà, il a fait ça en mode compliqué ! Donc, pour y arriver, on doit d&amp;#8217;abord aller dans &lt;a title=&#34;Console d&#39;administration de Google Apps&#34; href=&#34;https://admin.google.com/AdminHome&#34; target=&#34;_blank&#34;&gt;la console d&amp;#8217;administration de Google Apps&lt;/a&gt;  et cliquer sur l&amp;#8217;icône &amp;#8220;Google Apps&amp;#8221; :&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wp-image-976 aligncenter&#34; alt=&#34;gcal-1&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gcal-1.png&#34; width=&#34;552&#34; height=&#34;291&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gcal-1.png 788w, http://brahim.hamdouni.com/wp-uploads/gcal-1-300x158.png 300w&#34; sizes=&#34;(max-width: 552px) 100vw, 552px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Une ligne horizontale ajustée avant chaque PROMPT</title>
+      <link>/une-ligne-horizontale-ajustee-avant-chaque-prompt/</link>
+      <pubDate>Fri, 21 Feb 2014 11:43:41 +0000</pubDate>
+      
+      <guid>/une-ligne-horizontale-ajustee-avant-chaque-prompt/</guid>
+      <description>&lt;p&gt;Ce serait chouette d&amp;#8217;arriver à afficher une ligne horizontale dans le terminal, avant chaque commande : ça permettrait de séparer visuellement les résultats d&amp;#8217;exécution.&lt;figure id=&#34;attachment_932&#34; style=&#34;width: 735px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-full wp-image-932 &#34; alt=&#34;Capture du 2014-02-21 12:04:47&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447.png&#34; width=&#34;735&#34; height=&#34;425&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447.png 735w, http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447-300x173.png 300w&#34; sizes=&#34;(max-width: 735px) 100vw, 735px&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;C&amp;#8217;est trop puissant le shell ! 😀&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Copier sa clé publique sur un serveur distant</title>
+      <link>/copier-sa-cle-publique-sur-un-serveur-distant/</link>
+      <pubDate>Wed, 12 Feb 2014 14:25:38 +0000</pubDate>
+      
+      <guid>/copier-sa-cle-publique-sur-un-serveur-distant/</guid>
+      <description>&lt;p&gt;Pour faciliter l&amp;#8217;administration de machines distantes sous Linux, c&amp;#8217;est mieux de ne pas gérer de mot de passe et d&amp;#8217;utiliser des clés de sécurité.&lt;/p&gt;
+
+&lt;p&gt;Mais une fois qu&amp;#8217;on a créé sa clé avec la commande keygen, c&amp;#8217;est très facile de la recopier sur le serveur distant en une seule commande :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment se débarrasser des pubs dans Gmail sous Chrome ?</title>
+      <link>/comment-se-debarrasser-des-pubs-dans-gmail-sous-chrome/</link>
+      <pubDate>Fri, 10 Jan 2014 10:18:00 +0000</pubDate>
+      
+      <guid>/comment-se-debarrasser-des-pubs-dans-gmail-sous-chrome/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;&lt;a href=&#34;http://brahim.hamdouni.com/wp-uploads/minimalist.png&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-892&#34; style=&#34;margin-right: 25px;&#34; alt=&#34;minimalist everything&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/minimalist-150x150.png&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/a&gt;Lorsque je consulte Gmail, j&amp;#8217;ai toujours la partie droite de mon navigateur qui est occupée par de la publicité non sollicitée. Je sais bien que c&amp;#8217;est grâce à ça que Google vit et nous permet de profiter gratuitement de ses services, mais comme je ne vais JAMAIS cliquer dessus, et que j&amp;#8217;aimerai bien récupérer l&amp;#8217;espace occupé, j&amp;#8217;ai cherché un moyen de les enlever : et je suis tombé sur &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; title=&#34;Minimalist Chrome extension&#34; href=&#34;https://chrome.google.com/webstore/detail/minimalist-for-everything/bmihblnpomgpjkfddepdpdafhhepdbek&#34; target=&#34;_blank&#34;&gt;Minimalist for everything&lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer une jvm sous Ubuntu avec update-alternatives</title>
+      <link>/installer-une-jvm-sous-ubuntu/</link>
+      <pubDate>Tue, 07 Jan 2014 08:50:24 +0000</pubDate>
+      
+      <guid>/installer-une-jvm-sous-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-879&#34; alt=&#34;logo java&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/java-150x150.jpg&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;Après avoir récupéré &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; title=&#34;Oracle JDK Download&#34; href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/index.html&#34; target=&#34;_blank&#34;&gt;le tar.gz du jdk depuis chez Oracle &lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;et décompressé dans le dossier /usr/lib/jvm, il faut utiliser la commande suivante pour l&amp;#8217;installer comme alternatives :&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;sudo update-alternatives &amp;#8211;install /usr/bin/java java /usr/lib/jvm/java-7-oracle/bin/java 1000&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Surveiller mysql pour pas cher</title>
+      <link>/surveiller-mysql-pour-pas-cher/</link>
+      <pubDate>Tue, 10 Dec 2013 18:02:44 +0000</pubDate>
+      
+      <guid>/surveiller-mysql-pour-pas-cher/</guid>
+      <description>Voici une petite astuce pour surveiller ses serveurs mysql sans déployer d&amp;#8217;outil particulier :
+ mysqladmin -u root -p -i 5 processlist
+ L&amp;#8217;option -i ou &amp;#8211;sleep en version longue permet de spécifier une durée en seconde pour répeter la commande. Très pratique pour du dév en local et prend quasi pas de ressource.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Rdesktop et transfert de fichier</title>
+      <link>/rdesktop-et-transfert-de-fichier/</link>
+      <pubDate>Thu, 01 Aug 2013 22:44:22 +0000</pubDate>
+      
+      <guid>/rdesktop-et-transfert-de-fichier/</guid>
+      <description>rdesktop -r disk:toto=/home/user/path your.server.com -r sound:local
+ Un client nous a demandé de migrer son application qui tournait sur une Debian vers une plateforme Windows en VM pour mutualiser ses coûts d&amp;#8217;administration. Pas de grosse difficulté puisque l&amp;#8217;application avait été faite sous java en 2004 (presque 10 ans, ça nous rajeunit pas).
+Bref, avec un linux, le transfert de fichier, c&amp;#8217;est du piece of cake : ssh/sftp et tutti quanti.</description>
+    </item>
+    
+    <item>
+      <title>Transformer votre Ubuntu Gnome en machine vraiment publique</title>
+      <link>/transformer-votre-ubuntu-gnome-en-machine-vraiment-publique/</link>
+      <pubDate>Sun, 31 Oct 2010 17:54:28 +0000</pubDate>
+      
+      <guid>/transformer-votre-ubuntu-gnome-en-machine-vraiment-publique/</guid>
+      <description>Un ami m&amp;#8217;a demandé le nécessaire pour rendre son Ubuntu Gnome complétement public, c&amp;#8217;est-à-dire qu&amp;#8217;aucun mot de passe ne soit demandé. Je pensais que ce serait simple à priori. Et bien il en n&amp;#8217;est rien. Voici un petit mémo des étapes à suivre pour rendre son Ubuntu Gnome complétement libre d&amp;#8217;accès !
+Virer le mot de passe de connexion Il est possible de se connecter automatiquement sans demander de mot de passe.</description>
+    </item>
+    
+    <item>
+      <title>Comment convertir en masse des PDF en JPG avec ImageMagik</title>
+      <link>/comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</link>
+      <pubDate>Tue, 13 Oct 2009 09:34:19 +0000</pubDate>
+      
+      <guid>/comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</guid>
+      <description>J&amp;#8217;avais un grand nombre de PDF à convertir en JPG pour être intégré en GED. Des PDF qui devaient rester imprimable après coup, donc qui devaient garder un haut niveau de densité (au moins 300 dpi).
+Avec ImageMagik, et plus précisément &amp;#8220;convert&amp;#8221; ainsi que quelques commandes shell sous linux, le tour était joué :
+ for i in `ls *.PDF`; do f=`basename $i .PDF`; convert -density 300 $i $f.jpg; done</description>
+    </item>
+    
+    <item>
+      <title>Comment utiliser Skype et la Logitech Quick Messenger sous Ubuntu 9.04</title>
+      <link>/comment-utiliser-skype-et-la-logitech-quick-messenger-sous-ubuntu-9-04/</link>
+      <pubDate>Thu, 27 Aug 2009 13:16:16 +0000</pubDate>
+      
+      <guid>/comment-utiliser-skype-et-la-logitech-quick-messenger-sous-ubuntu-9-04/</guid>
+      <description>En essayant de réhabiliter un vieux PC avec la dernière Ubuntu (Jaunty 9.04), je me suis confronté à un souci de configuration de ma webcam avec Skype : les gens avec qui je travaille sont sur Skype et ne sont pas informaticiens (juste pour éviter les &amp;#8220;mais skype c&amp;#8217;est mal, faut utiliser xxx&amp;#8221; &amp;#8211; mettre votre logiciel libre préféré à la place des xxx)
+Skype reconnait bien ma webcam : une Logitech Quickcam Messenger.</description>
+    </item>
+    
+    <item>
+      <title>Comment créer un bouton Paypal de don ?</title>
+      <link>/comment-creer-un-bouton-paypal-de-don/</link>
+      <pubDate>Wed, 12 Nov 2008 22:44:45 +0000</pubDate>
+      
+      <guid>/comment-creer-un-bouton-paypal-de-don/</guid>
+      <description>Voici une présentation rapide pour créer un bouton Paypal de don sous forme de code HTML à inclure dans ses propres pages (faites NEXT à chaque fois pour passer à l&amp;#8217;étape suivante) :</description>
+    </item>
+    
+    <item>
+      <title>Comment réparer WordPress après modification de l&#39;URL ?</title>
+      <link>/wordpress-mysql-et-url-cassee/</link>
+      <pubDate>Thu, 10 Jan 2008 22:23:23 +0000</pubDate>
+      
+      <guid>/wordpress-mysql-et-url-cassee/</guid>
+      <description>Après avoir modifier l&amp;#8217;url dans la page d&amp;#8217;option WordPress, le site n&amp;#8217;était plus accessible&amp;#8230; Cela arrive lorsqu&amp;#8217;on fait la modif avant de mettre en place le .htaccess avec la règle de rewriting, ou alors qu&amp;#8217;on se plante sur l&amp;#8217;url. Pour réparer, sans être obligé d&amp;#8217;installer un phpmyadmin, voici les commandes mysql :
+ mysql&amp;gt; show databases;
+mysql&amp;gt; use YOURDATABASE;
+mysql&amp;gt; update wp_options set optionvalue=&amp;#8217;http://THEGOODURL&amp;amp;#8217; where option_name=&amp;#8217;siteurl&amp;#8217;;
+ </description>
+    </item>
+    
+    <item>
+      <title>Comment utiliser la barre d&#39;adresse comme champ de recherche dans Firefox ?</title>
+      <link>/firefox-utiliser-la-barre-dadresse-comme-champ-de-recherche/</link>
+      <pubDate>Mon, 07 Jan 2008 10:18:55 +0000</pubDate>
+      
+      <guid>/firefox-utiliser-la-barre-dadresse-comme-champ-de-recherche/</guid>
+      <description>Quand on tapes un ou plusieurs mots dans la barre d&amp;#8217;adresse, et que Firefox n&amp;#8217;identifie pas une url bien formée, il va tenter une recherche sur le service Google &amp;#8220;I&amp;#8217;m Feeling Lucky&amp;#8221; : en gros, il essaye de faire coincider les mots tapés avec un nom de domaine existant.
+Mais il peut être plus intéressant d&amp;#8217;effectuer une recherche classique. L&amp;#8217;astuce ci-dessous modifie le comportement de Firefox pour pouvoir effectuer une recherche Google depuis la barre d&amp;#8217;adresse.</description>
+    </item>
+    
+    <item>
+      <title>Comment intégrer Firefox et Thunderbird ?</title>
+      <link>/integration-firefox-thunderbird/</link>
+      <pubDate>Tue, 18 Dec 2007 14:36:34 +0000</pubDate>
+      
+      <guid>/integration-firefox-thunderbird/</guid>
+      <description>Après avoir fait le ménage sur mon Ubuntu, et plus particulièrement après avoir désinstallé tout un tas de packages gnome, j&amp;#8217;ai perdu la liaison entre Firefox et Thunderbird : un clic sur un lien depuis Thunderbird n&amp;#8217;ouvrait plus Firefox, et vice-et-versa, impossible d&amp;#8217;avoir un mailto: qui ouvre Thunderbird. Pour réparer dans Firefox, il faut :
+ cd ~/.mozilla/firefox/{des caractères.default} ouvrir ou créer s&amp;#8217;il n&amp;#8217;existe pas le fichier &amp;#8220;user.js&amp;#8221; ajouter à la fin la ligne : user_pref(&amp;#8220;network.</description>
+    </item>
+    
+    <item>
+      <title>Comment backuper une arborescence de fichiers et dossiers par FTP ?</title>
+      <link>/backup-ftp-de-fichier-et-dossiers/</link>
+      <pubDate>Mon, 17 Dec 2007 14:27:58 +0000</pubDate>
+      
+      <guid>/backup-ftp-de-fichier-et-dossiers/</guid>
+      <description>Quand on a besoin de faire un backup d&amp;#8217;une arborescence de fichiers et qu&amp;#8217;on a que FTP comme service, il est possible d&amp;#8217;utiliser la commande suivante :
+ ncftpput -u USER -p PASSWORD -R SERVER LOCAL REMOTE :
+  USER : l&amp;#8217;identifiant PASSWORD : le mot de passe SERVER : l&amp;#8217;IP ou nom du serveur FTP LOCAL : le dossier source REMOTE : le dossier destinataire  L&amp;#8217;option -R permet de faire le transfert en récursif, c&amp;#8217;est à dire que les dossiers sont automatiquement créés, et c&amp;#8217;est l&amp;#8217;option killer par rapport au client FTP standard.</description>
+    </item>
+    
+    <item>
+      <title>Comment réparer une clé usb vfat qui passe en read-only sous Linux ?</title>
+      <link>/linux-cle-usb-vfat-read-only/</link>
+      <pubDate>Wed, 12 Dec 2007 11:07:09 +0000</pubDate>
+      
+      <guid>/linux-cle-usb-vfat-read-only/</guid>
+      <description>S&amp;#8217;il n&amp;#8217;est plus possible d&amp;#8217;utiliser une clé usb sous linux avec le système qui bascule en read-only, et qu&amp;#8217;on se retrouve avec ce genre de lignes dans le syslog :
+ FAT: Filesystem panic (dev sdb1)
+fat_get_cluster: invalid cluster chain (i_pos 0)
+ un petit
+ dosfsck -a /dev/sdb1
+ et ça repart. La commande répare le file system et récupére les fichiers.
+&amp;nbsp;
+Si en plus, on souhaite formater la clé en lui donnant un label, c&amp;#8217;est simple :</description>
+    </item>
+    
+    <item>
+      <title>Comment générer un fichier excel depuis Java, BSH et Hsqldb ?</title>
+      <link>/csv-excel-java-bsh-hsqldb-et-companie/</link>
+      <pubDate>Sat, 27 Oct 2007 15:03:18 +0000</pubDate>
+      
+      <guid>/csv-excel-java-bsh-hsqldb-et-companie/</guid>
+      <description>Objectif : Générer un fichier excel contenant des informations issues de diverses sources au format Excel et CSV exportés depuis une base de données.
+Problèmes :  Il faut pouvoir lire et écrire au format Excel Les données sont croisées via des clés que l&amp;#8217;on retrouve dans les fichiers, mais souvent, il faut croiser 2 critères d&amp;#8217;un même fichier pour récupérer la bonne donnée. Faire une recherche brute dans les fichiers CSV serait trop couteux.</description>
+    </item>
+    
+    <item>
+      <title>Comment diminuer les déconnexions PPTP intempestives ?</title>
+      <link>/deconnexion-pptp/</link>
+      <pubDate>Fri, 09 Feb 2007 17:01:08 +0000</pubDate>
+      
+      <guid>/deconnexion-pptp/</guid>
+      <description>A la mise en place de pptp sous Linux/Debian, j&amp;#8217;ai constaté des déconnexions fréquentes, sans explications claires. Pptp test régulièrement la ligne avec les clients, et s&amp;#8217;il constate un time-out, il coupe l&amp;#8217;accés.
+Il est possible d&amp;#8217;augmenter le time-out pour diminuer les déconnexions, et plus particulièrement sur des lignes à faible débit. Pour cela, sur le serveur, visualisez le fichier de configuration de pptpd :
+ cat /etc/pptpd.conf
+ et repérez la ligne définissant le fichier d&amp;#8217;option.</description>
+    </item>
+    
+    <item>
+      <title>Comment contourner l&#39;erreur d&#39;Eclipse quand on installe Jetty Launcher ?</title>
+      <link>/eclipse-jetty-launcher/</link>
+      <pubDate>Fri, 17 Mar 2006 15:59:18 +0000</pubDate>
+      
+      <guid>/eclipse-jetty-launcher/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://jettylauncher.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;Jetty Launcher&lt;/a&gt; est un plugin qui permet de piloter Jetty depuis Eclipse. La version 1.3.0 de Jetty Launcher ne fonctionne pas directement avec Eclipse version 3.1.0 : en suivant la procédure pour l&amp;#8217;utiliser, le message d&amp;#8217;erreur suivant apparait dans l&amp;#8217;Error Log (via menu Window / Show View) :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment avoir un shell ZSHRC sous Windows ?</title>
+      <link>/zshrc-et-windows/</link>
+      <pubDate>Tue, 06 Sep 2005 10:44:38 +0000</pubDate>
+      
+      <guid>/zshrc-et-windows/</guid>
+      <description>&lt;p&gt;Il est possible d&amp;#8217;utiliser des outils traditionnellement dévolus au monde *NIX sur des plateformes Windows &amp;copy;, grâce aux différents portages existants. Celui que j&amp;#8217;utilise dèss que j&amp;#8217;ai la malchance de travailler sur l&amp;#8217;OS de Redmond, est le &amp;#8220;&lt;a href=&#34;http://unxutils.sourceforge.net/&#34;&gt;Gnu utilities for Win32&lt;/a&gt;&amp;#8220;. On y trouve ZSH, qui porte le nom de SH dans l&amp;#8217;archive. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment supprimer l&#39;affichage des logs sur la console ?</title>
+      <link>/supprimer-laffichage-des-logs-sur-la-console/</link>
+      <pubDate>Mon, 08 Aug 2005 08:09:27 +0000</pubDate>
+      
+      <guid>/supprimer-laffichage-des-logs-sur-la-console/</guid>
+      <description>&lt;p&gt;Souvent, après une mise en place d&amp;#8217;iptables, on se retrouve avec les traces sur la console.&lt;/p&gt;
+
+&lt;p&gt;Voici comment faire pour supprimer cette affichage.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment alléger son bureau Linux ?</title>
+      <link>/environnement-de-bureau-leger/</link>
+      <pubDate>Wed, 11 May 2005 12:44:56 +0000</pubDate>
+      
+      <guid>/environnement-de-bureau-leger/</guid>
+      <description>&lt;p&gt;Cet article a pour objet la mise en place d&amp;#8217;un environnement de bureau graphique sous Linux utilisant peu de ressources systèmes.&lt;/p&gt;
+
+&lt;p&gt;Il vise à donner une alternative acceptable face aux mastodontes que sont &lt;a href=&#34;http://kde.org&#34;&gt;KDE&lt;/a&gt; ou &lt;a href=&#34;http://gnome.org&#34;&gt;GNOME&lt;/a&gt;, sur des configurations matérielles &amp;#8220;dépassées&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Les outils utilisés sont : ROX-Filer, Oroborus, FBPanel.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comment coder en Rebol sous Jedit ?</title>
+      <link>/coder-en-rebol-sous-jedit/</link>
+      <pubDate>Wed, 20 Apr 2005 11:17:10 +0000</pubDate>
+      
+      <guid>/coder-en-rebol-sous-jedit/</guid>
+      <description>&lt;p&gt;Jedit peut-être utilisé pour coder en Rebol. Il intègre en standard une colorisation syntaxique, et moyennant quelques manipulations, permet d&amp;#8217;utiliser l&amp;#8217;interpréteur Rebol. &lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

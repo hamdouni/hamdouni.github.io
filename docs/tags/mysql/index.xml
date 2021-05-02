@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/mysql/</link>
+    <description>Recent content in Mysql on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Feb 2017 16:54:46 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Don’t forget master infos in your MySQL dump</title>
+      <link>http://brahim.hamdouni.com/dont-forget-master-infos-in-your-mysql-dump/</link>
+      <pubDate>Mon, 20 Feb 2017 16:54:46 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/dont-forget-master-infos-in-your-mysql-dump/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-thumbnail wp-image-1670 alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/512px-Database-mysql-replication-150x150.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup. To avoid lock tables on the master and remember the binary log name and position to put them on the slave configuration, there is a tip to take care of all that : the &amp;#8220;&amp;#8211;master-data&amp;#8221; option in mysqldump.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySQL import from csv</title>
+      <link>http://brahim.hamdouni.com/mysql-import-from-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 12:36:56 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/mysql-import-from-csv/</guid>
+      <description>To import a local CSV file into MySQL, use the syntax below :
+LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.table FIELDS TERMINATED BY &#39;;&#39; OPTIONALLY ENCLOSED BY &#39;&amp;quot;&#39; ESCAPED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; IGNORE 1 LINES (`field1`,`field2`,...)  </description>
+    </item>
+    
+    <item>
+      <title>MySQL export to csv</title>
+      <link>http://brahim.hamdouni.com/mysql-export-to-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 12:32:05 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/mysql-export-to-csv/</guid>
+      <description>To export a mysql results in CSV format, use the syntax below :
+SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.csv&#39; FIELDS TERMINATED BY &#39;;&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; ;  </description>
+    </item>
+    
+    <item>
+      <title>Allow invalid date in MySQL</title>
+      <link>http://brahim.hamdouni.com/allow-invalid-date-in-mysql/</link>
+      <pubDate>Mon, 23 May 2016 13:55:55 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/allow-invalid-date-in-mysql/</guid>
+      <description>Just in case you absolutely have to insert a date in MySQL that does&amp;#8217;nt exist, eg 2014-02-30, you can run MySQL server in a special mode that authorizes such dates :
+mysqld --sql-mode=&#34;ALLOW_INVALID_DATES&#34;  MySQL will only check that the month is in the range from 1 to 12 and the day is in the range from 1 to 31.
+see Mysql DOC</description>
+    </item>
+    
+    <item>
+      <title>Autoriser les dates invalides dans MySQL</title>
+      <link>http://brahim.hamdouni.com/autoriser-les-dates-invalides-dans-mysql/</link>
+      <pubDate>Mon, 23 May 2016 13:55:55 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/autoriser-les-dates-invalides-dans-mysql/</guid>
+      <description>&lt;p&gt;Dans le cas où vous avez absolument besoin d&amp;#8217;insérer une date dans MySQL, qui n&amp;#8217;est pas valide, par exemple le 30 février 2014, vous pouvez exécuter le server MySQL dans un mode spécial pour autoriser ces dates :&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

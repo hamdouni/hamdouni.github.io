@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/golang/</link>
+    <description>Recent content in Golang on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 26 Mar 2018 22:15:38 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code loses Go autocompletion on Linux</title>
+      <link>/vs-code-loses-go-autocompletion-on-linux/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/vs-code-loses-go-autocompletion-on-linux/</guid>
+      <description>&lt;p&gt;On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/wp-uploads/vscode_completion_not_working.png&#34; alt=&#34;vscode_completion_not_working&#34; width=&#34;768&#34; height=&#34;440&#34; class=&#34;alignnone size-full wp-image-1879&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working.png 768w, http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working-300x172.png 300w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>#Docker from scratch, #Golang and Multipart upload</title>
+      <link>/docker-from-scratch-golang-and-multipart-upload/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/docker-from-scratch-golang-and-multipart-upload/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

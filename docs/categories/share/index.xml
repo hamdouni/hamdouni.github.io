@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Share on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/categories/share/</link>
+    <description>Recent content in Share on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/categories/share/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force #wifi interface name on #Ubuntu 18.04</title>
+      <link>http://brahim.hamdouni.com/force-wifi-interface-name-on-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/force-wifi-interface-name-on-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
+
+&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>#Docker from scratch, #Golang and Multipart upload</title>
+      <link>http://brahim.hamdouni.com/docker-from-scratch-golang-and-multipart-upload/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/docker-from-scratch-golang-and-multipart-upload/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Red Programming Language: Eve-style clock demo in Red, livecoded!</title>
+      <link>http://brahim.hamdouni.com/red-programming-language-eve-style-clock-demo-in-red-livecoded/</link>
+      <pubDate>Wed, 04 Jan 2017 16:56:06 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/red-programming-language-eve-style-clock-demo-in-red-livecoded/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.red-lang.org/2016/07/eve-style-clock-demo-in-red-livecoded.html&#34;&gt;&lt;img class=&#34;alignnone size-full&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/blue-clock2.gif&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.red-lang.org/2016/07/eve-style-clock-demo-in-red-livecoded.html&#34;&gt;&lt;strong&gt;Red&lt;/strong&gt; is a next-gen programming language, strongly inspired by &lt;/a&gt;&lt;a href=&#34;http://rebol.com/&#34;&gt;REBOL&lt;/a&gt;. Main features are:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consul 0.7.1 | HashiCorp</title>
+      <link>http://brahim.hamdouni.com/consul-0-7-1-hashicorp/</link>
+      <pubDate>Wed, 04 Jan 2017 14:58:37 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/consul-0-7-1-hashicorp/</guid>
+      <description>Consul is a critical infrastructure service for organizations that rely on it for service discovery, key/value storage, and health checks.
+ Source : Consul 0.7.1 | HashiCorp</description>
+    </item>
+    
+    <item>
+      <title>Docker – Build, Ship, and Run Any App, Anywhere</title>
+      <link>http://brahim.hamdouni.com/docker-build-ship-and-run-any-app-anywhere/</link>
+      <pubDate>Wed, 04 Jan 2017 14:02:36 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/docker-build-ship-and-run-any-app-anywhere/</guid>
+      <description>Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
+ Source : Docker &amp;#8211; Build, Ship, and Run Any App, Anywhere</description>
+    </item>
+    
+  </channel>
+</rss>

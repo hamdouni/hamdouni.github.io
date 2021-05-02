@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outlook on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/outlook/</link>
+    <description>Recent content in Outlook on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 31 Aug 2015 05:30:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/outlook/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Forward Outlook Emails With VB Script [EN]</title>
+      <link>http://brahim.hamdouni.com/how-to-forward-outlook-emails-with-vb-script/</link>
+      <pubDate>Mon, 31 Aug 2015 05:30:05 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/how-to-forward-outlook-emails-with-vb-script/</guid>
+      <description>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects
+ In Microsoft Outlook, open the VB editor and copy/paste the code below Replace your@email.here and save Click on Tools &amp;gt; Digital Signature Click on [Choose] and select your certificate Click OK, then save and close the VB editor Create the Outlook rule with [run a script] as action and select your macro That&amp;#8217;s all folks !</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calendar on Documentation de Brahim Hamdouni</title>
+    <link>/fr/tags/calendar/</link>
+    <description>Recent content in Calendar on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 31 Mar 2014 14:00:06 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/tags/calendar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bon à savoir : partager un Google Calendar en dehors du domaine</title>
+      <link>/bon-a-savoir-partager-un-google-calendar-en-dehors-du-domaine/</link>
+      <pubDate>Mon, 31 Mar 2014 14:00:06 +0000</pubDate>
+      
+      <guid>/bon-a-savoir-partager-un-google-calendar-en-dehors-du-domaine/</guid>
+      <description>&lt;p&gt;Google Calendar permet de partager un calendrier avec d&amp;#8217;autres utilisateurs du domaine Apps. Mais dès qu&amp;#8217;on veut donner la possibilité à une personne extérieure au domaine, de modifier l&amp;#8217;agenda, on se heurte à un problème de taille : la liste de choix ne permet que d&amp;#8217;afficher les disponibilités. Rien pour le détail et encore moins pour modifier l&amp;#8217;agenda.&lt;/p&gt;
+
+&lt;p&gt;Mais heureusement, Google a écouté ses utilisateurs et a donné la possibilité d&amp;#8217;étendre les paramètres de partage. Seulement voilà, il a fait ça en mode compliqué ! Donc, pour y arriver, on doit d&amp;#8217;abord aller dans &lt;a title=&#34;Console d&#39;administration de Google Apps&#34; href=&#34;https://admin.google.com/AdminHome&#34; target=&#34;_blank&#34;&gt;la console d&amp;#8217;administration de Google Apps&lt;/a&gt;  et cliquer sur l&amp;#8217;icône &amp;#8220;Google Apps&amp;#8221; :&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wp-image-976 aligncenter&#34; alt=&#34;gcal-1&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gcal-1.png&#34; width=&#34;552&#34; height=&#34;291&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gcal-1.png 788w, http://brahim.hamdouni.com/wp-uploads/gcal-1-300x158.png 300w&#34; sizes=&#34;(max-width: 552px) 100vw, 552px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

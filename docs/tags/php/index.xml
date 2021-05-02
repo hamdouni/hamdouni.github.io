@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/php/</link>
+    <description>Recent content in Php on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 05 Dec 2014 14:42:56 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Increase wordpress max file upload size</title>
+      <link>http://brahim.hamdouni.com/increase-wordpress-max-file-upload-size/</link>
+      <pubDate>Fri, 05 Dec 2014 14:42:56 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/increase-wordpress-max-file-upload-size/</guid>
+      <description>On Ubuntu/Debian distro, edit the /etc/wordpress/htaccess and add this lines :
+php_value upload_max_filesize 50M php_value post_max_size 50M php_value memory_limit 50M  </description>
+    </item>
+    
+  </channel>
+</rss>

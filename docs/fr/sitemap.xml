@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/fr/posts/</loc>
+    <lastmod>2018-10-12T18:35:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/minimal-docker-golang-et-le-televersement-multipart/</loc>
+    <lastmod>2018-01-26T12:25:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fr/bio/</loc>
+    <lastmod>2017-01-04T17:36:30+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/bio/"
+                />
+  </url>
+  
+  <url>
+    <loc>/les-theoremes-dincompletude-de-go%CC%88del-science-etonnante-37-youtube/</loc>
+    <lastmod>2016-12-12T11:30:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/demarrer-linux-sur-la-console-texte/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/french-git-log/</loc>
+    <lastmod>2016-06-07T09:25:33+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/french-git-log-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/french-git-log/"
+                />
+  </url>
+  
+  <url>
+    <loc>/mysql-client-ne-pas-afficher-le-nom-des-colonnes-et-les-tirets-du-tableau/</loc>
+    <lastmod>2016-05-30T08:33:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/autoriser-les-dates-invalides-dans-mysql/</loc>
+    <lastmod>2016-05-23T13:55:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/citation-politique-du-jour/</loc>
+    <lastmod>2015-02-13T12:30:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/marchandage/</loc>
+    <lastmod>2015-02-09T16:32:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/speech-tasks-une-webapp-avec-reconnaissance-vocale/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/usb-disk-et-policykit-fr/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/video-background-fr/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/video-background-en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/video-background-fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/about/</loc>
+    <lastmod>2014-04-29T09:11:34+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>/2048-gremlins/</loc>
+    <lastmod>2014-04-28T17:17:07+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2048-gremlins-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/2048-gremlins/"
+                />
+  </url>
+  
+  <url>
+    <loc>/bon-a-savoir-partager-un-google-calendar-en-dehors-du-domaine/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/une-ligne-horizontale-ajustee-avant-chaque-prompt/</loc>
+    <lastmod>2014-02-21T11:43:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/copier-sa-cle-publique-sur-un-serveur-distant/</loc>
+    <lastmod>2014-02-12T14:25:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/disruption-lair-bag-pour-les-cyclistes/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lets-groove/</loc>
+    <lastmod>2014-01-19T01:20:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/comment-se-debarrasser-des-pubs-dans-gmail-sous-chrome/</loc>
+    <lastmod>2014-01-10T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/installer-une-jvm-sous-ubuntu/</loc>
+    <lastmod>2014-01-07T08:50:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/surveiller-mysql-pour-pas-cher/</loc>
+    <lastmod>2013-12-10T18:02:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/zx-81-basic/</loc>
+    <lastmod>2013-09-13T08:44:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/notification-sous-linux/</loc>
+    <lastmod>2013-09-10T13:47:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/louer-des-bureaux-vous-avez-une-assurance-vie/</loc>
+    <lastmod>2013-09-05T19:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/rdesktop-et-transfert-de-fichier/</loc>
+    <lastmod>2013-08-01T22:44:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/finalement-sosh-aime-les-entrepreneurs-meme-sil-ne-le-sait-pas/</loc>
+    <lastmod>2012-10-17T11:38:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/google-et-les-pros/</loc>
+    <lastmod>2012-09-19T14:39:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sosh-naime-pas-les-entrepreneurs/</loc>
+    <lastmod>2012-07-12T16:34:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/le-design-dapplication-ce-quon-aimerait-faire-et-ce-quon-fait/</loc>
+    <lastmod>2012-07-10T12:12:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/prometheus-le-dernier-ridley-scott/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pdf-js-du-pdf-dans-vos-pages-web-sans-plugins/</loc>
+    <lastmod>2012-05-07T10:14:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/linux-en-chiffres-et-en-video/</loc>
+    <lastmod>2012-04-04T11:17:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/519/</loc>
+    <lastmod>2011-09-18T20:25:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/petits-jeux-educatifs/</loc>
+    <lastmod>2011-09-08T21:27:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cetait-le-2-juin-1972/</loc>
+    <lastmod>2011-06-05T22:50:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pdf-et-viewer-javascript/</loc>
+    <lastmod>2011-03-08T22:39:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/facturationzen-un-cas-dutilisation-pratique-chez-softinnov/</loc>
+    <lastmod>2010-12-01T09:22:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/transformer-votre-ubuntu-gnome-en-machine-vraiment-publique/</loc>
+    <lastmod>2010-10-31T17:54:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/des-millions-pour-la-khan-academy/</loc>
+    <lastmod>2010-09-26T16:46:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/les-contes-de-linternet-francais-par-jmb/</loc>
+    <lastmod>2010-09-13T08:30:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/votre-cartao-de-cidadao-svp/</loc>
+    <lastmod>2010-09-07T15:58:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gmail-priority-inbox-kesako/</loc>
+    <lastmod>2010-09-03T09:11:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vocaloid-ou-comment-faire-chanter-les-robots/</loc>
+    <lastmod>2010-08-03T15:56:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/alternative-captcha/</loc>
+    <lastmod>2010-07-05T19:53:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/the-fun-theory-de-moins-en-moins-fun/</loc>
+    <lastmod>2010-06-24T09:52:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bloguer-pour-devenir-riche/</loc>
+    <lastmod>2010-06-14T22:06:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sal-khan-academy/</loc>
+    <lastmod>2010-05-18T09:23:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/les-10-principes-de-design-dinterface/</loc>
+    <lastmod>2010-05-12T10:01:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/lipad-meme-une-gosse-y-arriverait/</loc>
+    <lastmod>2010-04-07T14:27:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/the-fun-theory/</loc>
+    <lastmod>2010-02-05T17:12:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/pranav-mistry/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/voyage-au-centre-de-la-cellule/</loc>
+    <lastmod>2010-01-29T11:06:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/art-science-education/</loc>
+    <lastmod>2010-01-27T12:27:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/inspiration/</loc>
+    <lastmod>2010-01-21T11:44:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fantastiques-gamins/</loc>
+    <lastmod>2009-11-19T16:33:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/comment-utiliser-skype-et-la-logitech-quick-messenger-sous-ubuntu-9-04/</loc>
+    <lastmod>2009-08-27T13:16:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/6e-sens/</loc>
+    <lastmod>2009-04-20T17:52:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/developpons-en-java/</loc>
+    <lastmod>2009-04-05T15:32:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gmail-off-line/</loc>
+    <lastmod>2009-02-04T11:49:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/le-freerunner-dopenmoko-un-telephone-opensource/</loc>
+    <lastmod>2009-01-21T11:03:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/le-systeme-economique-capitaliste-est-un-desastre/</loc>
+    <lastmod>2009-01-07T21:42:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/the-girl-effect-ou-comment-developper-le-monde-par-les-femmes/</loc>
+    <lastmod>2008-11-27T16:26:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/microsoft-office-attend-limprimante-et-moi-je-perd-mon-temps/</loc>
+    <lastmod>2008-11-25T14:11:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/comment-creer-un-bouton-paypal-de-don/</loc>
+    <lastmod>2008-11-12T22:44:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/la-poste-en-ligne-en-panne/</loc>
+    <lastmod>2008-11-06T17:36:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mes-3-propositions-pour-alleger-les-cartables/</loc>
+    <lastmod>2008-10-24T16:56:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/chandler/</loc>
+    <lastmod>2008-09-29T16:03:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/un-generateur-de-punition/</loc>
+    <lastmod>2008-09-15T09:09:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/gtd-my-way/</loc>
+    <lastmod>2008-09-08T21:01:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/microsoft-ie6-ergonomie-douteuse-oui-ou-oui/</loc>
+    <lastmod>2008-02-11T09:19:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/wordpress-mysql-et-url-cassee/</loc>
+    <lastmod>2008-01-10T22:23:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/firefox-utiliser-la-barre-dadresse-comme-champ-de-recherche/</loc>
+    <lastmod>2008-01-07T10:18:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/integration-firefox-thunderbird/</loc>
+    <lastmod>2007-12-18T14:36:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/backup-ftp-de-fichier-et-dossiers/</loc>
+    <lastmod>2007-12-17T14:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/linux-cle-usb-vfat-read-only/</loc>
+    <lastmod>2007-12-12T11:07:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/csv-excel-java-bsh-hsqldb-et-companie/</loc>
+    <lastmod>2007-10-27T15:03:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/trifecta-sd-micro-sd-et-usb-en-1/</loc>
+    <lastmod>2007-10-18T07:49:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/deconnexion-pptp/</loc>
+    <lastmod>2007-02-09T17:01:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/eclipse-jetty-launcher/</loc>
+    <lastmod>2006-03-17T15:59:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/zshrc-et-windows/</loc>
+    <lastmod>2005-09-06T10:44:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/supprimer-laffichage-des-logs-sur-la-console/</loc>
+    <lastmod>2005-08-08T08:09:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/environnement-de-bureau-leger/</loc>
+    <lastmod>2005-05-11T12:44:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/coder-en-rebol-sous-jedit/</loc>
+    <lastmod>2005-04-20T11:17:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/6e/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/altermondialisme/</loc>
+    <lastmod>2010-09-26T16:46:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/apps/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/argent/</loc>
+    <lastmod>2015-02-09T16:32:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/art/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/art/</loc>
+    <lastmod>2010-01-27T12:27:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/basic/</loc>
+    <lastmod>2013-09-13T08:44:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/bug/</loc>
+    <lastmod>2012-10-17T11:38:50+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/bug/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/bug/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/calendar/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/capitalisme/</loc>
+    <lastmod>2009-01-07T21:42:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/cellulaire/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/comment-faire/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/comment-faire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/comment-faire/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/console/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/console/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/console/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/convert/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/crise/</loc>
+    <lastmod>2009-01-07T21:42:17+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/dbus/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dbus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dbus/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/desktop/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/desktop/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/dev/</loc>
+    <lastmod>2016-05-23T13:55:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/dpi/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/dwm/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dwm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dwm/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/d%C3%A9marrage/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/d%C3%A9veloppement-durable/</loc>
+    <lastmod>2010-06-24T09:52:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/email/</loc>
+    <lastmod>2010-09-03T09:11:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/enfant/</loc>
+    <lastmod>2013-09-13T08:44:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/entrepreneur/</loc>
+    <lastmod>2015-02-09T16:32:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/ergonomie/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/ergonomie/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/facturation/</loc>
+    <lastmod>2010-12-01T09:22:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/facturationzen/</loc>
+    <lastmod>2010-12-01T09:22:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/femme/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/fille/</loc>
+    <lastmod>2008-11-27T16:26:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/film/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/firefox/</loc>
+    <lastmod>2012-05-07T10:14:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/fun/</loc>
+    <lastmod>2016-12-12T11:30:49+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/fun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/fun/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/fun/</loc>
+    <lastmod>2016-12-12T11:30:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/gmail/</loc>
+    <lastmod>2014-01-10T10:18:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/gnome/</loc>
+    <lastmod>2010-10-31T17:54:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/gnome-settings-daemon/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/gnome-settings-daemon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/gnome-settings-daemon/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/google/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/google-apps/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/google-chrome/</loc>
+    <lastmod>2014-01-10T10:18:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/groovy/</loc>
+    <lastmod>2014-01-19T01:20:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/g%C3%A9nie/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/howto/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/howto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/howto/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/html5/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/html5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/html5/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/ihm/</loc>
+    <lastmod>2010-07-05T19:53:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/imagemagik/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/internet/</loc>
+    <lastmod>2010-09-13T08:30:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/invention/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/invention/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/java/</loc>
+    <lastmod>2014-01-19T01:20:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/java/</loc>
+    <lastmod>2014-01-19T01:20:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/javascript/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/jpeg/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/jpg/</loc>
+    <lastmod>2009-10-13T09:34:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/linux/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/linux/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/logitech/</loc>
+    <lastmod>2009-08-27T13:16:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/mat%C3%A9riel/</loc>
+    <lastmod>2014-02-06T15:25:12+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/mat%C3%A9riel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/mat%C3%A9riel/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/microsoft/</loc>
+    <lastmod>2008-11-25T14:11:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/miniature/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/mit/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/monde/</loc>
+    <lastmod>2010-09-26T16:46:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/morale/</loc>
+    <lastmod>2010-06-24T09:52:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/mozilla/</loc>
+    <lastmod>2012-05-07T10:14:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/mysql/</loc>
+    <lastmod>2016-05-23T13:55:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/mysql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/mysql/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/opensource/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/opensource/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/opensource/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/partage/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/pauvret%C3%A9/</loc>
+    <lastmod>2008-11-27T16:26:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/paypal/</loc>
+    <lastmod>2008-11-12T22:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/pdf/</loc>
+    <lastmod>2012-05-07T10:14:01+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/perte-de-temps/</loc>
+    <lastmod>2008-11-25T14:11:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/policykit/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/policykit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/policykit/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/politique/</loc>
+    <lastmod>2015-02-13T12:30:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/politique/</loc>
+    <lastmod>2015-02-13T12:30:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/pranav-mistry/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/productivit%C3%A9/</loc>
+    <lastmod>2014-03-31T14:00:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/projecteur/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/promotheus/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/publicit%C3%A9/</loc>
+    <lastmod>2014-01-10T10:18:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/quickam-messenger/</loc>
+    <lastmod>2009-08-27T13:16:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/quickcam/</loc>
+    <lastmod>2009-08-27T13:16:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/reseau/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/ridley-scott/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/sal-khan/</loc>
+    <lastmod>2010-05-18T09:23:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/science-fiction/</loc>
+    <lastmod>2012-05-10T16:18:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/self-development/</loc>
+    <lastmod>2010-06-24T09:52:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/sens/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/service/</loc>
+    <lastmod>2015-02-09T16:32:11+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/services/</loc>
+    <lastmod>2012-10-17T11:38:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/shell/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/shell/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/shell/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/social/</loc>
+    <lastmod>2015-02-13T12:30:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/softinnov/</loc>
+    <lastmod>2013-09-05T19:27:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/storage/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/storage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/storage/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/s%C3%A9curit%C3%A9/</loc>
+    <lastmod>2014-02-12T14:25:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/</loc>
+    <lastmod>2010-02-02T11:45:53+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/texte/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/t%C3%A9l%C3%A9phone/</loc>
+    <lastmod>2009-04-20T17:52:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/ubuntu/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/ubuntu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/ubuntu/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/udev/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/udev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/udev/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/usb/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/usb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/usb/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/web/</loc>
+    <lastmod>2014-04-28T17:17:07+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/web/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/webcam/</loc>
+    <lastmod>2009-08-27T13:16:16+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/wifi/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/wifi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/wifi/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/zx81/</loc>
+    <lastmod>2013-09-13T08:44:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/%C3%A9ducation/</loc>
+    <lastmod>2016-12-12T11:30:49+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/fr/tags/%C3%A9thique/</loc>
+    <lastmod>2010-06-24T09:52:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

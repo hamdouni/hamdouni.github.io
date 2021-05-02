@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/html5/</link>
+    <description>Recent content in Html5 on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 May 2014 13:40:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Video background [EN]</title>
+      <link>http://brahim.hamdouni.com/video-background-en/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/video-background-en/</guid>
+      <description>Forget large background image for your web site. Now, comes video time.
+ So you want to put a nice video as background of your site but don&amp;#8217;t know how to do ? &amp;#8220;Fear you must not&amp;#8221; said Yoda as it&amp;#8217;s really simple.
+First, have a look at the effect in action. Nice, isn&amp;#8217;t it ?
+First thing first, the html :
+&amp;lt;video src=&#34;your-video.mp4&#34;&amp;gt;&amp;lt;/video&amp;gt; &amp;lt;div&amp;gt; your fantastic text here &amp;lt;/div&amp;gt; Now, the css magic :</description>
+    </item>
+    
+    <item>
+      <title>Vidéo background [FR]</title>
+      <link>http://brahim.hamdouni.com/video-background-fr/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/video-background-fr/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;La mode n&amp;#8217;est plus aux photos géantes en fond de page. Maintenant, c&amp;#8217;est au tour des vidéos !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Comme ça, vous voulez carrément afficher une vidéo comme fond de votre site web ? Grâce à HTML5 et CSS3, c&amp;#8217;est super simple. Suivez le guide !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PDF.JS : du PDF dans vos pages web sans plugins</title>
+      <link>http://brahim.hamdouni.com/pdf-js-du-pdf-dans-vos-pages-web-sans-plugins/</link>
+      <pubDate>Mon, 07 May 2012 10:14:01 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/pdf-js-du-pdf-dans-vos-pages-web-sans-plugins/</guid>
+      <description>Il y a un an, je faisais une tirade sur le manque d&amp;#8217;innovation &amp;#8220;web&amp;#8221; dans les grosses structures et je prenais pour exemple un cas de visualisation de PDF au sein d&amp;#8217;un site.
+Je proposais alors l&amp;#8217;utilisation de Google Docs qui mettait à disposition une application web de visualisation PDF en JavaScript mais cela ne pouvait marcher qu&amp;#8217;avec des PDF publiques (visibles par tous).
+Et bien je suis tombé sur le projet PDF.</description>
+    </item>
+    
+  </channel>
+</rss>

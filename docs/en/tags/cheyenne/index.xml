@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheyenne on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/cheyenne/</link>
+    <description>Recent content in Cheyenne on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Oct 2016 13:49:50 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/cheyenne/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cheyenne server and POST size limit</title>
+      <link>/cheyenne-server-and-post-size-limit/</link>
+      <pubDate>Mon, 03 Oct 2016 13:49:50 +0000</pubDate>
+      
+      <guid>/cheyenne-server-and-post-size-limit/</guid>
+      <description>By default, in Cheyenne, the header size limit for a post request is 102&amp;#8217;400.
+If you want to ajust this limit you can define the post-mem-limit parameter in the global context or in a specific webapp.
+For example, to double the initial limit in the httpd.cfg, :
+... default [ root-dir %./www/ default [%index.html %index.rsp] post-mem-limit 408&#39;800 ] ...  </description>
+    </item>
+    
+  </channel>
+</rss>

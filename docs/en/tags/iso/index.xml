@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iso on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/iso/</link>
+    <description>Recent content in Iso on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/en/tags/iso/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installer un iso sur une clé USB dans une console #Linux</title>
+      <link>/p1867/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/p1867/</guid>
+      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

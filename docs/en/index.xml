@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation for Brahim Hamdouni</title>
+    <link>/en/</link>
+    <description>Recent content on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force #wifi interface name on #Ubuntu 18.04</title>
+      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
+
+&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VS Code loses Go autocompletion on Linux</title>
+      <link>/vs-code-loses-go-autocompletion-on-linux/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/vs-code-loses-go-autocompletion-on-linux/</guid>
+      <description>&lt;p&gt;On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/wp-uploads/vscode_completion_not_working.png&#34; alt=&#34;vscode_completion_not_working&#34; width=&#34;768&#34; height=&#34;440&#34; class=&#34;alignnone size-full wp-image-1879&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working.png 768w, http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working-300x172.png 300w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>#Docker from scratch, #Golang and Multipart upload</title>
+      <link>/docker-from-scratch-golang-and-multipart-upload/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/docker-from-scratch-golang-and-multipart-upload/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Samba public share</title>
+      <link>/samba-public-share/</link>
+      <pubDate>Wed, 10 Jan 2018 15:48:35 +0000</pubDate>
+      
+      <guid>/samba-public-share/</guid>
+      <description>&lt;p&gt;How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Convert PDF to PNG with enough resolution</title>
+      <link>/convert-pdf-to-png-with-enough-resolution/</link>
+      <pubDate>Mon, 27 Mar 2017 23:06:02 +0000</pubDate>
+      
+      <guid>/convert-pdf-to-png-with-enough-resolution/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;screenshot wp-image-1714 size-full alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png&#34; alt=&#34;ImageMagick logo&#34; width=&#34;256&#34; height=&#34;256&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png 256w, http://brahim.hamdouni.com/wp-uploads/téléchargement-150x150.png 150w&#34; sizes=&#34;(max-width: 256px) 100vw, 256px&#34; /&gt;As &amp;#8216;man convert&amp;#8217; states :&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Don’t forget master infos in your MySQL dump</title>
+      <link>/dont-forget-master-infos-in-your-mysql-dump/</link>
+      <pubDate>Mon, 20 Feb 2017 16:54:46 +0000</pubDate>
+      
+      <guid>/dont-forget-master-infos-in-your-mysql-dump/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;size-thumbnail wp-image-1670 alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/512px-Database-mysql-replication-150x150.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup. To avoid lock tables on the master and remember the binary log name and position to put them on the slave configuration, there is a tip to take care of all that : the &amp;#8220;&amp;#8211;master-data&amp;#8221; option in mysqldump.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Red Programming Language: Eve-style clock demo in Red, livecoded!</title>
+      <link>/red-programming-language-eve-style-clock-demo-in-red-livecoded/</link>
+      <pubDate>Wed, 04 Jan 2017 16:56:06 +0000</pubDate>
+      
+      <guid>/red-programming-language-eve-style-clock-demo-in-red-livecoded/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.red-lang.org/2016/07/eve-style-clock-demo-in-red-livecoded.html&#34;&gt;&lt;img class=&#34;alignnone size-full&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/blue-clock2.gif&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.red-lang.org/2016/07/eve-style-clock-demo-in-red-livecoded.html&#34;&gt;&lt;strong&gt;Red&lt;/strong&gt; is a next-gen programming language, strongly inspired by &lt;/a&gt;&lt;a href=&#34;http://rebol.com/&#34;&gt;REBOL&lt;/a&gt;. Main features are:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consul 0.7.1 | HashiCorp</title>
+      <link>/consul-0-7-1-hashicorp/</link>
+      <pubDate>Wed, 04 Jan 2017 14:58:37 +0000</pubDate>
+      
+      <guid>/consul-0-7-1-hashicorp/</guid>
+      <description>Consul is a critical infrastructure service for organizations that rely on it for service discovery, key/value storage, and health checks.
+ Source : Consul 0.7.1 | HashiCorp</description>
+    </item>
+    
+    <item>
+      <title>Docker – Build, Ship, and Run Any App, Anywhere</title>
+      <link>/docker-build-ship-and-run-any-app-anywhere/</link>
+      <pubDate>Wed, 04 Jan 2017 14:02:36 +0000</pubDate>
+      
+      <guid>/docker-build-ship-and-run-any-app-anywhere/</guid>
+      <description>Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
+ Source : Docker &amp;#8211; Build, Ship, and Run Any App, Anywhere</description>
+    </item>
+    
+    <item>
+      <title>MySQL import from csv</title>
+      <link>/mysql-import-from-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 12:36:56 +0000</pubDate>
+      
+      <guid>/mysql-import-from-csv/</guid>
+      <description>To import a local CSV file into MySQL, use the syntax below :
+LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.table FIELDS TERMINATED BY &#39;;&#39; OPTIONALLY ENCLOSED BY &#39;&amp;quot;&#39; ESCAPED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; IGNORE 1 LINES (`field1`,`field2`,...)  </description>
+    </item>
+    
+    <item>
+      <title>MySQL export to csv</title>
+      <link>/mysql-export-to-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 12:32:05 +0000</pubDate>
+      
+      <guid>/mysql-export-to-csv/</guid>
+      <description>To export a mysql results in CSV format, use the syntax below :
+SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.csv&#39; FIELDS TERMINATED BY &#39;;&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; ;  </description>
+    </item>
+    
+    <item>
+      <title>Cheyenne server and POST size limit</title>
+      <link>/cheyenne-server-and-post-size-limit/</link>
+      <pubDate>Mon, 03 Oct 2016 13:49:50 +0000</pubDate>
+      
+      <guid>/cheyenne-server-and-post-size-limit/</guid>
+      <description>By default, in Cheyenne, the header size limit for a post request is 102&amp;#8217;400.
+If you want to ajust this limit you can define the post-mem-limit parameter in the global context or in a specific webapp.
+For example, to double the initial limit in the httpd.cfg, :
+... default [ root-dir %./www/ default [%index.html %index.rsp] post-mem-limit 408&#39;800 ] ...  </description>
+    </item>
+    
+    <item>
+      <title>Boot Linux in text console</title>
+      <link>/boot-linux-in-text-console/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/boot-linux-in-text-console/</guid>
+      <description>&lt;p&gt;Get rid of graphic boot on Linux with a few modifications in grub configuration :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>French Git Log</title>
+      <link>/french-git-log-2/</link>
+      <pubDate>Tue, 07 Jun 2016 09:25:33 +0000</pubDate>
+      
+      <guid>/french-git-log-2/</guid>
+      <description>&lt;p&gt;Git log in colors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-full wp-image-1501 aligncenter&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/french-git.png&#34; alt=&#34;french git example&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/french-git.png 782w, http://brahim.hamdouni.com/wp-uploads/french-git-300x135.png 300w, http://brahim.hamdouni.com/wp-uploads/french-git-768x345.png 768w, http://brahim.hamdouni.com/wp-uploads/french-git-600x269.png 600w, http://brahim.hamdouni.com/wp-uploads/french-git-624x280.png 624w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mysql client : don’t show columns names and grid</title>
+      <link>/mysql-client-dont-show-columns-names-and-grid/</link>
+      <pubDate>Mon, 30 May 2016 08:33:23 +0000</pubDate>
+      
+      <guid>/mysql-client-dont-show-columns-names-and-grid/</guid>
+      <description>&lt;p&gt;Default mysql client behaviour is to show column names and grid when returning results  but how to get rid of this decorations ? &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allow invalid date in MySQL</title>
+      <link>/allow-invalid-date-in-mysql/</link>
+      <pubDate>Mon, 23 May 2016 13:55:55 +0000</pubDate>
+      
+      <guid>/allow-invalid-date-in-mysql/</guid>
+      <description>Just in case you absolutely have to insert a date in MySQL that does&amp;#8217;nt exist, eg 2014-02-30, you can run MySQL server in a special mode that authorizes such dates :
+mysqld --sql-mode=&#34;ALLOW_INVALID_DATES&#34;  MySQL will only check that the month is in the range from 1 to 12 and the day is in the range from 1 to 31.
+see Mysql DOC</description>
+    </item>
+    
+    <item>
+      <title>screencast with byzance on linux</title>
+      <link>/screencast-with-byzance-on-linux/</link>
+      <pubDate>Tue, 27 Oct 2015 15:28:23 +0000</pubDate>
+      
+      <guid>/screencast-with-byzance-on-linux/</guid>
+      <description> byzanz-record -c &amp;#8211;duration=60 &amp;#8211;x=80 &amp;#8211;y=310 &amp;#8211;width=800 &amp;#8211;height=600 out.gif
+ </description>
+    </item>
+    
+    <item>
+      <title>Not permitted to mount disk ? [EN]</title>
+      <link>/not-permitted-to-mount-disk/</link>
+      <pubDate>Mon, 07 Sep 2015 05:30:59 +0000</pubDate>
+      
+      <guid>/not-permitted-to-mount-disk/</guid>
+      <description>A few days ago, I started to have a very disturbing &amp;#8220;Not permitted&amp;#8221; message when trying to mount a usb disk from Thunar. The only way I found was to pmount the disk : not as intuitive as just clicking the disk on Thunar.
+But after some googling, I found where was the real problem : udisk, who is responsible of mounting disks, uses polkit to know if I have the right to mount, or not, external disk.</description>
+    </item>
+    
+    <item>
+      <title>How To Forward Outlook Emails With VB Script [EN]</title>
+      <link>/how-to-forward-outlook-emails-with-vb-script/</link>
+      <pubDate>Mon, 31 Aug 2015 05:30:05 +0000</pubDate>
+      
+      <guid>/how-to-forward-outlook-emails-with-vb-script/</guid>
+      <description>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects
+ In Microsoft Outlook, open the VB editor and copy/paste the code below Replace your@email.here and save Click on Tools &amp;gt; Digital Signature Click on [Choose] and select your certificate Click OK, then save and close the VB editor Create the Outlook rule with [run a script] as action and select your macro That&amp;#8217;s all folks !</description>
+    </item>
+    
+    <item>
+      <title>Invisible code sticks forever [EN]</title>
+      <link>/invisible-code-sticks-forever/</link>
+      <pubDate>Mon, 24 Aug 2015 05:30:57 +0000</pubDate>
+      
+      <guid>/invisible-code-sticks-forever/</guid>
+      <description>A few months ago, I read an article about brain training by learning a new language : very interesting story about William Alexander who failed to learn french but strenghten his brain trying to.
+But this is not the subject of this post. As I finished to read the article, I tried to reach William Alexander&amp;#8217;s website and was redirected to a crappy chineese online store. I immediately thought he was hacked and after reading the page source code, I find this piece of script :</description>
+    </item>
+    
+    <item>
+      <title>Timing is the key to startup success</title>
+      <link>/timing-is-the-key-to-startup-success/</link>
+      <pubDate>Mon, 10 Aug 2015 17:19:34 +0000</pubDate>
+      
+      <guid>/timing-is-the-key-to-startup-success/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Tmux for the impatient</title>
+      <link>/tmux-for-the-impatient/</link>
+      <pubDate>Wed, 08 Jul 2015 11:46:33 +0000</pubDate>
+      
+      <guid>/tmux-for-the-impatient/</guid>
+      <description>New session : tmux
+Attach to a session : tmux a
+Detach : Ctrl+b d
+Scroll : Ctrl+b PgUp/PgDown (quit with q) also can use mouse after first page up or down
+Copy mode : Ctrl+b [ (quit with q)
+Split horizontally : Ctrl+b &amp;#8220;
+Split vertically : Ctrl+b %
+Switch pane : Ctrl+b arrow key
+Resize pane : Hold Ctrl+b + arrow keys
+&amp;nbsp;
+install xclip so buffer copied insied tmux are also available to X : sudo apt-get install xclip</description>
+    </item>
+    
+    <item>
+      <title>Wireless auto configuration with guessnet on Linux</title>
+      <link>/wireless-auto-configuration-with-guessnet-on-linux/</link>
+      <pubDate>Sun, 17 May 2015 17:52:51 +0000</pubDate>
+      
+      <guid>/wireless-auto-configuration-with-guessnet-on-linux/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignright wp-image-1383 size-thumbnail&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/eiffel-wireless-150x150.png&#34; alt=&#34;The wireless tour eiffel&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Extreme Productivity Philosophy that Created Facebook and PayPal</title>
+      <link>/the-extreme-productivity-philosophy-that-created-facebook-and-paypal/</link>
+      <pubDate>Fri, 16 Jan 2015 14:33:23 +0000</pubDate>
+      
+      <guid>/the-extreme-productivity-philosophy-that-created-facebook-and-paypal/</guid>
+      <description>Back in 2005, long before they began approaching $10 billion in annual revenue, everyone thought that Facebook was a cool app, but no one thought that it would ever make any money. Observers laughed at the idea that Facebook could be a real business.
+With that backdrop of doubters and detractors, Noah Kagan, employee #30 at Facebook, pitched Mark Zuckerberg with what he thought was a genius idea: prove the Facebook skeptics wrong and show them that the fledgling startup could make real money.</description>
+    </item>
+    
+    <item>
+      <title>If ssh client disconnect and freeze</title>
+      <link>/if-ssh-client-disconnect-and-freeze/</link>
+      <pubDate>Wed, 14 Jan 2015 17:55:18 +0000</pubDate>
+      
+      <guid>/if-ssh-client-disconnect-and-freeze/</guid>
+      <description>Add in your ~/.ssh/config :
+Host * ServerAliveInterval 240  src = superuser.com</description>
+    </item>
+    
+    <item>
+      <title>Git delete remote branch</title>
+      <link>/git-delete-remote-branch/</link>
+      <pubDate>Wed, 07 Jan 2015 09:38:14 +0000</pubDate>
+      
+      <guid>/git-delete-remote-branch/</guid>
+      <description>As of Git v1.7.0, you can delete a remote branch using
+git push origin --delete &amp;lt;branchName&amp;gt;  src = stackoverflow.com</description>
+    </item>
+    
+    <item>
+      <title>Horizontal rule in zsh prompt</title>
+      <link>/horizontal-rule-in-zsh-prompt/</link>
+      <pubDate>Fri, 26 Dec 2014 16:58:41 +0000</pubDate>
+      
+      <guid>/horizontal-rule-in-zsh-prompt/</guid>
+      <description>Put in your ~/.zshrc :
+PS1=$&#39;%U${(r:$COLUMNS:: :)}%u&#39;$PS1 _src = superuser.com_</description>
+    </item>
+    
+    <item>
+      <title>Increase wordpress max file upload size</title>
+      <link>/increase-wordpress-max-file-upload-size/</link>
+      <pubDate>Fri, 05 Dec 2014 14:42:56 +0000</pubDate>
+      
+      <guid>/increase-wordpress-max-file-upload-size/</guid>
+      <description>On Ubuntu/Debian distro, edit the /etc/wordpress/htaccess and add this lines :
+php_value upload_max_filesize 50M php_value post_max_size 50M php_value memory_limit 50M  </description>
+    </item>
+    
+    <item>
+      <title>Substitute a text only in files where it appears</title>
+      <link>/substitute-a-text-only-in-files-where-it-appears/</link>
+      <pubDate>Wed, 03 Dec 2014 18:12:31 +0000</pubDate>
+      
+      <guid>/substitute-a-text-only-in-files-where-it-appears/</guid>
+      <description>For example, to substitute foo with bar
+for f in `grep -lR foo`; do echo -n &amp;quot;&amp;gt;&amp;gt; $f&amp;quot;; sed &#39;s/foo/bar/g&#39; $f &amp;gt; $f.tmp ; mv $f.tmp $f ; echo &amp;quot; done.&amp;quot;; done   1) for loops on all files containing the text “foo”, grep -l only show the file name with corresponding text inside. 3) sed replace foo with bar in all file 4) mv save the modification (delete if you don’t want to overwrite the original files, the modified files is named with .</description>
+    </item>
+    
+    <item>
+      <title>Convert multiple files to utf8 using vim</title>
+      <link>/convert-multiple-files-to-utf8-using-vim/</link>
+      <pubDate>Wed, 03 Dec 2014 17:44:07 +0000</pubDate>
+      
+      <guid>/convert-multiple-files-to-utf8-using-vim/</guid>
+      <description>The fastest and more efficient way to batch multiple files encoding conversion :
+vim +&amp;quot;argdo se fileencoding=utf-8 | w | bnext&amp;quot; +&amp;quot;q&amp;quot; ` find . -type f -name &amp;quot;*.rsp&amp;quot; `
++&amp;#8221;argdo&amp;#8221; : execute the following vim commands for each file (filencode, save and next buffer)
++&amp;#8221;q&amp;#8221; : quit after last one
+find : get all files with corresponding name</description>
+    </item>
+    
+    <item>
+      <title>GIT – stop tracking files</title>
+      <link>/git-stop-tracking-files/</link>
+      <pubDate>Fri, 28 Nov 2014 10:19:27 +0000</pubDate>
+      
+      <guid>/git-stop-tracking-files/</guid>
+      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :
+git update-index --skip-worktree &amp;lt;FILES&amp;gt;  Then a “git status” won’t show those files until you do :
+git update-index --no-skip-worktree &amp;lt;FILES&amp;gt;  To show the skipped files :
+git ls-files -v . | grep ^S  &amp;#8211;skip-worktree is a better solution than &amp;#8211;assume-unchanged because status will not get lost once an upstream change is pulled.</description>
+    </item>
+    
+    <item>
+      <title>ZSH, nohup and background process that lasts…</title>
+      <link>/zsh-nohup-and-background-process-that-lasts/</link>
+      <pubDate>Thu, 27 Nov 2014 10:58:55 +0000</pubDate>
+      
+      <guid>/zsh-nohup-and-background-process-that-lasts/</guid>
+      <description>When I switched to ZSH, and letting BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.
+In ZSH, I get a message like this if I exist with running jobs :
+zsh you have running jobs If I exit again, my jobs are killed. But zsh accept some useful option to overide this :
+setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after terminal exit, and second one is for not warning you about it.</description>
+    </item>
+    
+    <item>
+      <title>Install minimum php (no apache)</title>
+      <link>/install-minimum-php-no-apache/</link>
+      <pubDate>Mon, 24 Nov 2014 13:46:42 +0000</pubDate>
+      
+      <guid>/install-minimum-php-no-apache/</guid>
+      <description>To code with php, no need to install apache and other dependencies, especially as php has a builtin web server.
+apt-get install php5-cli Then use
+php -S localhost:4444 and you&amp;#8217;re done.</description>
+    </item>
+    
+    <item>
+      <title>Get rid of the Desktop icon in Nautilus 3.10 side bar</title>
+      <link>/get-rid-of-the-desktop-icon-in-nautilus-3-10-side-bar/</link>
+      <pubDate>Fri, 07 Nov 2014 15:59:15 +0000</pubDate>
+      
+      <guid>/get-rid-of-the-desktop-icon-in-nautilus-3-10-side-bar/</guid>
+      <description>Add in ~/.config/gtk-3.0/settings.ini
+gtk-shell-shows-desktop=0 Remove all entries in ~/.config/user-dirs.dirs but let this one :
+XDG_DESKTOP_DIR=&#34;$HOME/&#34; If you remove this too, each time nautilus is launched, it will create a ~/Desktop folder.
+Remove folder Desktop if it exists</description>
+    </item>
+    
+    <item>
+      <title>Stretched background with IE8</title>
+      <link>/stretched-background-with-ie8/</link>
+      <pubDate>Thu, 17 Jul 2014 16:43:54 +0000</pubDate>
+      
+      <guid>/stretched-background-with-ie8/</guid>
+      <description>Side note : Microsoft has dropped support for IE8 last april 2014 🙁
+There are still some clients that want their webapp to work perfectly on IE8. They can&amp;#8217;t make all their clients move to the newest browsers. But some times, it can drive you nuts to achieve simple things. Our problem was about a background image in a div that doesn&amp;#8217;t want to strech. Just some css will do it for all other browsers, but not for IE8.</description>
+    </item>
+    
+    <item>
+      <title>Speech Tasks : a voice driven todo webapp</title>
+      <link>/speech-tasks-a-todo-webapp-driven-by-your-voice/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/speech-tasks-a-todo-webapp-driven-by-your-voice/</guid>
+      <description>With the Web Speech Api, some good javascript libs and several lines of code, you can easily add speech recognition in your web application. All is done thanks to AnnYang JS lib made by Tal Ater, plumbing with Angular Light by Oleg Nechaev and served by a Go http server. (By the way, I love opensource community !)
+Try the demo ! See the code ! And thanks to Mark McGranaghan for his tutorial to deploy go app on Heroku</description>
+    </item>
+    
+    <item>
+      <title>usb mount and policykit [EN]</title>
+      <link>/usb-mount-and-polykit-en/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/usb-mount-and-polykit-en/</guid>
+      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
+But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+    </item>
+    
+    <item>
+      <title>Earth viewed from ISS – Zen moment…</title>
+      <link>/earth-viewed-from-iss-zen-moment/</link>
+      <pubDate>Mon, 26 May 2014 12:55:19 +0000</pubDate>
+      
+      <guid>/earth-viewed-from-iss-zen-moment/</guid>
+      <description>src = USTREAM &amp;#8211; NASA</description>
+    </item>
+    
+    <item>
+      <title>Video background [EN]</title>
+      <link>/video-background-en/</link>
+      <pubDate>Tue, 06 May 2014 13:40:21 +0000</pubDate>
+      
+      <guid>/video-background-en/</guid>
+      <description>Forget large background image for your web site. Now, comes video time.
+ So you want to put a nice video as background of your site but don&amp;#8217;t know how to do ? &amp;#8220;Fear you must not&amp;#8221; said Yoda as it&amp;#8217;s really simple.
+First, have a look at the effect in action. Nice, isn&amp;#8217;t it ?
+First thing first, the html :
+&amp;lt;video src=&#34;your-video.mp4&#34;&amp;gt;&amp;lt;/video&amp;gt; &amp;lt;div&amp;gt; your fantastic text here &amp;lt;/div&amp;gt; Now, the css magic :</description>
+    </item>
+    
+    <item>
+      <title>2048 Gremlins [EN]</title>
+      <link>/2048-gremlins-2/</link>
+      <pubDate>Mon, 28 Apr 2014 17:17:07 +0000</pubDate>
+      
+      <guid>/2048-gremlins-2/</guid>
+      <description>Do you know Gabriele Cirulli ? He is the 2048 game creator : a very famous game where you have to slide the numbered tiles to join same numbers, and cumulate them to obtain 2048 !
+Now, do you know Gremlins.js ? A Javascript library made by Marmelab to brute force test web application : it&amp;#8217;s like releasing on your app thousand gremlins clicking every where, typing non-sense input on keyboard, so they may detect breaches in your app.</description>
+    </item>
+    
+    <item>
+      <title>SOLE : Self Organised Learning Environments</title>
+      <link>/p356/</link>
+      <pubDate>Thu, 28 Nov 2013 17:05:53 +0000</pubDate>
+      
+      <guid>/p356/</guid>
+      <description>http://www.bbc.co.uk/news/technology-10663353
+http://www.hole-in-the-wall.com/
+http://sugatam.wikispaces.com/</description>
+    </item>
+    
+    <item>
+      <title>ComboDrive</title>
+      <link>/22/</link>
+      <pubDate>Thu, 26 May 2005 15:04:07 +0000</pubDate>
+      
+      <guid>/22/</guid>
+      <description>&lt;div&gt;
+  &lt;a href=&#34;/files/combodrive3.png&#34;&gt;&lt;img title=&#34;Le ComboDrive&#34; src=&#34;/files/thumb-combodrive3.png&#34; alt=&#34;Le ComboDrive&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;/files/combodrive1.png&#34;&gt;&lt;img title=&#34;Le ComboDrive et la carte SD&#34; src=&#34;/files/thumb-combodrive1.png&#34; alt=&#34;Le ComboDrive et la carte SD&#34; /&gt;&lt;/a&gt;&lt;a href=&#34;/files/combodrive2.png&#34;&gt;&lt;img title=&#34;La carte SD dans le ComboDrive&#34; src=&#34;/files/thumb-combodrive2.png&#34; alt=&#34;La carte SD dans le ComboDrive&#34; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Le ComboDrive est un adapteur SD/Mini SD/MMC/RS MMC vers USB, qui a la taille d&amp;#8217;une clé USB. Insérez-y vos mini-cartes et brancher le à votre PC pour lire le contenu aussi facilement qu&amp;#8217;une clé de stockage USB. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/en/wp-uploads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/wp-uploads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>#AppImage to distribute #Linux app easy as a breeze</title>
+      <link>/p1889/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/p1889/</guid>
+      <description>https://github.com/AppImage/AppImageKit/wiki/Creating-AppImages</description>
+    </item>
+    
+    <item>
+      <title>Installer un iso sur une clé USB dans une console #Linux</title>
+      <link>/p1867/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/p1867/</guid>
+      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/network/</link>
+    <description>Recent content in Network on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force #wifi interface name on #Ubuntu 18.04</title>
+      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
+
+&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paypal on Documentation de Brahim Hamdouni</title>
+    <link>/fr/tags/paypal/</link>
+    <description>Recent content in Paypal on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 12 Nov 2008 22:44:45 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/tags/paypal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment créer un bouton Paypal de don ?</title>
+      <link>/comment-creer-un-bouton-paypal-de-don/</link>
+      <pubDate>Wed, 12 Nov 2008 22:44:45 +0000</pubDate>
+      
+      <guid>/comment-creer-un-bouton-paypal-de-don/</guid>
+      <description>Voici une présentation rapide pour créer un bouton Paypal de don sous forme de code HTML à inclure dans ses propres pages (faites NEXT à chaque fois pour passer à l&amp;#8217;étape suivante) :</description>
+    </item>
+    
+  </channel>
+</rss>

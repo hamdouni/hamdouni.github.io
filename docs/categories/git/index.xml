@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/categories/git/</link>
+    <description>Recent content in Git on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 07 Jan 2015 09:38:14 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git delete remote branch</title>
+      <link>http://brahim.hamdouni.com/git-delete-remote-branch/</link>
+      <pubDate>Wed, 07 Jan 2015 09:38:14 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/git-delete-remote-branch/</guid>
+      <description>As of Git v1.7.0, you can delete a remote branch using
+git push origin --delete &amp;lt;branchName&amp;gt;  src = stackoverflow.com</description>
+    </item>
+    
+    <item>
+      <title>GIT – stop tracking files</title>
+      <link>http://brahim.hamdouni.com/git-stop-tracking-files/</link>
+      <pubDate>Fri, 28 Nov 2014 10:19:27 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/git-stop-tracking-files/</guid>
+      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :
+git update-index --skip-worktree &amp;lt;FILES&amp;gt;  Then a “git status” won’t show those files until you do :
+git update-index --no-skip-worktree &amp;lt;FILES&amp;gt;  To show the skipped files :
+git ls-files -v . | grep ^S  &amp;#8211;skip-worktree is a better solution than &amp;#8211;assume-unchanged because status will not get lost once an upstream change is pulled.</description>
+    </item>
+    
+  </channel>
+</rss>

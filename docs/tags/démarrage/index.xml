@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Démarrage on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/d%C3%A9marrage/</link>
+    <description>Recent content in Démarrage on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Aug 2016 08:41:27 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/d%C3%A9marrage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Démarrer Linux sur la console texte</title>
+      <link>http://brahim.hamdouni.com/demarrer-linux-sur-la-console-texte/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/demarrer-linux-sur-la-console-texte/</guid>
+      <description>&lt;p&gt;Pour se débarraser du démarrage graphique sur Linux, on peut modifier sa configuration grub :&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

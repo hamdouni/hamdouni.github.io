@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/en/posts/</loc>
+    <lastmod>2018-10-12T18:35:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/force-wifi-interface-name-on-ubuntu-18-04/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vs-code-loses-go-autocompletion-on-linux/</loc>
+    <lastmod>2018-03-26T22:15:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docker-from-scratch-golang-and-multipart-upload/</loc>
+    <lastmod>2018-01-26T12:25:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/samba-public-share/</loc>
+    <lastmod>2018-01-10T15:48:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/convert-pdf-to-png-with-enough-resolution/</loc>
+    <lastmod>2017-03-27T23:06:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/dont-forget-master-infos-in-your-mysql-dump/</loc>
+    <lastmod>2017-02-20T16:54:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/bio/</loc>
+    <lastmod>2017-01-04T17:36:30+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/bio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/bio/"
+                />
+  </url>
+  
+  <url>
+    <loc>/red-programming-language-eve-style-clock-demo-in-red-livecoded/</loc>
+    <lastmod>2017-01-04T16:56:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/consul-0-7-1-hashicorp/</loc>
+    <lastmod>2017-01-04T14:58:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/docker-build-ship-and-run-any-app-anywhere/</loc>
+    <lastmod>2017-01-04T14:02:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mysql-import-from-csv/</loc>
+    <lastmod>2016-10-12T12:36:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mysql-export-to-csv/</loc>
+    <lastmod>2016-10-12T12:32:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cheyenne-server-and-post-size-limit/</loc>
+    <lastmod>2016-10-03T13:49:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/boot-linux-in-text-console/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/french-git-log-2/</loc>
+    <lastmod>2016-06-07T09:25:33+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/french-git-log/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/french-git-log-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>/mysql-client-dont-show-columns-names-and-grid/</loc>
+    <lastmod>2016-05-30T08:33:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/allow-invalid-date-in-mysql/</loc>
+    <lastmod>2016-05-23T13:55:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/screencast-with-byzance-on-linux/</loc>
+    <lastmod>2015-10-27T15:28:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/not-permitted-to-mount-disk/</loc>
+    <lastmod>2015-09-07T05:30:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/how-to-forward-outlook-emails-with-vb-script/</loc>
+    <lastmod>2015-08-31T05:30:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/invisible-code-sticks-forever/</loc>
+    <lastmod>2015-08-24T05:30:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/timing-is-the-key-to-startup-success/</loc>
+    <lastmod>2015-08-10T17:19:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tmux-for-the-impatient/</loc>
+    <lastmod>2015-07-08T11:46:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/wireless-auto-configuration-with-guessnet-on-linux/</loc>
+    <lastmod>2015-05-17T17:52:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/the-extreme-productivity-philosophy-that-created-facebook-and-paypal/</loc>
+    <lastmod>2015-01-16T14:33:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/if-ssh-client-disconnect-and-freeze/</loc>
+    <lastmod>2015-01-14T17:55:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/git-delete-remote-branch/</loc>
+    <lastmod>2015-01-07T09:38:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/horizontal-rule-in-zsh-prompt/</loc>
+    <lastmod>2014-12-26T16:58:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/increase-wordpress-max-file-upload-size/</loc>
+    <lastmod>2014-12-05T14:42:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/substitute-a-text-only-in-files-where-it-appears/</loc>
+    <lastmod>2014-12-03T18:12:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/convert-multiple-files-to-utf8-using-vim/</loc>
+    <lastmod>2014-12-03T17:44:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/git-stop-tracking-files/</loc>
+    <lastmod>2014-11-28T10:19:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/zsh-nohup-and-background-process-that-lasts/</loc>
+    <lastmod>2014-11-27T10:58:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/install-minimum-php-no-apache/</loc>
+    <lastmod>2014-11-24T13:46:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/get-rid-of-the-desktop-icon-in-nautilus-3-10-side-bar/</loc>
+    <lastmod>2014-11-07T15:59:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/stretched-background-with-ie8/</loc>
+    <lastmod>2014-07-17T16:43:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/speech-tasks-a-todo-webapp-driven-by-your-voice/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/usb-mount-and-polykit-en/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/earth-viewed-from-iss-zen-moment/</loc>
+    <lastmod>2014-05-26T12:55:19+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/video-background-en/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/video-background-fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/video-background-en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/about/</loc>
+    <lastmod>2014-04-29T09:11:34+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>/2048-gremlins-2/</loc>
+    <lastmod>2014-04-28T17:17:07+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/2048-gremlins/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2048-gremlins-2/"
+                />
+  </url>
+  
+  <url>
+    <loc>/p356/</loc>
+    <lastmod>2013-11-28T17:05:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/22/</loc>
+    <lastmod>2005-05-26T15:04:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/wp-uploads/</loc>
+  </url>
+  
+  <url>
+    <loc>/p1889/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tags/angular-light/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/annyang/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/application/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/background/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/boot/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/bug/</loc>
+    <lastmod>2018-03-26T22:15:38+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/bug/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/bug/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/cheyenne/</loc>
+    <lastmod>2016-10-03T13:49:50+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/comment-faire/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/comment-faire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/comment-faire/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/console/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/console/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/console/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/css/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/css3/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/dbus/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dbus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dbus/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/desktop/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/desktop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/desktop/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/dev/</loc>
+    <lastmod>2018-03-26T22:15:38+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dev/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/distribution/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/docker/</loc>
+    <lastmod>2018-01-26T12:25:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/dwm/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/dwm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/dwm/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/fun/</loc>
+    <lastmod>2015-08-24T05:30:57+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/fun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/fun/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/git/</loc>
+    <lastmod>2016-06-07T09:25:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/git/</loc>
+    <lastmod>2015-01-07T09:38:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/gnome-settings-daemon/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/gnome-settings-daemon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/gnome-settings-daemon/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/go/</loc>
+    <lastmod>2018-03-26T22:15:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/golang/</loc>
+    <lastmod>2018-03-26T22:15:38+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/how-to/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/howto/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/howto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/howto/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/html/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/html5/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/html5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/html5/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/imagemagick/</loc>
+    <lastmod>2017-03-27T23:06:02+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/p1867/</loc>
+  </url>
+  
+  <url>
+    <loc>/en/tags/iso/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/javascript/</loc>
+    <lastmod>2015-08-24T05:30:57+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/linux/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/linux/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/linux/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/categories/mat%C3%A9riel/</loc>
+    <lastmod>2005-05-26T15:04:07+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/mat%C3%A9riel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/mat%C3%A9riel/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/minimal/</loc>
+    <lastmod>2018-01-26T12:25:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/mysql/</loc>
+    <lastmod>2017-02-20T16:54:46+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/mysql/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/mysql/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/network/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/opensource/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/opensource/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/opensource/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/outlook/</loc>
+    <lastmod>2015-08-31T05:30:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/php/</loc>
+    <lastmod>2014-12-05T14:42:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/policykit/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/policykit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/policykit/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/prompt/</loc>
+    <lastmod>2014-12-26T16:58:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/reflexions/</loc>
+    <lastmod>2013-11-28T17:05:53+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/samba/</loc>
+    <lastmod>2018-01-10T15:48:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/scratch/</loc>
+    <lastmod>2018-01-26T12:25:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/share/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/shell/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/shell/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/shell/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/space/</loc>
+    <lastmod>2014-05-26T12:55:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/speech-recognition/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/categories/startups/</loc>
+    <lastmod>2015-08-10T17:19:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/storage/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/storage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/storage/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/text/</loc>
+    <lastmod>2016-08-29T08:41:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/tmux/</loc>
+    <lastmod>2015-07-08T11:46:33+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/ubuntu/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/ubuntu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/ubuntu/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/udev/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/udev/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/udev/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/usb/</loc>
+    <lastmod>2014-06-18T21:41:51+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/usb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/usb/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/video/</loc>
+    <lastmod>2014-05-06T13:40:21+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/vim/</loc>
+    <lastmod>2014-12-03T17:44:07+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/web/</loc>
+    <lastmod>2015-08-24T05:30:57+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/web/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/web-speech-api/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/webapp/</loc>
+    <lastmod>2014-06-30T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/wifi/</loc>
+    <lastmod>2018-09-07T14:31:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/wifi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/wifi/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/windows/</loc>
+    <lastmod>2015-08-31T05:30:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/wordpress/</loc>
+    <lastmod>2014-12-05T14:42:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/zen/</loc>
+    <lastmod>2014-05-26T12:55:19+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/en/tags/zsh/</loc>
+    <lastmod>2014-12-26T16:58:41+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

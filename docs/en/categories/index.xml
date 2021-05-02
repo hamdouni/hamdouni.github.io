@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Documentation for Brahim Hamdouni</title>
+    <link>/en/categories/</link>
+    <description>Recent content in Categories on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment Faire</title>
+      <link>/en/categories/comment-faire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/categories/comment-faire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fun</title>
+      <link>/en/categories/fun/</link>
+      <pubDate>Mon, 24 Aug 2015 05:30:57 +0000</pubDate>
+      
+      <guid>/en/categories/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/en/categories/git/</link>
+      <pubDate>Wed, 07 Jan 2015 09:38:14 +0000</pubDate>
+      
+      <guid>/en/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To</title>
+      <link>/en/categories/how-to/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/categories/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/en/categories/linux/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matériel</title>
+      <link>/en/categories/mat%C3%A9riel/</link>
+      <pubDate>Thu, 26 May 2005 15:04:07 +0000</pubDate>
+      
+      <guid>/en/categories/mat%C3%A9riel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflexions</title>
+      <link>/en/categories/reflexions/</link>
+      <pubDate>Thu, 28 Nov 2013 17:05:53 +0000</pubDate>
+      
+      <guid>/en/categories/reflexions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Share</title>
+      <link>/en/categories/share/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/en/categories/share/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startups</title>
+      <link>/en/categories/startups/</link>
+      <pubDate>Mon, 10 Aug 2015 17:19:34 +0000</pubDate>
+      
+      <guid>/en/categories/startups/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

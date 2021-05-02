@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samba on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/samba/</link>
+    <description>Recent content in Samba on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 10 Jan 2018 15:48:35 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/samba/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Samba public share</title>
+      <link>/samba-public-share/</link>
+      <pubDate>Wed, 10 Jan 2018 15:48:35 +0000</pubDate>
+      
+      <guid>/samba-public-share/</guid>
+      <description>&lt;p&gt;How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

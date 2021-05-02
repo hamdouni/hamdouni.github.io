@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on Documentation de Brahim Hamdouni</title>
+    <link>/fr/tags/dev/</link>
+    <description>Recent content in Dev on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 23 May 2016 13:55:55 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Autoriser les dates invalides dans MySQL</title>
+      <link>/autoriser-les-dates-invalides-dans-mysql/</link>
+      <pubDate>Mon, 23 May 2016 13:55:55 +0000</pubDate>
+      
+      <guid>/autoriser-les-dates-invalides-dans-mysql/</guid>
+      <description>&lt;p&gt;Dans le cas où vous avez absolument besoin d&amp;#8217;insérer une date dans MySQL, qui n&amp;#8217;est pas valide, par exemple le 30 février 2014, vous pouvez exécuter le server MySQL dans un mode spécial pour autoriser ces dates :&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Documentation de Brahim Hamdouni</title>
+    <link>/fr/categories/linux/</link>
+    <description>Recent content in Linux on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Forcer le nom de l’interface #wifi sous #Ubuntu 18.04</title>
+      <link>/forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      
+      <guid>/forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>&lt;p&gt;Avec Udev, il est possible de modifier le nom de l&amp;#8217;interface wifi.&lt;/p&gt;
+
+&lt;p&gt;Tout d&amp;#8217;abord, on doit récupérer l&amp;#8217;adresse mac de la carte wifi.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Minimal #Docker &#43; #Golang et le téléversement Multipart</title>
+      <link>/minimal-docker-golang-et-le-televersement-multipart/</link>
+      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      
+      <guid>/minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Démarrer Linux sur la console texte</title>
+      <link>/demarrer-linux-sur-la-console-texte/</link>
+      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      
+      <guid>/demarrer-linux-sur-la-console-texte/</guid>
+      <description>&lt;p&gt;Pour se débarraser du démarrage graphique sur Linux, on peut modifier sa configuration grub :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>usb disk et policykit</title>
+      <link>/usb-disk-et-policykit-fr/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>/usb-disk-et-policykit-fr/</guid>
+      <description>&lt;p&gt;Lorsqu&amp;#8217;on tente de monter un disque usb via son file manager (Thunar ou Nautilus), on peut avoir un message d&amp;#8217;erreur &amp;#8216;not authorized&amp;#8217;. Lorsqu&amp;#8217;on a un environnement de bureau à la Gnome ou KDE, toutes ces histoires de gestion des droits est pris en charge de façon transparente. Mais quand on veut avoir un environnement hyper léger, il y a des manipulations  à faire pour contourner certains problèmes. Voici la marche à suivre :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Une ligne horizontale ajustée avant chaque PROMPT</title>
+      <link>/une-ligne-horizontale-ajustee-avant-chaque-prompt/</link>
+      <pubDate>Fri, 21 Feb 2014 11:43:41 +0000</pubDate>
+      
+      <guid>/une-ligne-horizontale-ajustee-avant-chaque-prompt/</guid>
+      <description>&lt;p&gt;Ce serait chouette d&amp;#8217;arriver à afficher une ligne horizontale dans le terminal, avant chaque commande : ça permettrait de séparer visuellement les résultats d&amp;#8217;exécution.&lt;figure id=&#34;attachment_932&#34; style=&#34;width: 735px&#34; class=&#34;wp-caption aligncenter&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;size-full wp-image-932 &#34; alt=&#34;Capture du 2014-02-21 12:04:47&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447.png&#34; width=&#34;735&#34; height=&#34;425&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447.png 735w, http://brahim.hamdouni.com/wp-uploads/Capture-du-2014-02-21-120447-300x173.png 300w&#34; sizes=&#34;(max-width: 735px) 100vw, 735px&#34; /&gt;&lt;figcaption class=&#34;wp-caption-text&#34;&gt;C&amp;#8217;est trop puissant le shell ! 😀&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Copier sa clé publique sur un serveur distant</title>
+      <link>/copier-sa-cle-publique-sur-un-serveur-distant/</link>
+      <pubDate>Wed, 12 Feb 2014 14:25:38 +0000</pubDate>
+      
+      <guid>/copier-sa-cle-publique-sur-un-serveur-distant/</guid>
+      <description>&lt;p&gt;Pour faciliter l&amp;#8217;administration de machines distantes sous Linux, c&amp;#8217;est mieux de ne pas gérer de mot de passe et d&amp;#8217;utiliser des clés de sécurité.&lt;/p&gt;
+
+&lt;p&gt;Mais une fois qu&amp;#8217;on a créé sa clé avec la commande keygen, c&amp;#8217;est très facile de la recopier sur le serveur distant en une seule commande :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installer une jvm sous Ubuntu avec update-alternatives</title>
+      <link>/installer-une-jvm-sous-ubuntu/</link>
+      <pubDate>Tue, 07 Jan 2014 08:50:24 +0000</pubDate>
+      
+      <guid>/installer-une-jvm-sous-ubuntu/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;&lt;img class=&#34;alignleft size-thumbnail wp-image-879&#34; alt=&#34;logo java&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/java-150x150.jpg&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;Après avoir récupéré &lt;/span&gt;&lt;a style=&#34;line-height: 1.5em;&#34; title=&#34;Oracle JDK Download&#34; href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/index.html&#34; target=&#34;_blank&#34;&gt;le tar.gz du jdk depuis chez Oracle &lt;/a&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;et décompressé dans le dossier /usr/lib/jvm, il faut utiliser la commande suivante pour l&amp;#8217;installer comme alternatives :&lt;/span&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;sudo update-alternatives &amp;#8211;install /usr/bin/java java /usr/lib/jvm/java-7-oracle/bin/java 1000&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Surveiller mysql pour pas cher</title>
+      <link>/surveiller-mysql-pour-pas-cher/</link>
+      <pubDate>Tue, 10 Dec 2013 18:02:44 +0000</pubDate>
+      
+      <guid>/surveiller-mysql-pour-pas-cher/</guid>
+      <description>Voici une petite astuce pour surveiller ses serveurs mysql sans déployer d&amp;#8217;outil particulier :
+ mysqladmin -u root -p -i 5 processlist
+ L&amp;#8217;option -i ou &amp;#8211;sleep en version longue permet de spécifier une durée en seconde pour répeter la commande. Très pratique pour du dév en local et prend quasi pas de ressource.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Notification sous Linux / DWM</title>
+      <link>/notification-sous-linux/</link>
+      <pubDate>Tue, 10 Sep 2013 13:47:25 +0000</pubDate>
+      
+      <guid>/notification-sous-linux/</guid>
+      <description>&lt;p&gt;J&amp;#8217;ai une configuration minimaliste sur mes ordis : GNU/Linux/Ubuntu pour la couche OS et &lt;a href=&#34;http://dwm.suckless.org/&#34; title=&#34;Lien vers le site de dwm un tiled window manager &#34;&gt;dwm&lt;/a&gt; pour l&amp;#8217;interface graphique. Pour avoir un minimum de confort sur le portable, j&amp;#8217;aime bien être alerté quand la batterie arrive à 5%. Jusque là, j&amp;#8217;utilisais xmessage qui ouvrait une fenêtre avec le message d&amp;#8217;alerte. Mais une fenêtre qui s&amp;#8217;ouvre brutalement sous dwm, un &amp;#8220;&lt;a href=&#34;http://en.wikipedia.org/wiki/Tiling_window_manager&#34; title=&#34;Wikipedia en anglais sur les Tiling Window Manager&#34;&gt;tiling window manager&lt;/a&gt;&amp;#8221; ça n&amp;#8217;a pas le même effet que sur les windows managers classiques : c&amp;#8217;est très intrusif, surtout en plein édition de code&amp;#8230;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

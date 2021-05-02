@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ihm on Documentation de Brahim Hamdouni</title>
+    <link>/fr/tags/ihm/</link>
+    <description>Recent content in Ihm on Documentation de Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Jul 2010 19:53:58 +0000</lastBuildDate>
+    
+	<atom:link href="/fr/tags/ihm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alternative au Captcha</title>
+      <link>/alternative-captcha/</link>
+      <pubDate>Mon, 05 Jul 2010 19:53:58 +0000</pubDate>
+      
+      <guid>/alternative-captcha/</guid>
+      <description>Le captcha ? C&amp;#8217;est ce test qu&amp;#8217;on vous demande de réussir pour prouver que vous n&amp;#8217;êtes pas un robot lorsque vous remplissez un formulaire. La plupart du temps, on nous demande de recopier un texte complétement déformé ou brouillé. C&amp;#8217;est enquiquinant et pas toujours évident d&amp;#8217;arriver à décrypter le texte.
+ Du coup, quand je vois d&amp;#8217;autre façon de traiter le sujet, j&amp;#8217;applaudis. Et là, c&amp;#8217;est le cas chez &amp;#8220;They Make Apps&amp;#8221;, un site de référencement de développeurs qui a introduit une manière originale de séparer le bon grain de l&amp;#8217;ivraie.</description>
+    </item>
+    
+  </channel>
+</rss>

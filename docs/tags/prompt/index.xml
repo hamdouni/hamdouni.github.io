@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/prompt/</link>
+    <description>Recent content in Prompt on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Dec 2014 16:58:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Horizontal rule in zsh prompt</title>
+      <link>http://brahim.hamdouni.com/horizontal-rule-in-zsh-prompt/</link>
+      <pubDate>Fri, 26 Dec 2014 16:58:41 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/horizontal-rule-in-zsh-prompt/</guid>
+      <description>Put in your ~/.zshrc :
+PS1=$&#39;%U${(r:$COLUMNS:: :)}%u&#39;$PS1 _src = superuser.com_</description>
+    </item>
+    
+  </channel>
+</rss>

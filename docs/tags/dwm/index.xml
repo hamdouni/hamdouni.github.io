@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dwm on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/dwm/</link>
+    <description>Recent content in Dwm on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 18 Jun 2014 21:41:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/dwm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>usb disk et policykit</title>
+      <link>http://brahim.hamdouni.com/usb-disk-et-policykit-fr/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/usb-disk-et-policykit-fr/</guid>
+      <description>&lt;p&gt;Lorsqu&amp;#8217;on tente de monter un disque usb via son file manager (Thunar ou Nautilus), on peut avoir un message d&amp;#8217;erreur &amp;#8216;not authorized&amp;#8217;. Lorsqu&amp;#8217;on a un environnement de bureau à la Gnome ou KDE, toutes ces histoires de gestion des droits est pris en charge de façon transparente. Mais quand on veut avoir un environnement hyper léger, il y a des manipulations  à faire pour contourner certains problèmes. Voici la marche à suivre :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>usb mount and policykit [EN]</title>
+      <link>http://brahim.hamdouni.com/usb-mount-and-polykit-en/</link>
+      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/usb-mount-and-polykit-en/</guid>
+      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
+But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+    </item>
+    
+  </channel>
+</rss>

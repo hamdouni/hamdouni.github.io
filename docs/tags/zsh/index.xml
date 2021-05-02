@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zsh on Ordinary Tech Chronicle</title>
+    <link>http://brahim.hamdouni.com/tags/zsh/</link>
+    <description>Recent content in Zsh on Ordinary Tech Chronicle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Dec 2014 16:58:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://brahim.hamdouni.com/tags/zsh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Horizontal rule in zsh prompt</title>
+      <link>http://brahim.hamdouni.com/horizontal-rule-in-zsh-prompt/</link>
+      <pubDate>Fri, 26 Dec 2014 16:58:41 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/horizontal-rule-in-zsh-prompt/</guid>
+      <description>Put in your ~/.zshrc :
+PS1=$&#39;%U${(r:$COLUMNS:: :)}%u&#39;$PS1 _src = superuser.com_</description>
+    </item>
+    
+    <item>
+      <title>ZSH, nohup and background process that lasts…</title>
+      <link>http://brahim.hamdouni.com/zsh-nohup-and-background-process-that-lasts/</link>
+      <pubDate>Thu, 27 Nov 2014 10:58:55 +0000</pubDate>
+      
+      <guid>http://brahim.hamdouni.com/zsh-nohup-and-background-process-that-lasts/</guid>
+      <description>When I switched to ZSH, and letting BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.
+In ZSH, I get a message like this if I exist with running jobs :
+zsh you have running jobs If I exit again, my jobs are killed. But zsh accept some useful option to overide this :
+setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after terminal exit, and second one is for not warning you about it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Documentation for Brahim Hamdouni</title>
+    <link>/en/tags/go/</link>
+    <description>Recent content in Go on Documentation for Brahim Hamdouni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 26 Mar 2018 22:15:38 +0000</lastBuildDate>
+    
+	<atom:link href="/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VS Code loses Go autocompletion on Linux</title>
+      <link>/vs-code-loses-go-autocompletion-on-linux/</link>
+      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      
+      <guid>/vs-code-loses-go-autocompletion-on-linux/</guid>
+      <description>&lt;p&gt;On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/wp-uploads/vscode_completion_not_working.png&#34; alt=&#34;vscode_completion_not_working&#34; width=&#34;768&#34; height=&#34;440&#34; class=&#34;alignnone size-full wp-image-1879&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working.png 768w, http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working-300x172.png 300w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Speech Tasks : a voice driven todo webapp</title>
+      <link>/speech-tasks-a-todo-webapp-driven-by-your-voice/</link>
+      <pubDate>Mon, 30 Jun 2014 15:58:25 +0000</pubDate>
+      
+      <guid>/speech-tasks-a-todo-webapp-driven-by-your-voice/</guid>
+      <description>With the Web Speech Api, some good javascript libs and several lines of code, you can easily add speech recognition in your web application. All is done thanks to AnnYang JS lib made by Tal Ater, plumbing with Angular Light by Oleg Nechaev and served by a Go http server. (By the way, I love opensource community !)
+Try the demo ! See the code ! And thanks to Mark McGranaghan for his tutorial to deploy go app on Heroku</description>
+    </item>
+    
+  </channel>
+</rss>
