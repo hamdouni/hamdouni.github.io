@@ -1,24 +1,15 @@
 barim.us
 ========
 
-The MIT License (MIT)
+Hi, it's Brahim.
 
-Copyright (c) 2014 Brahim Hamdouni (http://brahim.hamdouni.com)
+I’m a software developer from planet earth with multi-cultural background and various technical skills. I consider myself as an old coder with a lot of experience.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+I’m also the co-founder of Softinnov, a development shop specialized in web applications for businesses.
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+You’ll find here mainly posts about programming languages, operating systems and applications related to the open-source eco-system and, occasionally, my random thoughts about topics that matter to me.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+Contact me on Twitter, or on my email brahim ( at ) hamdouni.com.
+
+This blog is personal and opinions here are mine.
+
