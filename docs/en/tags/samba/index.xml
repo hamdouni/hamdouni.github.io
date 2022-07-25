@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>samba on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/samba/</link>
+    <link>https://barim.us/tags/samba/</link>
     <description>Recent content in samba on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 10 Jan 2018 17:48:35 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/samba/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2018 17:48:35 +0000</lastBuildDate><atom:link href="https://barim.us/tags/samba/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Samba public share</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</link>
+      <link>https://barim.us/post/2018-01-10-samba-public-share/</link>
       <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</guid>
+      <guid>https://barim.us/post/2018-01-10-samba-public-share/</guid>
       <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
 Create the public directory
 mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration

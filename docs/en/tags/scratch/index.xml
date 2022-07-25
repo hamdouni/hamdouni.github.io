@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scratch on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/scratch/</link>
+    <link>https://barim.us/tags/scratch/</link>
     <description>Recent content in scratch on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 26 Jan 2018 14:25:23 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/scratch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jan 2018 14:25:23 +0000</lastBuildDate><atom:link href="https://barim.us/tags/scratch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#Docker from scratch, #Golang and Multipart upload</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
+      <link>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
       <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <guid>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
       <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
 But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
 Compile staticaly your go program :

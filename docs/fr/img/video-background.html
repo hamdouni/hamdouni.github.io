@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video background</title>
+	<style type="text/css">
+		html, body { width: 100%; height: 100%; padding: 0; margin: 0; }
+		video {
+			z-index: -999;
+			overflow: hidden;
+			position: absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			bottom: 0;
+			right: 0;
+		}
+		.overlay {
+			background-image:url('overlay.png');
+			z-index: -99;
+			position: absolute;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+		}
+		body {display: table;}
+		.main {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;			
+		}
+		.main h1 {background-color: #fff;display: inline;}
+		.main p {background-color: #fff;max-width: 640px;margin: 0 auto;padding:5px;text-align: justify;}
+		.main img {float:left;padding: 8px;}
+	</style>
+</head>
+<body>
+	<video preload="auto" autoplay="true" loop="loop" src="video-highway-to-heaven-light.mp4"></video>
+	<div class="overlay">
+
+	<div class="main"> 
+		<h1>Highway to Heaven !!!!! </h1>
+		<p><img src="http://upload.wikimedia.org/wikipedia/en/f/f4/HighwaytoHeaven2.jpg">The series stars Michael Landon as Jonathan Smith, an angel sent down to earth "on probation", and his human companion Mark Gordon, played by Victor French, Landon's co-star from Little House on the Prairie. Jonathan and Mark are given "assignments" by "The Boss" (God) where they are required to use their humanity (and sometimes a little bit of "The Stuff") to help various troubled souls overcome their problems. These problems include families dealing with sick loved ones; "all-around losers" who are encouraged to find their self-worth; people coping with loss of family such as war widows; wealthy and greedy businessmen being encouraged to use their wealth for good; charlatans who used religion and civil rights for personal gain; and discouraging prejudice in regard to people of different ethnicities, socioeconomic backgrounds, and disabilities. While dealing sensitively with these situations, the show also uses humor, particularly between Jonathan and Mark.
+		<p> [Wikipedia entry](http://en.wikipedia.org/wiki/Highway_to_Heaven) 
+	
+
+</body>
+</html>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>owncloud on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/owncloud/</link>
+    <link>https://barim.us/tags/owncloud/</link>
     <description>Recent content in owncloud on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sat, 12 Sep 2020 15:47:33 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/owncloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Sep 2020 15:47:33 +0000</lastBuildDate><atom:link href="https://barim.us/tags/owncloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change local ownCloud sync directory</title>
-      <link>https://brahim.hamdouni.com/en/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</link>
+      <link>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</link>
       <pubDate>Sat, 12 Sep 2020 15:47:33 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
+      <guid>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
       <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).
 First, close the ownCloud application on your desktop : commonly, right click the systray icon and quit ownCloud. This avoid any conflict when renaming the folder.
 Now, you can rename your local folder. For example :

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IHM on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/IHM/</link>
+    <description>Recent content in IHM on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 05 Jul 2010 20:53:58 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/IHM/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alternative au Captcha</title>
+      <link>https://brahim.hamdouni.com/post/2010-07-05-alternative-captcha/</link>
+      <pubDate>Mon, 05 Jul 2010 20:53:58 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2010-07-05-alternative-captcha/</guid>
+      <description>Le captcha ? C&amp;rsquo;est ce test qu&amp;rsquo;on vous demande de réussir pour prouver que vous n&amp;rsquo;êtes pas un robot lorsque vous remplissez un formulaire. La plupart du temps, on nous demande de recopier un texte complétement déformé ou brouillé. C&amp;rsquo;est enquiquinant et pas toujours évident d&amp;rsquo;arriver à décrypter le texte.
+Google Captcha
+Du coup, quand je vois d&amp;rsquo;autre façon de traiter le sujet, j&amp;rsquo;applaudis. Et là, c&amp;rsquo;est le cas chez &amp;ldquo;They Make Apps&amp;rdquo; , un site de référencement de développeurs qui a introduit une manière originale de séparer le bon grain de l&amp;rsquo;ivraie.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta content="index, follow" name="robots">
+	<title>Système digestif.</title>
+	<style>
+		#formulaire {width:680px;margin:0 auto;}
+		input, select {padding:9px 0;margin-top:18px;font-size:18px;}
+		img {float:left; margin-right:18px;}
+		input {float:right;}
+		div.msg {clear:both;display:none;font-size:18px;text-align:center;padding:18px;width:270px;position:absolute;right:0;-moz-border-radius: 1em/5em;}
+		div.msgOk {background-color:yellow;border:2px solid #777700;}
+		div.msgKo {background-color:red;color:white;border:2px solid #770000;}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		verif = function() {
+			var choix = "";
+			var bonneReponse="542163";
+
+			$('div#selection').find('select').each(function(index) {
+			    choix = choix + this.selectedIndex;
+			});
+
+			if(bonneReponse != choix) msg="msgKo"; else msg="msgOk"; 
+			$('div.'+msg).slideDown(700,function() {
+				$(this).fadeOut(3700);
+			});			
+		}
+	</script>
+</head>
+<body>
+
+<form id="formulaire">
+	<h1>Système digestif humain</h1>
+
+	<input type="button" value="Vérifier" onclick="verif();" />
+	<div class="msg msgOk">BRAVO !!!
+
+	<div class="msg msgKo">Il y a une ou plusieurs erreurs !
+
+
+	<img src="systeme-digestif.jpg"/>
+	<div id="selection">
+	1 - <select><option></option><option>intestin grêle</option><option>estomac</option><option>anus</option><option>oesophage</option><option value"1">bouche</option><option>gros intestin</option></select>
+	<br/>
+	2 - <select><option></option><option>intestin grêle</option><option>estomac</option><option>anus</option><option value"1">oesophage</option><option>bouche</option><option>gros intestin</option></select>
+	<br/>
+	3 - <select><option></option><option>intestin grêle</option><option value"1">estomac</option><option>anus</option><option>oesophage</option><option>bouche</option><option>gros intestin</option></select>
+	<br/>
+	4 - <select><option></option><option value"1">intestin grêle</option><option>estomac</option><option>anus</option><option>oesophage</option><option>bouche</option><option>gros intestin</option></select>
+	<br/>
+	5 - <select><option></option><option>intestin grêle</option><option>estomac</option><option>anus</option><option>oesophage</option><option>bouche</option><option value"1">gros intestin</option></select>
+	<br/>
+	6 - <select><option></option><option>intestin grêle</option><option>estomac</option><option value"1">anus</option><option>oesophage</option><option>bouche</option><option>gros intestin</option></select>
+	<br/>
+	
+
+
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImageMagik on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/ImageMagik/</link>
+    <description>Recent content in ImageMagik on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 13 Oct 2009 11:34:19 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/ImageMagik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convertir en masse des PDF en JPG avec ImageMagik</title>
+      <link>https://brahim.hamdouni.com/post/2009-10-13-comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</link>
+      <pubDate>Tue, 13 Oct 2009 11:34:19 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2009-10-13-comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</guid>
+      <description>J&amp;rsquo;avais un grand nombre de PDF à convertir en JPG pour être intégré en GED. Des PDF qui devaient rester imprimable après coup, donc qui devaient garder un haut niveau de densité (au moins 300 dpi).
+Avec ImageMagik, et plus précisément &amp;ldquo;convert&amp;rdquo; ainsi que quelques commandes shell sous linux, le tour était joué :
+for i in \`ls *.PDF\`; do f=\`basename $i .PDF\`; convert -density 300 $i $f.jpg; done Comment ça marche ?</description>
+    </item>
+    
+  </channel>
+</rss>

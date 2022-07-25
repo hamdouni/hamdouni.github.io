@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>storage on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/storage/</link>
+    <description>Recent content in storage on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 18 Jun 2014 22:41:51 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>usb disk et policykit</title>
+      <link>https://brahim.hamdouni.com/post/2014-06-18-usb-disk-et-policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <description>Lorsqu&amp;rsquo;on tente de monter un disque usb via son file manager (Thunar ou Nautilus), on peut avoir un message d&amp;rsquo;erreur &amp;lsquo;not authorized&amp;rsquo;. Lorsqu&amp;rsquo;on a un environnement de bureau à la Gnome ou KDE, toutes ces histoires de gestion des droits est pris en charge de façon transparente. Mais quand on veut avoir un environnement hyper léger, il y a des manipulations à faire pour contourner certains problèmes. Voici la marche à suivre :</description>
+    </item>
+    
+  </channel>
+</rss>

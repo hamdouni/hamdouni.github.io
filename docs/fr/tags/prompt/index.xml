@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prompt on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/prompt/</link>
+    <description>Recent content in prompt on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 25 Nov 2019 08:14:27 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astuce Mysql : prompt personnalisé </title>
+      <link>https://brahim.hamdouni.com/post/2019-11-25-astuce-mysql-prompt-personnalise/</link>
+      <pubDate>Mon, 25 Nov 2019 08:14:27 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2019-11-25-astuce-mysql-prompt-personnalise/</guid>
+      <description>On peut facilement modifier le prompt du client mysql, et ainsi repérer dans quelle instance MySQL on se trouve.
+C&amp;rsquo;est très utile lorsqu&amp;rsquo;on doit jongler entre plusieurs bases, et qu&amp;rsquo;on finit par ne plus savoir dans laquelle on se trouve :-)
+Par exemple, si je travaille sur le projet FooBar, je peux utiliser le client comme suit :
+mysql --prompt=&amp;#34;@FooBar&amp;gt; &amp;#34; J&amp;rsquo;obtiens dans ma console, quelque chose comme ça :</description>
+    </item>
+    
+  </channel>
+</rss>

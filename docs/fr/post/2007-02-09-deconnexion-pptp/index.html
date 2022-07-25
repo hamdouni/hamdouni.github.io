@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Brahim Hamdouni&#39;s website">
+<title>Brahim Hamdouni  ·  ابراهيم - Comment diminuer les déconnexions PPTP intempestives ?</title>
+<link rel="stylesheet" href="/css/style.css">
+<body><nav>
+    <details>
+        <summary>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon close" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <span>
+                    Brahim Hamdouni  ·  ابراهيم
+                </span>
+            </div>
+            
+        </summary>
+        <div class="links">
+            <a href='/'>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+                Accueil
+            </a>
+            <a href='/post'>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+                Articles
+            </a>
+            <a href='/lists'>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                </svg>
+                Listes
+            </a>
+            <a href='/search'>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                Recherche
+            </a>
+        </div>
+    </details>
+</nav>
+<div id="content">
+<main>
+    <header>
+        <h1>Comment diminuer les déconnexions PPTP intempestives ?</h1>
+        <em></em>
+        <div class="date"> vendredi 9 février 2007 · 1 minute · 159 mots </div>
+    </header>
+    <article>
+
+        <p>A la mise en place de pptp sous Linux/Debian, j&rsquo;ai constaté des déconnexions fréquentes, sans explications claires. Pptp test régulièrement la ligne avec les clients, et s&rsquo;il constate un time-out, il coupe l&rsquo;accés.<br>
+Il est possible d&rsquo;augmenter le time-out pour diminuer les déconnexions, et plus particulièrement sur des lignes à faible débit. Pour cela, sur le serveur, visualisez le fichier de configuration de pptpd :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cat /etc/pptpd.conf
+</code></pre></div><p>et repérez la ligne définissant le fichier d&rsquo;option. Sur ma configuration :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ppp /usr/sbin/pppd **option /etc/ppp/pptpd-options** debug ...
+</code></pre></div><p>Editez le fichier d&rsquo;options, par exemple avec vi &ldquo;/etc/ppp/pptpd-options&rdquo;</p>
+<blockquote>
+<p>lock<br>
+mtu 1450<br>
+mru 1450<br>
+debug<br>
+nobsdcomp<br>
+proxyarp<br>
+auth<br>
+ipcp-accept-local<br>
+ipcp-accept-remote<br>
+<strong>lcp-echo-failure 10<br>
+lcp-echo-interval 6<br>
+</strong> ms-dns 10.0.0.2<br>
+deflate 0</p>
+</blockquote>
+<p><strong>lcp-echo-failure</strong> est le nombre de paquet en échec avant interuption. <strong>lcp-echo-interval</strong> est le nombre de seconde entre 2 tests. En passant ces paramètres à 10 paquets toutes les 6 secondes, j&rsquo;ai fortement diminué les déconnexions dans ma configuration. Vous devez ajuster ces paramètres selon vos besoins.</p>
+
+        
+        <div class="links">
+            
+            <span class="link">
+                <a href="https://brahim.hamdouni.com/post/2006-03-17-eclipse-jetty-launcher/">← Contourner l&#39;erreur d&#39;Eclipse à l&#39;instal Jetty Launcher</a>
+            </span>
+            
+            
+            <span class="link">
+                <a href="https://brahim.hamdouni.com/post/2007-10-18-trifecta-sd-micro-sd-et-usb-en-1/">Trifecta SD, micro SD et USB en 1 →</a>
+            </span>
+            
+        </div>
+    </article>
+</main>
+
+        </div></body>
+</html>

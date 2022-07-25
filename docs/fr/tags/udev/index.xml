@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>udev on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/udev/</link>
+    <description>Recent content in udev on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 07 Sep 2018 16:31:00 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/udev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forcer le nom de l&#39;interface #wifi sous #Ubuntu 18.04 </title>
+      <link>https://brahim.hamdouni.com/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>Avec Udev, il est possible de modifier le nom de l&amp;rsquo;interface wifi.
+Tout d&amp;rsquo;abord, on doit récupérer l&amp;rsquo;adresse mac de la carte wifi.
+$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff Ma carte wifi s&amp;rsquo;appelle wlp1s0 et sa mac address apparait juste après le mot clé &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
+    </item>
+    
+  </channel>
+</rss>

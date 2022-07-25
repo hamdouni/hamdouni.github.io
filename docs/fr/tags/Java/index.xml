@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/Java/</link>
+    <description>Recent content in Java on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 19 Jan 2014 02:20:23 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/Java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s groove !</title>
+      <link>https://brahim.hamdouni.com/post/2014-01-19-lets-groove/</link>
+      <pubDate>Sun, 19 Jan 2014 02:20:23 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-01-19-lets-groove/</guid>
+      <description>Je me suis mis à Groovy, un langage dynamique .
+Bref, pour me forcer à l&amp;rsquo;utiliser me motiver à l&amp;rsquo;apprendre, je code des minis applications qui pourront servir un jour : je me base sur l&amp;rsquo;idée d&amp;rsquo;Unix, plein de petites applis qui font qu&amp;rsquo;une chose mais qui le font bien. Et là, j&amp;rsquo;ai commencé avec un afficheur de code barre (tiens, tiens, mais pourquoi donc ? )
+On entre un numéro de code barre sur 13 chiffres et l&amp;rsquo;appli web affiche l&amp;rsquo;image.</description>
+    </item>
+    
+    <item>
+      <title>Installer une jvm sous Ubuntu avec update-alternatives</title>
+      <link>https://brahim.hamdouni.com/post/2014-01-07-installer-une-jvm-sous-ubuntu/</link>
+      <pubDate>Tue, 07 Jan 2014 09:50:24 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-01-07-installer-une-jvm-sous-ubuntu/</guid>
+      <description>Après avoir récupéré le tar.gz du jdk depuis chez Oracle  et décompressé dans le dossier /usr/lib/jvm, il faut utiliser la commande suivante pour l&amp;rsquo;installer comme alternatives :
+sudo update-alternatives - install /usr/bin/java java /usr/lib/jvm/java-7-oracle/bin/java 1000 En paramètres dans l&amp;rsquo;ordre : l&amp;rsquo;alias de la commande &amp;ldquo;java&amp;rdquo;, le nom symbolique du groupement d&amp;rsquo;alternatives ici &amp;ldquo;java&amp;rdquo; (dans le cas où on gère plusieurs jvm, on devra toujours utiliser ce nom pour ajouter les alternatives), l&amp;rsquo;emplacement de l’exécutable (à ajuster selon la jvm utilisée) et enfin la priorité (ici 1000).</description>
+    </item>
+    
+    <item>
+      <title>Rdesktop et transfert de fichier</title>
+      <link>https://brahim.hamdouni.com/post/2013-08-01-rdesktop-et-transfert-de-fichier/</link>
+      <pubDate>Thu, 01 Aug 2013 23:44:22 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2013-08-01-rdesktop-et-transfert-de-fichier/</guid>
+      <description>rdesktop -r disk:toto=/home/user/path your.server.com -r sound:local Un client nous a demandé de migrer son application qui tournait sur une Debian vers une plateforme Windows en VM pour mutualiser ses coûts d&amp;rsquo;administration. Pas de grosse difficulté puisque l&amp;rsquo;application avait été faite sous java en 2004 (presque 10 ans, ça nous rajeunit pas).
+Bref, avec un linux, le transfert de fichier, c&amp;rsquo;est du piece of cake : ssh/sftp et tutti quanti. Mais avec Windows, comment fait-on si on a que du RDP ?</description>
+    </item>
+    
+    <item>
+      <title>Développons en java</title>
+      <link>https://brahim.hamdouni.com/post/2009-04-05-developpons-en-java/</link>
+      <pubDate>Sun, 05 Apr 2009 17:32:52 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2009-04-05-developpons-en-java/</guid>
+      <description>Voilà ce que j&amp;rsquo;appelle du bon boulot : Jean-Michel DOUDOUX est l&amp;rsquo;auteur d&amp;rsquo;une mine d&amp;rsquo;or pour les développeurs java :
+http://www.jmdoudoux.fr/java/dej/indexavecframes.htm
+Il a concentré des tonnes d&amp;rsquo;infos, articles, trucs et astuces. Bref, c&amp;rsquo;est indispensable !</description>
+    </item>
+    
+  </channel>
+</rss>

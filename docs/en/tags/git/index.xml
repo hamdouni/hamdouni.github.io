@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/git/</link>
+    <link>https://barim.us/tags/git/</link>
     <description>Recent content in git on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 08 Nov 2020 15:59:00 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2020 15:59:00 +0000</lastBuildDate><atom:link href="https://barim.us/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Rebase From Upstream</title>
-      <link>https://brahim.hamdouni.com/en/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</link>
+      <link>https://barim.us/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</link>
       <pubDate>Sun, 08 Nov 2020 15:59:00 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</guid>
+      <guid>https://barim.us/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</guid>
       <description>This note explains how to apply new commits in your forked repo from the parent (upstream) repo. If not already done, add a &amp;ldquo;remote&amp;rdquo; to the parent&amp;rsquo;s repo like this :
 git remote add parent https://github.com/project/name.git Then, fetch all commits from the parent&amp;rsquo;s branch master (or any branch you like) :
 git fetch parent master Now, apply all new commits to your repo :
@@ -21,10 +21,10 @@ git rebase parent/master You may have conflicts to solve if you&amp;rsquo;ve don
     
     <item>
       <title>Local git</title>
-      <link>https://brahim.hamdouni.com/en/post/2019-12-02-git-local/</link>
+      <link>https://barim.us/post/2019-12-02-git-local/</link>
       <pubDate>Mon, 02 Dec 2019 08:05:58 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2019-12-02-git-local/</guid>
+      <guid>https://barim.us/post/2019-12-02-git-local/</guid>
       <description>Define a repo somewhere in your file system with a bare init
 mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only
 mkdir -p /somewhereelse/work/test_project cd /somewhereelse/work/test_project git init Attach your working folder to the repo
@@ -34,10 +34,10 @@ echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git co
     
     <item>
       <title>French Git Log</title>
-      <link>https://brahim.hamdouni.com/en/post/2016-06-07-french-git-log/</link>
+      <link>https://barim.us/post/2016-06-07-french-git-log/</link>
       <pubDate>Tue, 07 Jun 2016 11:25:33 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2016-06-07-french-git-log/</guid>
+      <guid>https://barim.us/post/2016-06-07-french-git-log/</guid>
       <description>Git log in colors.
 git log --pretty=&amp;#39;format:%Cblue%h%Creset %ad %Cred%&amp;lt;(8,trunc)%an%Creset%Cgreen%d%Creset %s&amp;#39; --date=short Shows how to use pretty format in Git with colors and fixed with columns (trunc) :
  %Cblue &amp;hellip; %Creset begin and end a colored sequence (here in blue, also possible : red and green) %h hash short format %ad author date (short version with the - date=short git argument) %&amp;lt;(8,trunc) the next item will take 8 positions with spaces at right if necessary and truncated if longer %an author name %d ref names (branch, tag, &amp;hellip;) %s subject (ie the commit comment)  </description>
@@ -45,10 +45,10 @@ git log --pretty=&amp;#39;format:%Cblue%h%Creset %ad %Cred%&amp;lt;(8,trunc)%an%
     
     <item>
       <title>Git delete remote branch/tag</title>
-      <link>https://brahim.hamdouni.com/en/post/2015-01-07-git-delete-remote-branch/</link>
+      <link>https://barim.us/post/2015-01-07-git-delete-remote-branch/</link>
       <pubDate>Wed, 07 Jan 2015 10:38:14 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2015-01-07-git-delete-remote-branch/</guid>
+      <guid>https://barim.us/post/2015-01-07-git-delete-remote-branch/</guid>
       <description>As of Git v1.7.0, you can delete a remote branch using :
 git push origin --delete &amp;lt;branchName&amp;gt;  And you can do exactly the same with a tag
 git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
@@ -57,10 +57,10 @@ git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
     
     <item>
       <title>GIT -  stop tracking files</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-11-28-git-stop-tracking-files/</link>
+      <link>https://barim.us/post/2014-11-28-git-stop-tracking-files/</link>
       <pubDate>Fri, 28 Nov 2014 11:19:27 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-11-28-git-stop-tracking-files/</guid>
+      <guid>https://barim.us/post/2014-11-28-git-stop-tracking-files/</guid>
       <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :
 git update-index --skip-worktree &amp;lt;FILES&amp;gt;  Then a “git status” won’t show those files until you do :
 git update-index --no-skip-worktree &amp;lt;FILES&amp;gt;  To show the skipped files :

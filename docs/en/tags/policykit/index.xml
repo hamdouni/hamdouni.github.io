@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>policykit on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/policykit/</link>
+    <link>https://barim.us/tags/policykit/</link>
     <description>Recent content in policykit on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 18 Jun 2014 22:41:51 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/policykit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Jun 2014 22:41:51 +0000</lastBuildDate><atom:link href="https://barim.us/tags/policykit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>usb mount and policykit</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</link>
+      <link>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</link>
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
       <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
 But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
 My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>

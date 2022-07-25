@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>go on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/go/</link>
+    <link>https://barim.us/tags/go/</link>
     <description>Recent content in go on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 27 Mar 2018 00:15:38 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Mar 2018 00:15:38 +0000</lastBuildDate><atom:link href="https://barim.us/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code loses Go autocompletion on Linux</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
+      <link>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
       <pubDate>Tue, 27 Mar 2018 00:15:38 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
+      <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
 This tip did not work for me.
@@ -25,10 +25,10 @@ OK, time to try an auto-completion inside VS Code.</description>
     
     <item>
       <title>Speech Tasks : a voice driven todo webapp</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
+      <link>https://barim.us/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
       <pubDate>Mon, 30 Jun 2014 16:58:25 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
+      <guid>https://barim.us/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
       <description>With the Go http server. (By the way, I love opensource community !)
 Try the demo !
 See the code !

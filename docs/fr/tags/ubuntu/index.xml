@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 07 Sep 2018 16:31:00 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forcer le nom de l&#39;interface #wifi sous #Ubuntu 18.04 </title>
+      <link>https://brahim.hamdouni.com/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>Avec Udev, il est possible de modifier le nom de l&amp;rsquo;interface wifi.
+Tout d&amp;rsquo;abord, on doit récupérer l&amp;rsquo;adresse mac de la carte wifi.
+$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff Ma carte wifi s&amp;rsquo;appelle wlp1s0 et sa mac address apparait juste après le mot clé &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
+    </item>
+    
+    <item>
+      <title>Minimal #Docker &#43; #Golang et le téléversement Multipart </title>
+      <link>https://brahim.hamdouni.com/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
+      <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <description>Pour réduire la taille d&amp;rsquo;un container Docker, on peut créer l&amp;rsquo;image en partant de rien, ou plus précisément, en partant de &amp;ldquo;scratch&amp;rdquo;, qui ne contient rien. On obtient à la fin un container beaucoup plus léger que si l&amp;rsquo;on partait de Debian, ou pire, d&amp;rsquo;Ubuntu.
+Afin de mettre un binaire Go à l&amp;rsquo;intérieur, quelques précautions sont nécessaires. Nous verrons rapidement comment faire. Mais si vous voulez avoir plus d&amp;rsquo;infos, vous pouvez consulter la page en anglais de Codeship : Building Minimal Docker Containers For Go Applications</description>
+    </item>
+    
+    <item>
+      <title>usb disk et policykit</title>
+      <link>https://brahim.hamdouni.com/post/2014-06-18-usb-disk-et-policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <description>Lorsqu&amp;rsquo;on tente de monter un disque usb via son file manager (Thunar ou Nautilus), on peut avoir un message d&amp;rsquo;erreur &amp;lsquo;not authorized&amp;rsquo;. Lorsqu&amp;rsquo;on a un environnement de bureau à la Gnome ou KDE, toutes ces histoires de gestion des droits est pris en charge de façon transparente. Mais quand on veut avoir un environnement hyper léger, il y a des manipulations à faire pour contourner certains problèmes. Voici la marche à suivre :</description>
+    </item>
+    
+    <item>
+      <title>Surveiller mysql pour pas cher</title>
+      <link>https://brahim.hamdouni.com/post/2013-12-10-surveiller-mysql-pour-pas-cher/</link>
+      <pubDate>Tue, 10 Dec 2013 19:02:44 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2013-12-10-surveiller-mysql-pour-pas-cher/</guid>
+      <description>Voici une petite astuce pour surveiller ses serveurs mysql sans déployer d&amp;rsquo;outil particulier :
+mysqladmin -u root -p -i 5 processlist L&amp;rsquo;option -i ou - sleep en version longue permet de spécifier une durée en seconde pour répeter la commande. Très pratique pour du dév en local et prend quasi pas de ressource.</description>
+    </item>
+    
+    <item>
+      <title>Transformer Ubuntu Gnome en machine publique</title>
+      <link>https://brahim.hamdouni.com/post/2010-10-31-transformer-votre-ubuntu-gnome-en-machine-vraiment-publique/</link>
+      <pubDate>Sun, 31 Oct 2010 18:54:28 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2010-10-31-transformer-votre-ubuntu-gnome-en-machine-vraiment-publique/</guid>
+      <description>Un ami m&amp;rsquo;a demandé le nécessaire pour rendre son Ubuntu Gnome complétement public, c&amp;rsquo;est-à-dire qu&amp;rsquo;aucun mot de passe ne soit demandé. Je pensais que ce serait simple à priori. Et bien il en n&amp;rsquo;est rien. Voici un petit mémo des étapes à suivre pour rendre son Ubuntu Gnome complétement libre d&amp;rsquo;accès !
+Virer le mot de passe de connexion Il est possible de se connecter automatiquement sans demander de mot de passe.</description>
+    </item>
+    
+    <item>
+      <title>Convertir en masse des PDF en JPG avec ImageMagik</title>
+      <link>https://brahim.hamdouni.com/post/2009-10-13-comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</link>
+      <pubDate>Tue, 13 Oct 2009 11:34:19 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2009-10-13-comment-convertir-en-masse-des-pdf-en-jpg-avec-imagemagik/</guid>
+      <description>J&amp;rsquo;avais un grand nombre de PDF à convertir en JPG pour être intégré en GED. Des PDF qui devaient rester imprimable après coup, donc qui devaient garder un haut niveau de densité (au moins 300 dpi).
+Avec ImageMagik, et plus précisément &amp;ldquo;convert&amp;rdquo; ainsi que quelques commandes shell sous linux, le tour était joué :
+for i in \`ls *.PDF\`; do f=\`basename $i .PDF\`; convert -density 300 $i $f.jpg; done Comment ça marche ?</description>
+    </item>
+    
+    <item>
+      <title>Skype et Logitech Quick Messenger sous Ubuntu 9.04</title>
+      <link>https://brahim.hamdouni.com/post/2009-08-27-comment-utiliser-skype-et-la-logitech-quick-messenger-sous-ubuntu-9-04/</link>
+      <pubDate>Thu, 27 Aug 2009 15:16:16 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2009-08-27-comment-utiliser-skype-et-la-logitech-quick-messenger-sous-ubuntu-9-04/</guid>
+      <description>En essayant de réhabiliter un vieux PC avec la dernière Ubuntu (Jaunty 9.04), je me suis confronté à un souci de configuration de ma webcam avec Skype : les gens avec qui je travaille sont sur Skype et ne sont pas informaticiens (juste pour éviter les &amp;ldquo;mais skype c&amp;rsquo;est mal, faut utiliser xxx&amp;rdquo; - mettre votre logiciel libre préféré à la place des xxx)
+Skype reconnait bien ma webcam : une Logitech Quickcam Messenger.</description>
+    </item>
+    
+  </channel>
+</rss>

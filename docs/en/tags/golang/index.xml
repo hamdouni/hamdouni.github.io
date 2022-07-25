@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>golang on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/golang/</link>
+    <link>https://barim.us/tags/golang/</link>
     <description>Recent content in golang on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 27 Mar 2018 00:15:38 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Mar 2018 00:15:38 +0000</lastBuildDate><atom:link href="https://barim.us/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code loses Go autocompletion on Linux</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
+      <link>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
       <pubDate>Tue, 27 Mar 2018 00:15:38 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
+      <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
 This tip did not work for me.
@@ -25,10 +25,10 @@ OK, time to try an auto-completion inside VS Code.</description>
     
     <item>
       <title>#Docker from scratch, #Golang and Multipart upload</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
+      <link>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
       <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <guid>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
       <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
 But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
 Compile staticaly your go program :

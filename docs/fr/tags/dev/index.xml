@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/dev/</link>
+    <description>Recent content in dev on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 23 May 2016 15:55:55 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoriser les dates invalides dans MySQL</title>
+      <link>https://brahim.hamdouni.com/post/2016-05-23-autoriser-les-dates-invalides-dans-mysql/</link>
+      <pubDate>Mon, 23 May 2016 15:55:55 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2016-05-23-autoriser-les-dates-invalides-dans-mysql/</guid>
+      <description>Dans le cas où vous avez absolument besoin d&amp;rsquo;insérer une date dans MySQL, qui n&amp;rsquo;est pas valide, par exemple le 30 février 2014, vous pouvez exécuter le server MySQL dans un mode spécial pour autoriser ces dates :
+mysqld --sql-mode=&amp;#34;ALLOW_INVALID_DATES&amp;#34; MySQL vérifiera uniquement que le mois est compris entre 1 et 12 et le jour entre 1 et 31.
+voir la doc Mysql</description>
+    </item>
+    
+  </channel>
+</rss>

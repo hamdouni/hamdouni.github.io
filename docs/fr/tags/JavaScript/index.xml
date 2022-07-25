@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/JavaScript/</link>
+    <description>Recent content in JavaScript on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 30 Jun 2014 16:58:25 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/JavaScript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speech tasks : une webapp avec reconnaissance vocale </title>
+      <link>https://brahim.hamdouni.com/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
+      <pubDate>Mon, 30 Jun 2014 16:58:25 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
+      <description>[màj du 1/7/14 : version française] Grâce à Angular Light :
+La démo c&amp;rsquo;est par ici
+Si vous avez un micro, l&amp;rsquo;application commencera par vous demander de l&amp;rsquo;autoriser à y accéder. Ensuite, vous pouvez donner des ordres en français, par exemple :
+ tâche emmener la voiture au garage tâche récupérer le livre à la librairie annuler supprimer tout  Vous verrez la liste évoluer en fonction de vos ordres :-) Pour info, l&amp;rsquo;app utilise le LocalStorage pour sauvegarder vos tâches, donc la prochaine fois que vous retournez dessus (avec le même navigateur), votre liste réapparaît.</description>
+    </item>
+    
+    <item>
+      <title>2048 Gremlins</title>
+      <link>https://brahim.hamdouni.com/post/2014-04-28-2048-gremlins/</link>
+      <pubDate>Mon, 28 Apr 2014 18:17:07 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-04-28-2048-gremlins/</guid>
+      <description>Connaissez vous 2048 , un petit jeu qui fait le buzz en ce moment : en faisant glisser les tuiles numérotées pour combiner celles qui sont identiques, on les cumule en espérant atteindre une tuile de 2048 !
+Maintenant, connaissez vous Marmelab pour faire du test d&amp;rsquo;application web en mode bourrin : on lâche une myriade de gremlins qui s&amp;rsquo;amusent à cliquer partout, à entrer n&amp;rsquo;importe quoi au clavier, dans le but de détecter des failles de votre application.</description>
+    </item>
+    
+    <item>
+      <title>PDF.JS : du PDF dans vos pages web sans plugins </title>
+      <link>https://brahim.hamdouni.com/post/2012-05-07-pdf-js-du-pdf-dans-vos-pages-web-sans-plugins/</link>
+      <pubDate>Mon, 07 May 2012 11:14:01 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2012-05-07-pdf-js-du-pdf-dans-vos-pages-web-sans-plugins/</guid>
+      <description>Il y a un an, je faisais une tirade sur le manque d&amp;rsquo;innovation &amp;ldquo;web&amp;rdquo; dans les grosses structures et je prenais pour exemple un cas de visualisation de PDF au sein d&amp;rsquo;un site.
+Je proposais alors l&amp;rsquo;utilisation de Google Docs qui mettait à disposition une application web de visualisation PDF en JavaScript mais cela ne pouvait marcher qu&amp;rsquo;avec des PDF publiques (visibles par tous).
+Et bien je suis tombé sur le projet PDF.</description>
+    </item>
+    
+  </channel>
+</rss>

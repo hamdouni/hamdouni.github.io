@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/Javascript/</link>
+    <link>https://barim.us/tags/Javascript/</link>
     <description>Recent content in Javascript on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 24 Aug 2015 07:30:57 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/Javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Aug 2015 07:30:57 +0000</lastBuildDate><atom:link href="https://barim.us/tags/Javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Invisible code sticks forever</title>
-      <link>https://brahim.hamdouni.com/en/post/2015-08-24-invisible-code-sticks-forever/</link>
+      <link>https://barim.us/post/2015-08-24-invisible-code-sticks-forever/</link>
       <pubDate>Mon, 24 Aug 2015 07:30:57 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2015-08-24-invisible-code-sticks-forever/</guid>
+      <guid>https://barim.us/post/2015-08-24-invisible-code-sticks-forever/</guid>
       <description>A few months ago, I read an article about brain training by learning a new language : very interesting story about William Alexander who failed to learn french but strenghten his brain trying to.
 But this is not the subject of this post. As I finished to read the article, I tried to reach William Alexander&amp;rsquo;s website and was redirected to a crappy chineese online store. I immediately thought he was hacked and after reading the page source code, I find this piece of script :</description>
     </item>
     
     <item>
       <title>Speech Tasks : a voice driven todo webapp</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
+      <link>https://barim.us/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</link>
       <pubDate>Mon, 30 Jun 2014 16:58:25 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
+      <guid>https://barim.us/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
       <description>With the Go http server. (By the way, I love opensource community !)
 Try the demo !
 See the code !
@@ -31,10 +31,10 @@ Source; tutorial to deploy go app on Heroku</description>
     
     <item>
       <title>2048 Gremlins</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-04-28-2048-gremlins/</link>
+      <link>https://barim.us/post/2014-04-28-2048-gremlins/</link>
       <pubDate>Mon, 28 Apr 2014 18:17:07 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-04-28-2048-gremlins/</guid>
+      <guid>https://barim.us/post/2014-04-28-2048-gremlins/</guid>
       <description>2048 : a very famous game where you have to slide the numbered tiles to join same numbers, and cumulate them to obtain 2048 !
 Now, do you know Marmelab to brute force test web application : it&amp;rsquo;s like releasing on your app thousand gremlins clicking every where, typing non-sense input on keyboard, so they may detect breaches in your app.
 Ok, so I mixed the two of them, and I get 2048Gremlins !</description>

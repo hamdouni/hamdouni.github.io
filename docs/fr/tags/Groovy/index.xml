@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groovy on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/tags/Groovy/</link>
+    <description>Recent content in Groovy on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 19 Jan 2014 02:20:23 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/tags/Groovy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s groove !</title>
+      <link>https://brahim.hamdouni.com/post/2014-01-19-lets-groove/</link>
+      <pubDate>Sun, 19 Jan 2014 02:20:23 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/post/2014-01-19-lets-groove/</guid>
+      <description>Je me suis mis à Groovy, un langage dynamique .
+Bref, pour me forcer à l&amp;rsquo;utiliser me motiver à l&amp;rsquo;apprendre, je code des minis applications qui pourront servir un jour : je me base sur l&amp;rsquo;idée d&amp;rsquo;Unix, plein de petites applis qui font qu&amp;rsquo;une chose mais qui le font bien. Et là, j&amp;rsquo;ai commencé avec un afficheur de code barre (tiens, tiens, mais pourquoi donc ? )
+On entre un numéro de code barre sur 13 chiffres et l&amp;rsquo;appli web affiche l&amp;rsquo;image.</description>
+    </item>
+    
+  </channel>
+</rss>

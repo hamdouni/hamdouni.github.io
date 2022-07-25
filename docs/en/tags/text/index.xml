@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>text on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/text/</link>
+    <link>https://barim.us/tags/text/</link>
     <description>Recent content in text on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 29 Aug 2016 10:41:27 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2016 10:41:27 +0000</lastBuildDate><atom:link href="https://barim.us/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boot Linux in text console</title>
-      <link>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</link>
+      <link>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</link>
       <pubDate>Mon, 29 Aug 2016 10:41:27 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
+      <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
 # edit your grub config sudo vi /etc/default/grub # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34; # save the file and update grub sudo update-grub </description>
     </item>

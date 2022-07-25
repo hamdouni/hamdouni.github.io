@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cheyenne on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/cheyenne/</link>
+    <link>https://barim.us/tags/cheyenne/</link>
     <description>Recent content in cheyenne on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 03 Oct 2016 15:49:50 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/cheyenne/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Oct 2016 15:49:50 +0000</lastBuildDate><atom:link href="https://barim.us/tags/cheyenne/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cheyenne server and POST size limit</title>
-      <link>https://brahim.hamdouni.com/en/post/2016-10-03-cheyenne-server-and-post-size-limit/</link>
+      <link>https://barim.us/post/2016-10-03-cheyenne-server-and-post-size-limit/</link>
       <pubDate>Mon, 03 Oct 2016 15:49:50 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2016-10-03-cheyenne-server-and-post-size-limit/</guid>
+      <guid>https://barim.us/post/2016-10-03-cheyenne-server-and-post-size-limit/</guid>
       <description>By default, in Cheyenne, the header size limit for a post request is 102&#39;400.
 If you want to ajust this limit you can define the post-mem-limit parameter in the global context or in a specific webapp.
 For example, to double the initial limit in the httpd.cfg, :

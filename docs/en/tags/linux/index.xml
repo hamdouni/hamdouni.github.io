@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://brahim.hamdouni.com/en/tags/linux/</link>
+    <link>https://barim.us/tags/linux/</link>
     <description>Recent content in linux on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 01 Apr 2022 11:37:22 +0200</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Apr 2022 11:37:22 +0200</lastBuildDate><atom:link href="https://barim.us/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Udev Webcam</title>
-      <link>https://brahim.hamdouni.com/en/post/2022-04-01-udev-webcam/</link>
+      <link>https://barim.us/post/2022-04-01-udev-webcam/</link>
       <pubDate>Fri, 01 Apr 2022 11:37:22 +0200</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2022-04-01-udev-webcam/</guid>
+      <guid>https://barim.us/post/2022-04-01-udev-webcam/</guid>
       <description>You can change the device link so your webcam will be always accessible at the same location /dev/video99. You can also persist some settings via the v4l-ctl command.
 We will need the v4l2-ctl utility from the &amp;ldquo;v4l-utils&amp;rdquo; package :
 sudo apt install v4l-utils First, let&amp;rsquo;s get the vendor and product id from the lsusb command :
@@ -21,10 +21,10 @@ lsusb | grep -i Webcam # Bus 001 Device 014: ID 046d:082d Logitech, Inc. HD Pro 
     
     <item>
       <title>Console Font Size</title>
-      <link>https://brahim.hamdouni.com/en/post/2022-03-20-console-font-size/</link>
+      <link>https://barim.us/post/2022-03-20-console-font-size/</link>
       <pubDate>Tue, 29 Mar 2022 17:50:41 +0200</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2022-03-20-console-font-size/</guid>
+      <guid>https://barim.us/post/2022-03-20-console-font-size/</guid>
       <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?
 Just modify the default console setup file for a bigger font :
 &amp;gt; cat /etc/default/console-setup ACTIVE_CONSOLES=&amp;#34;/dev/tty[1-6]&amp;#34; CHARMAP=&amp;#34;UTF-8&amp;#34; CODESET=&amp;#34;guess&amp;#34; FONTFACE=&amp;#34;Terminus&amp;#34; FONTSIZE=&amp;#34;16x32&amp;#34; FONT=&amp;#39;Lat7-Terminus32x16&amp;#39; </description>
@@ -32,10 +32,10 @@ Just modify the default console setup file for a bigger font :
     
     <item>
       <title>Big clock in a terminal</title>
-      <link>https://brahim.hamdouni.com/en/post/2020-10-14-horloge-geante-dans-le-terminal/</link>
+      <link>https://barim.us/post/2020-10-14-horloge-geante-dans-le-terminal/</link>
       <pubDate>Wed, 14 Oct 2020 20:35:00 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2020-10-14-horloge-geante-dans-le-terminal/</guid>
+      <guid>https://barim.us/post/2020-10-14-horloge-geante-dans-le-terminal/</guid>
       <description>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.is. Just your terminal and a few commands and you&amp;rsquo;ll get someting like this :It depends on figlet tool to make large character on terminal so you need to install it :
 sudo apt install figlet Then type in your terminal :
 while true; do printf &amp;#39;\033[2J\033[H&amp;#39;; date +&amp;#39;%T&amp;#39; | figlet -ctW; sleep 1; done Quick explanation :</description>
@@ -43,10 +43,10 @@ while true; do printf &amp;#39;\033[2J\033[H&amp;#39;; date +&amp;#39;%T&amp;#39
     
     <item>
       <title>Change local ownCloud sync directory</title>
-      <link>https://brahim.hamdouni.com/en/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</link>
+      <link>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</link>
       <pubDate>Sat, 12 Sep 2020 15:47:33 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
+      <guid>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
       <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).
 First, close the ownCloud application on your desktop : commonly, right click the systray icon and quit ownCloud. This avoid any conflict when renaming the folder.
 Now, you can rename your local folder. For example :
@@ -55,10 +55,10 @@ mv ~/owncloud ~/docs Open your ownCloud configuration file : location depends on
     
     <item>
       <title>Disable tabs in Firefox</title>
-      <link>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</link>
+      <link>https://barim.us/post/2019-11-18-disable-tabs-in-firefox/</link>
       <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</guid>
+      <guid>https://barim.us/post/2019-11-18-disable-tabs-in-firefox/</guid>
       <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
 It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
 Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
@@ -66,10 +66,10 @@ Configuration  Type about:config in the address bar and press Enter. If you get 
     
     <item>
       <title>Make your ubuntu LTS kernel up to date</title>
-      <link>https://brahim.hamdouni.com/en/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</link>
+      <link>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</link>
       <pubDate>Sun, 27 Oct 2019 08:10:02 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
+      <guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
       <description>Install LTS Hardware Enablement Stack
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
 sudo apt purge --autoremove Reboot to load new kernel
@@ -79,20 +79,20 @@ uname -a </description>
     
     <item>
       <title>Install iso on USB key using #Linux console only</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</link>
+      <link>https://barim.us/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</link>
       <pubDate>Thu, 08 Nov 2018 13:12:26 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
+      <guid>https://barim.us/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
       <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
 sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
     </item>
     
     <item>
       <title>Force #wifi interface name on #Ubuntu 18.04</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <link>https://barim.us/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
       <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <guid>https://barim.us/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
       <description>Using Udev, you can change the wifi interface name.
 First, you need to get the mac address.
 $ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
@@ -100,10 +100,10 @@ $ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue st
     
     <item>
       <title>VS Code loses Go autocompletion on Linux</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
+      <link>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
       <pubDate>Tue, 27 Mar 2018 00:15:38 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
+      <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
 This tip did not work for me.
@@ -116,10 +116,10 @@ OK, time to try an auto-completion inside VS Code.</description>
     
     <item>
       <title>Samba public share</title>
-      <link>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</link>
+      <link>https://barim.us/post/2018-01-10-samba-public-share/</link>
       <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</guid>
+      <guid>https://barim.us/post/2018-01-10-samba-public-share/</guid>
       <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
 Create the public directory
 mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration
@@ -129,10 +129,10 @@ vi /etc/samba/smb.conf Add the code below at the end
     
     <item>
       <title>Convert PDF to PNG with enough resolution</title>
-      <link>https://brahim.hamdouni.com/en/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</link>
+      <link>https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</link>
       <pubDate>Tue, 28 Mar 2017 01:06:02 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
+      <guid>https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
       <description>As &amp;lsquo;man convert&amp;rsquo; states :
  The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
  I use it to convert a pdf file to png picture with enough pixel density for the screen. This is the command :
@@ -141,29 +141,29 @@ convert -density 100 source.</description>
     
     <item>
       <title>Boot Linux in text console</title>
-      <link>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</link>
+      <link>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</link>
       <pubDate>Mon, 29 Aug 2016 10:41:27 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
+      <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
 # edit your grub config sudo vi /etc/default/grub # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34; # save the file and update grub sudo update-grub </description>
     </item>
     
     <item>
       <title>Tmux for the impatient</title>
-      <link>https://brahim.hamdouni.com/en/post/2015-07-08-tmux-for-the-impatient/</link>
+      <link>https://barim.us/post/2015-07-08-tmux-for-the-impatient/</link>
       <pubDate>Wed, 08 Jul 2015 13:46:33 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2015-07-08-tmux-for-the-impatient/</guid>
+      <guid>https://barim.us/post/2015-07-08-tmux-for-the-impatient/</guid>
       <description>tmux Create a new session (the first time) tmux a Attach to an existing session Ctrl+b d Detach Ctrl+b PgUp/PgDown Scroll (quit with q) also can use mouse after first page up or down (see tips below to activate normal mouse scrolling) Ctrl+b [ Copy mode (quit with q) Ctrl+b &amp;quot; Split horizontally Ctrl+b % Split vertically Ctrl+b arrow key Switch pane Hold Ctrl+b + arrow keys Resize pane Ctrl+b + z Toggle zoom in pane  Tips  Copy/pasting   sudo apt-get install xclip Install xclip so buffer copied inside tmux are also available to X Shift + mouse selection Select text to copy Ctrl + Shift + C Copy Ctrl + Shift + V Paste   Use the mouse for scrolling   set -g mouse on put this command in ~/.</description>
     </item>
     
     <item>
       <title>Wireless auto configuration with guessnet on Linux</title>
-      <link>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</link>
+      <link>https://barim.us/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</link>
       <pubDate>Sun, 17 May 2015 18:52:51 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
+      <guid>https://barim.us/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
       <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
 Install the guessnet package :
 sudo apt-get install guessnet Edit your /etc/network/interface :
@@ -172,40 +172,40 @@ auto wlan0 mapping wlan0 script /usr/sbin/guessnet-ifupdown map home work map ti
     
     <item>
       <title>Horizontal rule in zsh prompt</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-12-26-horizontal-rule-in-zsh-prompt/</link>
+      <link>https://barim.us/post/2014-12-26-horizontal-rule-in-zsh-prompt/</link>
       <pubDate>Fri, 26 Dec 2014 17:58:41 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-12-26-horizontal-rule-in-zsh-prompt/</guid>
+      <guid>https://barim.us/post/2014-12-26-horizontal-rule-in-zsh-prompt/</guid>
       <description>Put in your ~/.zshrc :
 PS1=$&amp;#39;%U${(r:$COLUMNS:: :)}%u&amp;#39;$PS1 _src = superuser.com _</description>
     </item>
     
     <item>
       <title>Increase wordpress max file upload size</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-12-05-increase-wordpress-max-file-upload-size/</link>
+      <link>https://barim.us/post/2014-12-05-increase-wordpress-max-file-upload-size/</link>
       <pubDate>Fri, 05 Dec 2014 15:42:56 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-12-05-increase-wordpress-max-file-upload-size/</guid>
+      <guid>https://barim.us/post/2014-12-05-increase-wordpress-max-file-upload-size/</guid>
       <description>On Ubuntu/Debian distro, edit the /etc/wordpress/htaccess and add this lines :
 php_value upload_max_filesize 50M php_value post_max_size 50M php_value memory_limit 50M </description>
     </item>
     
     <item>
       <title>Substitute a text only in files where it appears</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-12-03-substitute-a-text-only-in-files-where-it-appears/</link>
+      <link>https://barim.us/post/2014-12-03-substitute-a-text-only-in-files-where-it-appears/</link>
       <pubDate>Wed, 03 Dec 2014 19:12:31 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-12-03-substitute-a-text-only-in-files-where-it-appears/</guid>
+      <guid>https://barim.us/post/2014-12-03-substitute-a-text-only-in-files-where-it-appears/</guid>
       <description>For example, to substitute foo with bar
 for f in `grep -lR foo`; do echo -n &amp;quot;&amp;gt;&amp;gt; $f&amp;quot;; sed &#39;s/foo/bar/g&#39; $f &amp;gt; $f.2; mv $f.2 $f; echo &amp;quot; done.&amp;quot;; done   for loops on all files containing the text “foo”, grep -l only show the file name with corresponding text inside. sed replace foo with bar in all file mv save the modification (delete if you don’t want to overwrite the original files, the modified files is named with .</description>
     </item>
     
     <item>
       <title>Convert multiple files to utf8 using vim</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</link>
+      <link>https://barim.us/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</link>
       <pubDate>Wed, 03 Dec 2014 18:44:07 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</guid>
+      <guid>https://barim.us/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</guid>
       <description>The fastest and more efficient way to batch multiple files encoding conversion :
 vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find . -type f -name &amp;#34;*.rsp&amp;#34; +&amp;ldquo;argdo&amp;rdquo; : execute the following vim commands for each file (filencode, save and next buffer)
 +&amp;ldquo;q&amp;rdquo; : quit after last one
@@ -214,10 +214,10 @@ find : get all files with corresponding name</description>
     
     <item>
       <title>ZSH, nohup and background process that lasts...</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</link>
+      <link>https://barim.us/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</link>
       <pubDate>Thu, 27 Nov 2014 11:58:55 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</guid>
+      <guid>https://barim.us/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</guid>
       <description>When I switched to ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.
 In ZSH, I get a message like this if I exit with running jobs :
 zsh you have running jobs If I exit again, my jobs are killed. But zsh accept some useful option to overide this :
@@ -226,10 +226,10 @@ setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after te
     
     <item>
       <title>usb mount and policykit</title>
-      <link>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</link>
+      <link>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</link>
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
-      <guid>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
       <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
 But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
 My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
