@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Firefox on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/Firefox/</link>
+    <description>Recent content in Firefox on Brahim Hamdouni  ·  ابراهيم</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 18 Nov 2019 17:30:56 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/Firefox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable tabs in Firefox</title>
+      <link>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</link>
+      <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</guid>
+      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
+It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
+Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
+    </item>
+    
+  </channel>
+</rss>

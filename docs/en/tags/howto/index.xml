@@ -1,134 +1,203 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Howto on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/howto/</link>
-    <description>Recent content in Howto on Documentation for Brahim Hamdouni</description>
+    <title>howto on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/howto/</link>
+    <description>Recent content in howto on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 01 Apr 2022 11:37:22 +0200</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Udev Webcam</title>
+      <link>https://brahim.hamdouni.com/en/post/2022-04-01-udev-webcam/</link>
+      <pubDate>Fri, 01 Apr 2022 11:37:22 +0200</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2022-04-01-udev-webcam/</guid>
+      <description>You can change the device link so your webcam will be always accessible at the same location /dev/video99. You can also persist some settings via the v4l-ctl command.
+We will need the v4l2-ctl utility from the &amp;ldquo;v4l-utils&amp;rdquo; package :
+sudo apt install v4l-utils First, let&amp;rsquo;s get the vendor and product id from the lsusb command :
+lsusb | grep -i Webcam # Bus 001 Device 014: ID 046d:082d Logitech, Inc. HD Pro Webcam C920 Information are located after the ID keyword as &amp;ldquo;vendor:product&amp;rdquo;.</description>
+    </item>
     
-	<atom:link href="/en/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Console Font Size</title>
+      <link>https://brahim.hamdouni.com/en/post/2022-03-20-console-font-size/</link>
+      <pubDate>Tue, 29 Mar 2022 17:50:41 +0200</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2022-03-20-console-font-size/</guid>
+      <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?
+Just modify the default console setup file for a bigger font :
+&amp;gt; cat /etc/default/console-setup ACTIVE_CONSOLES=&amp;#34;/dev/tty[1-6]&amp;#34; CHARMAP=&amp;#34;UTF-8&amp;#34; CODESET=&amp;#34;guess&amp;#34; FONTFACE=&amp;#34;Terminus&amp;#34; FONTSIZE=&amp;#34;16x32&amp;#34; FONT=&amp;#39;Lat7-Terminus32x16&amp;#39; </description>
+    </item>
     
+    <item>
+      <title>Git Rebase From Upstream</title>
+      <link>https://brahim.hamdouni.com/en/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</link>
+      <pubDate>Sun, 08 Nov 2020 15:59:00 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</guid>
+      <description>This note explains how to apply new commits in your forked repo from the parent (upstream) repo. If not already done, add a &amp;ldquo;remote&amp;rdquo; to the parent&amp;rsquo;s repo like this :
+git remote add parent https://github.com/project/name.git Then, fetch all commits from the parent&amp;rsquo;s branch master (or any branch you like) :
+git fetch parent master Now, apply all new commits to your repo :
+git rebase parent/master You may have conflicts to solve if you&amp;rsquo;ve done modifications on your repo.</description>
+    </item>
+    
+    <item>
+      <title>Local git</title>
+      <link>https://brahim.hamdouni.com/en/post/2019-12-02-git-local/</link>
+      <pubDate>Mon, 02 Dec 2019 08:05:58 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2019-12-02-git-local/</guid>
+      <description>Define a repo somewhere in your file system with a bare init
+mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only
+mkdir -p /somewhereelse/work/test_project cd /somewhereelse/work/test_project git init Attach your working folder to the repo
+git remote add origin file:///somewhere/repo/test_project Create your files and commit it
+echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git commit Now push to origin and set upstream</description>
+    </item>
+    
+    <item>
+      <title>Mysql prompt tip</title>
+      <link>https://brahim.hamdouni.com/en/post/2019-11-25-astuce-mysql-prompt-personnalise/</link>
+      <pubDate>Mon, 25 Nov 2019 08:14:27 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2019-11-25-astuce-mysql-prompt-personnalise/</guid>
+      <description>You can change the mysql prompt client so you know where you are.
+Very usefull when you manage a lot of mysql databases and you forget which one :-)
+For example, if I&amp;rsquo;m working on the FooBar projet, I can use this prompt :
+mysql --prompt=&amp;#34;@FooBar&amp;gt; &amp;#34; Then I&amp;rsquo;ll have something like that :
+Type &amp;#39;help;&amp;#39; or &amp;#39;\h&amp;#39; for help. Type &amp;#39;\c&amp;#39; to clear the current input statement. @FooBar&amp;gt; show databases; Neat !</description>
+    </item>
+    
+    <item>
+      <title>Disable tabs in Firefox</title>
+      <link>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</link>
+      <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2019-11-18-disable-tabs-in-firefox/</guid>
+      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
+It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
+Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
+    </item>
+    
+    <item>
+      <title>Install iso on USB key using #Linux console only</title>
+      <link>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</link>
+      <pubDate>Thu, 08 Nov 2018 13:12:26 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
+      <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
+sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
+    </item>
     
     <item>
       <title>Force #wifi interface name on #Ubuntu 18.04</title>
-      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
-      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
       
-      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
-
-&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>Using Udev, you can change the wifi interface name.
+First, you need to get the mac address.
+$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
     </item>
     
     <item>
       <title>#Docker from scratch, #Golang and Multipart upload</title>
-      <link>/docker-from-scratch-golang-and-multipart-upload/</link>
-      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
+      <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
-      <guid>/docker-from-scratch-golang-and-multipart-upload/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
+But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
+Compile staticaly your go program :
+CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server Your Dockerfile looks like this :</description>
     </item>
     
     <item>
       <title>Samba public share</title>
-      <link>/samba-public-share/</link>
-      <pubDate>Wed, 10 Jan 2018 15:48:35 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</link>
+      <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
-      <guid>/samba-public-share/</guid>
-      <description>&lt;p&gt;How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-01-10-samba-public-share/</guid>
+      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
+Create the public directory
+mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration
+vi /etc/samba/smb.conf Add the code below at the end
+[public] comment = Public Folder path = /media/public guest ok = yes public = yes writable = yes printable = no create mask = 777 Restart samba</description>
     </item>
     
     <item>
       <title>Convert PDF to PNG with enough resolution</title>
-      <link>/convert-pdf-to-png-with-enough-resolution/</link>
-      <pubDate>Mon, 27 Mar 2017 23:06:02 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</link>
+      <pubDate>Tue, 28 Mar 2017 01:06:02 +0000</pubDate>
       
-      <guid>/convert-pdf-to-png-with-enough-resolution/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;screenshot wp-image-1714 size-full alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png&#34; alt=&#34;ImageMagick logo&#34; width=&#34;256&#34; height=&#34;256&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/téléchargement.png 256w, http://brahim.hamdouni.com/wp-uploads/téléchargement-150x150.png 150w&#34; sizes=&#34;(max-width: 256px) 100vw, 256px&#34; /&gt;As &amp;#8216;man convert&amp;#8217; states :&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
+      <description>As &amp;lsquo;man convert&amp;rsquo; states :
+ The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
+ I use it to convert a pdf file to png picture with enough pixel density for the screen. This is the command :
+convert -density 100 source.</description>
     </item>
     
     <item>
-      <title>Don’t forget master infos in your MySQL dump</title>
-      <link>/dont-forget-master-infos-in-your-mysql-dump/</link>
-      <pubDate>Mon, 20 Feb 2017 16:54:46 +0000</pubDate>
+      <title>Don&#39;t forget master infos in your MySQL dump</title>
+      <link>https://brahim.hamdouni.com/en/post/2017-02-20-dont-forget-master-infos-in-your-mysql-dump/</link>
+      <pubDate>Mon, 20 Feb 2017 18:54:46 +0000</pubDate>
       
-      <guid>/dont-forget-master-infos-in-your-mysql-dump/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;size-thumbnail wp-image-1670 alignright&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/512px-Database-mysql-replication-150x150.png&#34; alt=&#34;&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup. To avoid lock tables on the master and remember the binary log name and position to put them on the slave configuration, there is a tip to take care of all that : the &amp;#8220;&amp;#8211;master-data&amp;#8221; option in mysqldump.&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2017-02-20-dont-forget-master-infos-in-your-mysql-dump/</guid>
+      <description>I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup. To avoid lock tables on the master and remember the binary log name and position to put them on the slave configuration, there is a tip to take care of all that : the &amp;ldquo;- master-data&amp;rdquo; option in mysqldump.</description>
     </item>
     
     <item>
       <title>MySQL import from csv</title>
-      <link>/mysql-import-from-csv/</link>
-      <pubDate>Wed, 12 Oct 2016 12:36:56 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2016-10-12-mysql-import-from-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 14:36:56 +0000</pubDate>
       
-      <guid>/mysql-import-from-csv/</guid>
+      <guid>https://brahim.hamdouni.com/en/post/2016-10-12-mysql-import-from-csv/</guid>
       <description>To import a local CSV file into MySQL, use the syntax below :
-LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.table FIELDS TERMINATED BY &#39;;&#39; OPTIONALLY ENCLOSED BY &#39;&amp;quot;&#39; ESCAPED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; IGNORE 1 LINES (`field1`,`field2`,...)  </description>
+LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.table FIELDS TERMINATED BY &#39;;&#39; OPTIONALLY ENCLOSED BY &#39;&amp;quot;&#39; ESCAPED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; IGNORE 1 LINES (`field1`,`field2`,...) </description>
     </item>
     
     <item>
       <title>MySQL export to csv</title>
-      <link>/mysql-export-to-csv/</link>
-      <pubDate>Wed, 12 Oct 2016 12:32:05 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2016-10-12-mysql-export-to-csv/</link>
+      <pubDate>Wed, 12 Oct 2016 14:32:05 +0000</pubDate>
       
-      <guid>/mysql-export-to-csv/</guid>
+      <guid>https://brahim.hamdouni.com/en/post/2016-10-12-mysql-export-to-csv/</guid>
       <description>To export a mysql results in CSV format, use the syntax below :
-SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.csv&#39; FIELDS TERMINATED BY &#39;;&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; ;  </description>
+SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.csv&#39; FIELDS TERMINATED BY &#39;;&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; ; </description>
     </item>
     
     <item>
       <title>Cheyenne server and POST size limit</title>
-      <link>/cheyenne-server-and-post-size-limit/</link>
-      <pubDate>Mon, 03 Oct 2016 13:49:50 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2016-10-03-cheyenne-server-and-post-size-limit/</link>
+      <pubDate>Mon, 03 Oct 2016 15:49:50 +0000</pubDate>
       
-      <guid>/cheyenne-server-and-post-size-limit/</guid>
-      <description>By default, in Cheyenne, the header size limit for a post request is 102&amp;#8217;400.
+      <guid>https://brahim.hamdouni.com/en/post/2016-10-03-cheyenne-server-and-post-size-limit/</guid>
+      <description>By default, in Cheyenne, the header size limit for a post request is 102&#39;400.
 If you want to ajust this limit you can define the post-mem-limit parameter in the global context or in a specific webapp.
 For example, to double the initial limit in the httpd.cfg, :
-... default [ root-dir %./www/ default [%index.html %index.rsp] post-mem-limit 408&#39;800 ] ...  </description>
+... default [ root-dir %./www/ default [%index.html %index.rsp] post-mem-limit 408&#39;800 ] ... </description>
     </item>
     
     <item>
       <title>Boot Linux in text console</title>
-      <link>/boot-linux-in-text-console/</link>
-      <pubDate>Mon, 29 Aug 2016 08:41:27 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</link>
+      <pubDate>Mon, 29 Aug 2016 10:41:27 +0000</pubDate>
       
-      <guid>/boot-linux-in-text-console/</guid>
-      <description>&lt;p&gt;Get rid of graphic boot on Linux with a few modifications in grub configuration :&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
+      <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
+# edit your grub config sudo vi /etc/default/grub # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34; # save the file and update grub sudo update-grub </description>
     </item>
     
     <item>
       <title>Wireless auto configuration with guessnet on Linux</title>
-      <link>/wireless-auto-configuration-with-guessnet-on-linux/</link>
-      <pubDate>Sun, 17 May 2015 17:52:51 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</link>
+      <pubDate>Sun, 17 May 2015 18:52:51 +0000</pubDate>
       
-      <guid>/wireless-auto-configuration-with-guessnet-on-linux/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignright wp-image-1383 size-thumbnail&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/eiffel-wireless-150x150.png&#34; alt=&#34;The wireless tour eiffel&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Installer un iso sur une clé USB dans une console #Linux</title>
-      <link>/p1867/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/p1867/</guid>
-      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
+      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
+Install the guessnet package :
+sudo apt-get install guessnet Edit your /etc/network/interface :
+auto wlan0 mapping wlan0 script /usr/sbin/guessnet-ifupdown map home work map timeout: 9 map init-time: 9 map verbose: true map debug: false	iface home inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt; iface work inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
     </item>
     
   </channel>

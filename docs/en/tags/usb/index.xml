@@ -1,35 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Usb on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/usb/</link>
-    <description>Recent content in Usb on Documentation for Brahim Hamdouni</description>
+    <title>usb on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/usb/</link>
+    <description>Recent content in usb on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 18 Jun 2014 21:41:51 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/usb/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 08 Nov 2018 13:12:26 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/usb/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>usb mount and policykit [EN]</title>
-      <link>/usb-mount-and-polykit-en/</link>
-      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      <title>Install iso on USB key using #Linux console only</title>
+      <link>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</link>
+      <pubDate>Thu, 08 Nov 2018 13:12:26 +0000</pubDate>
       
-      <guid>/usb-mount-and-polykit-en/</guid>
-      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
-But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
+      <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
+sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
     </item>
     
     <item>
-      <title>Installer un iso sur une clé USB dans une console #Linux</title>
-      <link>/p1867/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>usb mount and policykit</title>
+      <link>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
-      <guid>/p1867/</guid>
-      <description>&lt;p&gt;Une fois récupérée la distribution Linux de vos rêves, au format ISO, comment l&amp;#8217;installer sur une clé USB ?&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1871&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png&#34; alt=&#34;&#34; width=&#34;849&#34; height=&#34;585&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni.png 849w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-300x207.png 300w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-768x529.png 768w, http://brahim.hamdouni.com/wp-uploads/console-linux-brahim-hamdouni-800x551.png 800w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
+But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
+My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
     </item>
     
   </channel>

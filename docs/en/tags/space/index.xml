@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Space on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/space/</link>
-    <description>Recent content in Space on Documentation for Brahim Hamdouni</description>
+    <title>space on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/space/</link>
+    <description>Recent content in space on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Mon, 26 May 2014 12:55:19 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/space/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 26 May 2014 13:55:19 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/space/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Earth viewed from ISS – Zen moment…</title>
-      <link>/earth-viewed-from-iss-zen-moment/</link>
-      <pubDate>Mon, 26 May 2014 12:55:19 +0000</pubDate>
+      <title>Earth viewed from ISS -  Zen moment...</title>
+      <link>https://brahim.hamdouni.com/en/post/2014-05-26-earth-viewed-from-iss-zen-moment/</link>
+      <pubDate>Mon, 26 May 2014 13:55:19 +0000</pubDate>
       
-      <guid>/earth-viewed-from-iss-zen-moment/</guid>
-      <description>src = USTREAM &amp;#8211; NASA</description>
+      <guid>https://brahim.hamdouni.com/en/post/2014-05-26-earth-viewed-from-iss-zen-moment/</guid>
+      <description>src = NASA</description>
     </item>
     
   </channel>

@@ -1,26 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/vim/</link>
-    <description>Recent content in Vim on Documentation for Brahim Hamdouni</description>
+    <title>vim on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/vim/</link>
+    <description>Recent content in vim on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 03 Dec 2014 17:44:07 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/vim/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 03 Dec 2014 18:44:07 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convert multiple files to utf8 using vim</title>
-      <link>/convert-multiple-files-to-utf8-using-vim/</link>
-      <pubDate>Wed, 03 Dec 2014 17:44:07 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</link>
+      <pubDate>Wed, 03 Dec 2014 18:44:07 +0000</pubDate>
       
-      <guid>/convert-multiple-files-to-utf8-using-vim/</guid>
+      <guid>https://brahim.hamdouni.com/en/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</guid>
       <description>The fastest and more efficient way to batch multiple files encoding conversion :
-vim +&amp;quot;argdo se fileencoding=utf-8 | w | bnext&amp;quot; +&amp;quot;q&amp;quot; ` find . -type f -name &amp;quot;*.rsp&amp;quot; `
-+&amp;#8221;argdo&amp;#8221; : execute the following vim commands for each file (filencode, save and next buffer)
-+&amp;#8221;q&amp;#8221; : quit after last one
+vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find . -type f -name &amp;#34;*.rsp&amp;#34; +&amp;ldquo;argdo&amp;rdquo; : execute the following vim commands for each file (filencode, save and next buffer)
++&amp;ldquo;q&amp;rdquo; : quit after last one
 find : get all files with corresponding name</description>
     </item>
     

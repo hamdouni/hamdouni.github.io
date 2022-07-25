@@ -1,24 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Storage on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/storage/</link>
-    <description>Recent content in Storage on Documentation for Brahim Hamdouni</description>
+    <title>storage on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/storage/</link>
+    <description>Recent content in storage on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Wed, 18 Jun 2014 21:41:51 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/storage/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 18 Jun 2014 22:41:51 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>usb mount and policykit [EN]</title>
-      <link>/usb-mount-and-polykit-en/</link>
-      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      <title>usb mount and policykit</title>
+      <link>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
-      <guid>/usb-mount-and-polykit-en/</guid>
-      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
-But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+      <guid>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
+But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
+My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
     </item>
     
   </channel>

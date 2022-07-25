@@ -1,57 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Documentation for Brahim Hamdouni</description>
+    <title>ubuntu on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 27 Oct 2019 08:10:02 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make your ubuntu LTS kernel up to date</title>
+      <link>https://brahim.hamdouni.com/en/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</link>
+      <pubDate>Sun, 27 Oct 2019 08:10:02 +0000</pubDate>
+      
+      <guid>https://brahim.hamdouni.com/en/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
+      <description>Install LTS Hardware Enablement Stack
+sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
+sudo apt purge --autoremove Reboot to load new kernel
+reboot After boot, check your new kernel version
+uname -a </description>
+    </item>
     
     <item>
       <title>Force #wifi interface name on #Ubuntu 18.04</title>
-      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
-      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
       
-      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
-
-&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>Using Udev, you can change the wifi interface name.
+First, you need to get the mac address.
+$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
     </item>
     
     <item>
       <title>#Docker from scratch, #Golang and Multipart upload</title>
-      <link>/docker-from-scratch-golang-and-multipart-upload/</link>
-      <pubDate>Fri, 26 Jan 2018 12:25:23 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</link>
+      <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
-      <guid>/docker-from-scratch-golang-and-multipart-upload/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignnone size-full wp-image-1726&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png&#34; alt=&#34;&#34; width=&#34;700&#34; height=&#34;308&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/gophers-small.png 700w, http://brahim.hamdouni.com/wp-uploads/gophers-small-300x132.png 300w, http://brahim.hamdouni.com/wp-uploads/gophers-small-600x264.png 600w, http://brahim.hamdouni.com/wp-uploads/gophers-small-624x275.png 624w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34; /&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
+      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
+But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
+Compile staticaly your go program :
+CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server Your Dockerfile looks like this :</description>
     </item>
     
     <item>
       <title>Wireless auto configuration with guessnet on Linux</title>
-      <link>/wireless-auto-configuration-with-guessnet-on-linux/</link>
-      <pubDate>Sun, 17 May 2015 17:52:51 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</link>
+      <pubDate>Sun, 17 May 2015 18:52:51 +0000</pubDate>
       
-      <guid>/wireless-auto-configuration-with-guessnet-on-linux/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;alignright wp-image-1383 size-thumbnail&#34; src=&#34;http://brahim.hamdouni.com/wp-uploads/eiffel-wireless-150x150.png&#34; alt=&#34;The wireless tour eiffel&#34; width=&#34;150&#34; height=&#34;150&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
+      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
+Install the guessnet package :
+sudo apt-get install guessnet Edit your /etc/network/interface :
+auto wlan0 mapping wlan0 script /usr/sbin/guessnet-ifupdown map home work map timeout: 9 map init-time: 9 map verbose: true map debug: false	iface home inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt; iface work inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
     </item>
     
     <item>
-      <title>usb mount and policykit [EN]</title>
-      <link>/usb-mount-and-polykit-en/</link>
-      <pubDate>Wed, 18 Jun 2014 21:41:51 +0000</pubDate>
+      <title>usb mount and policykit</title>
+      <link>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</link>
+      <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
-      <guid>/usb-mount-and-polykit-en/</guid>
-      <description>When you&amp;#8217;re not on the &amp;#8216;Desktop Environment&amp;#8216; side and rather be in light linux config, you have to deal with annoying little problems. I&amp;#8217;m using DWM as my tiled window manager and loving it for years. It&amp;#8217;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;#8230; (ok, thanks also to the ssd 🙂 ).
-But, after I upgraded to Ubuntu 14.04, I&amp;#8217;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar).</description>
+      <guid>https://brahim.hamdouni.com/en/post/2014-06-18-usb-disk-et-policykit/</guid>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
+But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
+My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
     </item>
     
   </channel>

@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bug on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/bug/</link>
-    <description>Recent content in Bug on Documentation for Brahim Hamdouni</description>
+    <title>bug on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/bug/</link>
+    <description>Recent content in bug on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Mon, 26 Mar 2018 22:15:38 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/bug/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 27 Mar 2018 00:15:38 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code loses Go autocompletion on Linux</title>
-      <link>/vs-code-loses-go-autocompletion-on-linux/</link>
-      <pubDate>Mon, 26 Mar 2018 22:15:38 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</link>
+      <pubDate>Tue, 27 Mar 2018 00:15:38 +0000</pubDate>
       
-      <guid>/vs-code-loses-go-autocompletion-on-linux/</guid>
-      <description>&lt;p&gt;On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/wp-uploads/vscode_completion_not_working.png&#34; alt=&#34;vscode_completion_not_working&#34; width=&#34;768&#34; height=&#34;440&#34; class=&#34;alignnone size-full wp-image-1879&#34; srcset=&#34;http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working.png 768w, http://brahim.hamdouni.com/wp-uploads/vscode_completion_not_working-300x172.png 300w&#34; sizes=&#34;(max-width: 706px) 89vw, (max-width: 767px) 82vw, 740px&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
+      <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
+:vscode_completion_not_working
+This tip did not work for me.
+So let&amp;rsquo;s try to debug it.
+First, we close the auto-completion server (see github.com/nsf/gocode ) :
+gocode close killall gocode Then we relaunch it as a server in debug mode inside a console :
+gocode -debug -s So now, we can see what&amp;rsquo;s happening.
+OK, time to try an auto-completion inside VS Code.</description>
     </item>
     
   </channel>

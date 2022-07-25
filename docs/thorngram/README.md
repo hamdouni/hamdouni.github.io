@@ -1,4 +1,0 @@
-thorngram
-=========
-
-Thorn Gram

@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wifi on Documentation for Brahim Hamdouni</title>
-    <link>/en/tags/wifi/</link>
-    <description>Recent content in Wifi on Documentation for Brahim Hamdouni</description>
+    <title>wifi on Brahim Hamdouni  ·  ابراهيم</title>
+    <link>https://brahim.hamdouni.com/en/tags/wifi/</link>
+    <description>Recent content in wifi on Brahim Hamdouni  ·  ابراهيم</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Fri, 07 Sep 2018 14:31:00 +0000</lastBuildDate>
-    
-	<atom:link href="/en/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 07 Sep 2018 16:31:00 +0000</lastBuildDate><atom:link href="https://brahim.hamdouni.com/en/tags/wifi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Force #wifi interface name on #Ubuntu 18.04</title>
-      <link>/force-wifi-interface-name-on-ubuntu-18-04/</link>
-      <pubDate>Fri, 07 Sep 2018 14:31:00 +0000</pubDate>
+      <link>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</link>
+      <pubDate>Fri, 07 Sep 2018 16:31:00 +0000</pubDate>
       
-      <guid>/force-wifi-interface-name-on-ubuntu-18-04/</guid>
-      <description>&lt;p&gt;Using Udev, you can change the wifi interface name.&lt;/p&gt;
-
-&lt;p&gt;First, you need to get the mac address.&lt;/p&gt;</description>
+      <guid>https://brahim.hamdouni.com/en/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
+      <description>Using Udev, you can change the wifi interface name.
+First, you need to get the mac address.
+$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
     </item>
     
   </channel>
