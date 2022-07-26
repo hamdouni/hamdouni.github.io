@@ -63,32 +63,30 @@
 <p><a href="https://github.com/Microsoft/vscode-go/issues/441">This tip</a> did not work for me.</p>
 <p>So let&rsquo;s try to debug it.</p>
 <p>First, we close the auto-completion server (see  <a href="https://github.com/nsf/gocode">github.com/nsf/gocode</a> ) :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gocode close
-killall gocode
-</code></pre></div><p>Then we relaunch it as a server in debug mode inside a console :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gocode -debug -s
-</code></pre></div><p>So now, we can see what&rsquo;s happening.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gocode close
+</span></span><span style="display:flex;"><span>killall gocode
+</span></span></code></pre></div><p>Then we relaunch it as a server in debug mode inside a console :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gocode -debug -s
+</span></span></code></pre></div><p>So now, we can see what&rsquo;s happening.<br>
 OK, time to try an auto-completion inside VS Code.</p>
 <p>Bingo ! We got some useful log :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">2018/03/26 23:27:32 Import path <span style="color:#e6db74">&#34;net/http&#34;</span> was not resolved
-2018/03/26 23:27:32 Gocode<span style="color:#e6db74">&#39;s build context is:
-</span><span style="color:#e6db74">2018/03/26 23:27:32 GOROOT: /usr/local/go
-</span><span style="color:#e6db74">2018/03/26 23:27:32 GOPATH: /home/barim
-</span><span style="color:#e6db74">2018/03/26 23:27:32 GOOS: linux
-</span><span style="color:#e6db74">2018/03/26 23:27:32 GOARCH: amd64
-</span><span style="color:#e6db74">2018/03/26 23:27:32 BzlProjectRoot: &#34;&#34;
-</span><span style="color:#e6db74">2018/03/26 23:27:32 GBProjectRoot: &#34;&#34;
-</span><span style="color:#e6db74">2018/03/26 23:27:32 lib-path: &#34;&#34;
-</span><span style="color:#e6db74">2018/03/26 23:27:32 Error parsing input file (inner block):
-</span><span style="color:#e6db74">2018/03/26 23:27:32 3:6: expected selector or type assertion, found &#39;</span>;<span style="color:#960050;background-color:#1e0010">&#39;</span>
-...
-
-</code></pre></div><p>Weird, my GOROOT isn&rsquo;t at /usr/local/go but at /usr/lib/go.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>2018/03/26 23:27:32 Import path <span style="color:#e6db74">&#34;net/http&#34;</span> was not resolved
+</span></span><span style="display:flex;"><span>2018/03/26 23:27:32 Gocode<span style="color:#e6db74">&#39;s build context is:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 GOROOT: /usr/local/go
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 GOPATH: /home/barim
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 GOOS: linux
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 GOARCH: amd64
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 BzlProjectRoot: &#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 GBProjectRoot: &#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 lib-path: &#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 Error parsing input file (inner block):
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">2018/03/26 23:27:32 3:6: expected selector or type assertion, found &#39;</span>;<span style="color:#960050;background-color:#1e0010">&#39;</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><p>Weird, my GOROOT isn&rsquo;t at /usr/local/go but at /usr/lib/go.<br>
 It seems like gocode doesn&rsquo;t care about my env and arbitrary choose to look inside this folder.</p>
 <p>Ok, let&rsquo;s trick him with a symlink :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo ln -s /usr/lib/go /usr/local/go
-
-</code></pre></div><p>Now it works !</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo ln -s /usr/lib/go /usr/local/go
+</span></span></code></pre></div><p>Now it works !</p>
 <p><img src="/img/vscode_completion_working.png" alt="vscode_completion_working"></p>
 
         

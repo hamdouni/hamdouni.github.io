@@ -60,9 +60,8 @@
 
         <p>A few days ago, I started to have a very disturbing &ldquo;Not permitted&rdquo; message when trying to mount a usb disk from  <a href="http://en.wikipedia.org/wiki/Thunar">Thunar</a> . The only way I found was to pmount the disk : not as intuitive as just clicking the disk on Thunar.</p>
 <p>But after some googling, I found where was the real problem : udisk, who is responsible of mounting disks, uses polkit to know if I have the right to mount, or not, external disk. So, if you have the same problem, follow this steps :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo nano /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy
-
-</code></pre></div><p>(use your favorite text editor in place of nano)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo nano /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy
+</span></span></code></pre></div><p>(use your favorite text editor in place of nano)</p>
 <p>Then, look for the section with &ldquo;udisks2.filesystem-mount&rdquo;, inside you&rsquo;ll have a &ldquo;defaults&rdquo; section with interesting stuff :</p>
 <pre tabindex="0"><code>&lt;defaults&gt;
 &lt;allow_any&gt;auth_admin&lt;/allow_any&gt;

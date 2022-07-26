@@ -67,17 +67,16 @@
     <article>
 
         <p>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo dd <span style="color:#66d9ef">if</span><span style="color:#f92672">=</span>/path/to/image.iso of<span style="color:#f92672">=</span>/dev/sda status<span style="color:#f92672">=</span>progress
-
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo dd <span style="color:#66d9ef">if</span><span style="color:#f92672">=</span>/path/to/image.iso of<span style="color:#f92672">=</span>/dev/sda status<span style="color:#f92672">=</span>progress
+</span></span></code></pre></div><ul>
 <li>&ldquo;/path/to/image.iso&rdquo; is the path to the ISO file</li>
 <li>/dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1)</li>
 <li>status=progress show flashing progression</li>
 </ul>
 <p>How to know wich device to use ?</p>
 <p>Before inserting the key, type in your terminal :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">dmesg -Tw
-</code></pre></div><p>Everything happening on your Linux is traced on screen. Now, insert your key and check for this sort of lines :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>dmesg -Tw
+</span></span></code></pre></div><p>Everything happening on your Linux is traced on screen. Now, insert your key and check for this sort of lines :</p>
 <pre tabindex="0"><code>[ven. janv. 26 15:11:34 2018] sda: sda1
 [ven. janv. 26 15:11:34 2018] sd 2:0:0:0: [sda] Attached SCSI removable disk
 </code></pre><p>Yours may be sdb or sdc, etc&hellip; Take the good one and place it in the command above :-)</p>

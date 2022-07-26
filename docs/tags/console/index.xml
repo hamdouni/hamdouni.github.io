@@ -36,7 +36,7 @@ sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/i
       <guid>https://barim.us/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
       <description>Using Udev, you can change the wifi interface name.
 First, you need to get the mac address.
-$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
+$ ip link  1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000  link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000  link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
     </item>
     
     <item>
@@ -83,7 +83,7 @@ convert -density 100 source.</description>
       
       <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
-# edit your grub config sudo vi /etc/default/grub # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34; # save the file and update grub sudo update-grub </description>
+# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;  # save the file and update grub sudo update-grub </description>
     </item>
     
   </channel>

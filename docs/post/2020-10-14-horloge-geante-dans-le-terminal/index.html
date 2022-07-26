@@ -69,20 +69,20 @@
         <p>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.is. Just your terminal and a few commands and you&rsquo;ll get someting like this :<!-- raw HTML omitted --></p>
 <p><img src="/img/image.png" alt="A big clock all in text"> <!-- raw HTML omitted --></p>
 <p>It depends on figlet tool to make large character on terminal so you need to install it :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install figlet
-</code></pre></div><p>Then type in your terminal :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span> printf <span style="color:#e6db74">&#39;\033[2J\033[H&#39;</span>; date +<span style="color:#e6db74">&#39;%T&#39;</span> | figlet -ctW; sleep 1; <span style="color:#66d9ef">done</span>
-</code></pre></div><p>Quick explanation :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span> ... ; <span style="color:#66d9ef">done</span>
-</code></pre></div><p>This is how we define an infinite loop. (Ctrl+C to interrupt it)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">printf <span style="color:#e6db74">&#39;\033[2J\033[H&#39;</span>
-</code></pre></div><p>Clear screen and fix the cursor position to top-left. For the record, the escape sequence \033[2J clear the entire screen and \033[H send the cursor at home. cf <a href="https://en.wikipedia.org/wiki/ANSI_escape_code#CSI_sequences">the Wikipedia page on ANSI escape code</a> for other useful sequences.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">date +<span style="color:#e6db74">&#39;%T&#39;</span>
-</code></pre></div><p>Output the time as hours:minutes:seconds (shortcut to %H:%M:%S).</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">| figlet -ctW 
-</code></pre></div><p>Make large letters from the previous input. See the | befor it ? This means the previous command (date) is piped into figlet.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sleep <span style="color:#ae81ff">1</span>
-</code></pre></div><p>Wait for 1 second before looping.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo apt install figlet
+</span></span></code></pre></div><p>Then type in your terminal :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span> printf <span style="color:#e6db74">&#39;\033[2J\033[H&#39;</span>; date +<span style="color:#e6db74">&#39;%T&#39;</span> | figlet -ctW; sleep 1; <span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><p>Quick explanation :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#66d9ef">while</span> true; <span style="color:#66d9ef">do</span> ... ; <span style="color:#66d9ef">done</span>
+</span></span></code></pre></div><p>This is how we define an infinite loop. (Ctrl+C to interrupt it)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>printf <span style="color:#e6db74">&#39;\033[2J\033[H&#39;</span>
+</span></span></code></pre></div><p>Clear screen and fix the cursor position to top-left. For the record, the escape sequence \033[2J clear the entire screen and \033[H send the cursor at home. cf <a href="https://en.wikipedia.org/wiki/ANSI_escape_code#CSI_sequences">the Wikipedia page on ANSI escape code</a> for other useful sequences.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>date +<span style="color:#e6db74">&#39;%T&#39;</span>
+</span></span></code></pre></div><p>Output the time as hours:minutes:seconds (shortcut to %H:%M:%S).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>| figlet -ctW 
+</span></span></code></pre></div><p>Make large letters from the previous input. See the | befor it ? This means the previous command (date) is piped into figlet.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sleep <span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>Wait for 1 second before looping.</p>
 
         
         <div class="links">

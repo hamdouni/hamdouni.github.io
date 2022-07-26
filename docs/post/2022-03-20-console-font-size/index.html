@@ -68,14 +68,14 @@
 
         <p>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?</p>
 <p>Just modify the default console setup file for a bigger font :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">&gt; cat /etc/default/console-setup
-ACTIVE_CONSOLES<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/dev/tty[1-6]&#34;</span>
-CHARMAP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>
-CODESET<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;guess&#34;</span>
-FONTFACE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Terminus&#34;</span>
-FONTSIZE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;16x32&#34;</span>
-FONT<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Lat7-Terminus32x16&#39;</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>&gt; cat /etc/default/console-setup
+</span></span><span style="display:flex;"><span>ACTIVE_CONSOLES<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/dev/tty[1-6]&#34;</span>
+</span></span><span style="display:flex;"><span>CHARMAP<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>
+</span></span><span style="display:flex;"><span>CODESET<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;guess&#34;</span>
+</span></span><span style="display:flex;"><span>FONTFACE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Terminus&#34;</span>
+</span></span><span style="display:flex;"><span>FONTSIZE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;16x32&#34;</span>
+</span></span><span style="display:flex;"><span>FONT<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;Lat7-Terminus32x16&#39;</span>
+</span></span></code></pre></div>
         
         <div class="links">
             

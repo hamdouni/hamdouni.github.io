@@ -60,11 +60,11 @@
 
         <p>A few months ago, I read <a href="https://www.nytimes.com/2014/07/16/opinion/16alexander.html">an article about brain training by learning a new language</a> : very interesting story about William Alexander who failed to learn french but strenghten his brain trying to.</p>
 <p>But this is not the subject of this post. As I finished to read the article, I tried to reach  <a href="http://williamalexander.com/">William Alexander&rsquo;s website</a> and was redirected to a crappy chineese online store. I immediately thought he was hacked and after reading the page source code, I find this piece of script :</p>
-<pre tabindex="0"><code>&lt;script type=&quot;text/javascript&quot;&gt;
+<pre tabindex="0"><code>&lt;script type=&#34;text/javascript&#34;&gt;
 var language = navigator.browserLanguage?navigator.browserLanguage:navigator.language;
-if (language.indexOf('en') &gt; -1) document.location.href = 'javascript:void(0)';
+if (language.indexOf(&#39;en&#39;) &gt; -1) document.location.href = &#39;javascript:void(0)&#39;;
 else
-document.location.href = 'http://www.line-kopi.com';
+document.location.href = &#39;http://www.line-kopi.com&#39;;
 &lt;/script&gt;
 </code></pre><p>What&rsquo;s going on here ? The code checks the browser language and redirects to the fraudulent site only if the language is anything other than english ! So, every time some non-english dude complains to William about this problem, William tries the site and accesses it successfully and just forget about it&hellip; The malicious code can stay here for months,  with just a little trick but very annoying result !</p>
 <p>And for the record, I, of course, alerted William and he removed the malicious code &hellip;</p>

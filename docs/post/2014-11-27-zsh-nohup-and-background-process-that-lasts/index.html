@@ -60,11 +60,11 @@
 
         <p>When I switched to  ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.</p>
 <p>In ZSH, I get a message like this if I exit with running jobs :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">zsh you have running jobs
-</code></pre></div><p>If I exit again, my jobs are killed. But zsh accept some useful option to overide this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">setopt NO_HUP
-setopt NO_CHECK_JOBS
-</code></pre></div><p>First one is for not killing process after terminal exit, and second one is for not warning you about it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>zsh you have running jobs
+</span></span></code></pre></div><p>If I exit again, my jobs are killed. But zsh accept some useful option to overide this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>setopt NO_HUP
+</span></span><span style="display:flex;"><span>setopt NO_CHECK_JOBS
+</span></span></code></pre></div><p>First one is for not killing process after terminal exit, and second one is for not warning you about it.</p>
 
         
         <div class="links">

@@ -70,38 +70,35 @@
 <p>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.</p>
 <p>But to put a golang binary in it you have to take care of some important stuff. We&rsquo;ll see briefly how to do it. For more details, see <a href="https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/">Building Minimal Docker Containers For Go Applications</a></p>
 <p>Compile staticaly your go program :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">CGO_ENABLED<span style="color:#f92672">=</span>0 GOARCH<span style="color:#f92672">=</span>amd64 GOOS<span style="color:#f92672">=</span>linux go build -a -installsuffix cgo -o server
-</code></pre></div><p>Your Dockerfile looks like this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">FROM scratch
-ADD static /static
-ADD server /server
-CMD /server
-
-</code></pre></div><p>But if you add some upload code in your program, this won&rsquo;t work. The upload needs the tmp folder for big files that are sent in multipart form.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>CGO_ENABLED<span style="color:#f92672">=</span>0 GOARCH<span style="color:#f92672">=</span>amd64 GOOS<span style="color:#f92672">=</span>linux go build -a -installsuffix cgo -o server
+</span></span></code></pre></div><p>Your Dockerfile looks like this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>FROM scratch
+</span></span><span style="display:flex;"><span>ADD static /static
+</span></span><span style="display:flex;"><span>ADD server /server
+</span></span><span style="display:flex;"><span>CMD /server
+</span></span></code></pre></div><p>But if you add some upload code in your program, this won&rsquo;t work. The upload needs the tmp folder for big files that are sent in multipart form.<br>
 Below, the code in the os.file_unix Go package :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// TempDir returns the default directory to use for temporary files.
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">TempDir</span>() <span style="color:#66d9ef">string</span> {
-	<span style="color:#a6e22e">dir</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Getenv</span>(<span style="color:#e6db74">&#34;TMPDIR&#34;</span>)
-	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">dir</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
-		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">runtime</span>.<span style="color:#a6e22e">GOOS</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;android&#34;</span> {
-			<span style="color:#a6e22e">dir</span> = <span style="color:#e6db74">&#34;/data/local/tmp&#34;</span>
-		} <span style="color:#66d9ef">else</span> {
-			<span style="color:#a6e22e">dir</span> = <span style="color:#e6db74">&#34;/tmp&#34;</span>
-		}
-	}
-	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">dir</span>
-}
-</code></pre></div><p>So, as we are on linux, dir = &ldquo;/tmp&rdquo; is our usual suspect.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// TempDir returns the default directory to use for temporary files.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">TempDir</span>() <span style="color:#66d9ef">string</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">dir</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Getenv</span>(<span style="color:#e6db74">&#34;TMPDIR&#34;</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">dir</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">runtime</span>.<span style="color:#a6e22e">GOOS</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;android&#34;</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">dir</span> = <span style="color:#e6db74">&#34;/data/local/tmp&#34;</span>
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">dir</span> = <span style="color:#e6db74">&#34;/tmp&#34;</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">dir</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>So, as we are on linux, dir = &ldquo;/tmp&rdquo; is our usual suspect.</p>
 <p>But the scratch docker does not contain a tmp folder. This was a hard bug to catch but so easy to fix, just changing the Docker file :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">FROM scratch
-VOLUME /tmp
-ADD static /static
-ADD server /server
-
-</code></pre></div><p>Now link the container /tmp to the host tmp :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">docker run -P -v /tmp:/tmp your_image 
-
-</code></pre></div><p>That&rsquo;s it ! Enjoy a fully functionnal minimal docker golang application !</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>FROM scratch
+</span></span><span style="display:flex;"><span>VOLUME /tmp
+</span></span><span style="display:flex;"><span>ADD static /static
+</span></span><span style="display:flex;"><span>ADD server /server
+</span></span></code></pre></div><p>Now link the container /tmp to the host tmp :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>docker run -P -v /tmp:/tmp your_image 
+</span></span></code></pre></div><p>That&rsquo;s it ! Enjoy a fully functionnal minimal docker golang application !</p>
 
         
         <div class="links">

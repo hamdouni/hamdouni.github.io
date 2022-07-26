@@ -61,28 +61,27 @@
         <p><img src="/img/eiffel-wireless-150x150.png" alt="The wireless tour eiffel"></p>
 <p>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !</p>
 <p>Install the guessnet package :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt-get install guessnet
-</code></pre></div><p>Edit your /etc/network/interface :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">auto wlan0
-mapping wlan0
-	script /usr/sbin/guessnet-ifupdown
-	map home work
-	map timeout: <span style="color:#ae81ff">9</span>
-	map init-time: <span style="color:#ae81ff">9</span>
-	map verbose: true
-	map debug: false	
-
-iface home inet dhcp
-	wpa-ssid <span style="color:#e6db74">&#34;&lt;em&gt;homessid&lt;/em&gt;&#34;</span>
-	wpa-psk <span style="color:#e6db74">&#34;&lt;em&gt;homepassword&lt;/em&gt;&#34;</span>
-	test wireless essid &lt;em&gt;HOMESSID&lt;/em&gt;
-
-iface work inet dhcp
-	wpa-ssid <span style="color:#e6db74">&#34;&lt;em&gt;workssid&lt;/em&gt;&#34;</span>
-	wpa-psk <span style="color:#e6db74">&#34;&lt;em&gt;workpassword&lt;/em&gt;&#34;</span>
-	test wireless essid &lt;em&gt;WORKESSID&lt;/em&gt;
-
-</code></pre></div><p><em>(variables to adapt to your configuration in italic)</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo apt-get install guessnet
+</span></span></code></pre></div><p>Edit your /etc/network/interface :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>auto wlan0
+</span></span><span style="display:flex;"><span>mapping wlan0
+</span></span><span style="display:flex;"><span>	script /usr/sbin/guessnet-ifupdown
+</span></span><span style="display:flex;"><span>	map home work
+</span></span><span style="display:flex;"><span>	map timeout: <span style="color:#ae81ff">9</span>
+</span></span><span style="display:flex;"><span>	map init-time: <span style="color:#ae81ff">9</span>
+</span></span><span style="display:flex;"><span>	map verbose: true
+</span></span><span style="display:flex;"><span>	map debug: false	
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>iface home inet dhcp
+</span></span><span style="display:flex;"><span>	wpa-ssid <span style="color:#e6db74">&#34;&lt;em&gt;homessid&lt;/em&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>	wpa-psk <span style="color:#e6db74">&#34;&lt;em&gt;homepassword&lt;/em&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>	test wireless essid &lt;em&gt;HOMESSID&lt;/em&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>iface work inet dhcp
+</span></span><span style="display:flex;"><span>	wpa-ssid <span style="color:#e6db74">&#34;&lt;em&gt;workssid&lt;/em&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>	wpa-psk <span style="color:#e6db74">&#34;&lt;em&gt;workpassword&lt;/em&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>	test wireless essid &lt;em&gt;WORKESSID&lt;/em&gt;
+</span></span></code></pre></div><p><em>(variables to adapt to your configuration in italic)</em></p>
 <p>We define the &lsquo;home&rsquo; and &lsquo;work&rsquo; networks as usual with the iface command. The 2 differences are :</p>
 <ul>
 <li>we use the virtual interface &ldquo;work&rdquo; and &ldquo;home&rdquo; instead of the real interface &ldquo;wlan0&rdquo;.</li>

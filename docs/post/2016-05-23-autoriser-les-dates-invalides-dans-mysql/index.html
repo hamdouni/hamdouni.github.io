@@ -67,9 +67,8 @@
     <article>
 
         <p>Just in case you absolutely have to insert a date in MySQL that does&rsquo;nt exist, eg 2014-02-30, you can run MySQL server in a special mode that authorizes such dates :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">mysqld --sql-mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ALLOW_INVALID_DATES&#34;</span>
-
-</code></pre></div><p>MySQL will only check that the month is in the range from 1 to 12 and the day is in the range from 1 to 31.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mysqld --sql-mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ALLOW_INVALID_DATES&#34;</span>
+</span></span></code></pre></div><p>MySQL will only check that the month is in the range from 1 to 12 and the day is in the range from 1 to 31.<br>
 <a href="http://dev.mysql.com/doc/refman/5.7/en/sql-mode.html#sqlmode_allow_invalid_dates">see Mysql DOC </a></p>
 
         

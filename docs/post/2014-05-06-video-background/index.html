@@ -72,23 +72,23 @@
 <p>So you want to put a nice video as background of your site but don&rsquo;t know how to do ? &ldquo;Fear you must not&rdquo; said  <a href="http://www.youtube.com/watch?v=kFnFr-DOPf8">Yoda</a>  as it&rsquo;s really simple.</p>
 <p>First, have  <a href="http://hamdouni.github.io/video-background">a look at the effect in action</a> . Nice, isn&rsquo;t it ?</p>
 <p>First thing first, the html :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;your-video.mp4&#34;</span>&gt;<span style="color:#960050;background-color:#1e0010">&lt;</span>/video<span style="color:#960050;background-color:#1e0010">&lt;</span>
-&lt;<span style="color:#f92672">div</span>&gt; your fantastic text here &lt;/<span style="color:#f92672">div</span>&gt;
-</code></pre></div><p>Now, the css magic :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">video</span> {
-  <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">-999</span>;
-  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
-  <span style="color:#66d9ef">min-height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-  <span style="color:#66d9ef">min-width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-}
-</code></pre></div><p>The z-index indicates that the video layer is in the background. Everything with a higher index will appear above.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">video</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;your-video.mp4&#34;</span>&gt;<span style="color:#960050;background-color:#1e0010">&lt;</span>/video<span style="color:#960050;background-color:#1e0010">&lt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span>&gt; your fantastic text here &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><p>Now, the css magic :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">video</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">z-index</span>: <span style="color:#ae81ff">-999</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">position</span>: <span style="color:#66d9ef">fixed</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">min-height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">min-width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The z-index indicates that the video layer is in the background. Everything with a higher index will appear above.</p>
 <p>The position fixed is mandatory, to make sure the overlay plays well.</p>
 <p>Finally, ensure that the video dimension takes all space available, with the min height and width tags to 100%.</p>
 <p>If you would like to have your text centered horizontally and vertically, just add this css :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#f92672">html</span><span style="color:#f92672">,</span> <span style="color:#f92672">body</span> { <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; }
-<span style="color:#f92672">body</span> {<span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">table</span>;}
-<span style="color:#f92672">div</span> {<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">table-cell</span>; <span style="color:#66d9ef">vertical-align</span>: <span style="color:#66d9ef">middle</span>; <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;}
-</code></pre></div><p>And that&rsquo;s all !</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#f92672">html</span><span style="color:#f92672">,</span> <span style="color:#f92672">body</span> { <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; <span style="color:#66d9ef">height</span>: <span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>; }
+</span></span><span style="display:flex;"><span><span style="color:#f92672">body</span> {<span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">table</span>;}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">div</span> {<span style="color:#66d9ef">display</span>: <span style="color:#66d9ef">table-cell</span>; <span style="color:#66d9ef">vertical-align</span>: <span style="color:#66d9ef">middle</span>; <span style="color:#66d9ef">text-align</span>: <span style="color:#66d9ef">center</span>;}
+</span></span></code></pre></div><p>And that&rsquo;s all !</p>
 <p>This method works on all major browser : I tested it on Firefox, Chrome and Safari. It also works unmodified on IE9 !</p>
 
         

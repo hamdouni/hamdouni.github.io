@@ -68,8 +68,8 @@
 
         <p>Git log in colors.</p>
 <p><img src="/img/french-git.png" alt="french git example"></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%Cblue%h%Creset %ad %Cred%&lt;(8,trunc)%an%Creset%Cgreen%d%Creset %s&#39;</span> --date<span style="color:#f92672">=</span>short
-</code></pre></div><p>Shows how to use pretty format in Git with colors and fixed with columns (trunc) :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git log --pretty<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;format:%Cblue%h%Creset %ad %Cred%&lt;(8,trunc)%an%Creset%Cgreen%d%Creset %s&#39;</span> --date<span style="color:#f92672">=</span>short
+</span></span></code></pre></div><p>Shows how to use pretty format in Git with colors and fixed with columns (trunc) :</p>
 <dl>
 <dt>%Cblue &hellip; %Creset</dt>
 <dd>begin and end a colored sequence (here in blue, also possible : red and green)</dd>

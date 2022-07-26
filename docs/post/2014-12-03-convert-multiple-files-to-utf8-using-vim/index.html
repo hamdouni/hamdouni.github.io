@@ -59,8 +59,8 @@
     <article>
 
         <p>The fastest and more efficient way to batch multiple files encoding conversion :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vim +<span style="color:#e6db74">&#34;argdo se fileencoding=utf-8 | w | bnext&#34;</span> +<span style="color:#e6db74">&#34;q&#34;</span> <span style="color:#e6db74">`</span> find . -type f -name <span style="color:#e6db74">&#34;*.rsp&#34;</span>
-</code></pre></div><p>+&ldquo;argdo&rdquo; : execute the following vim commands for each file (filencode, save and next buffer)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>vim +<span style="color:#e6db74">&#34;argdo se fileencoding=utf-8 | w | bnext&#34;</span> +<span style="color:#e6db74">&#34;q&#34;</span> <span style="color:#e6db74">`</span> find . -type f -name <span style="color:#e6db74">&#34;*.rsp&#34;</span>
+</span></span></code></pre></div><p>+&ldquo;argdo&rdquo; : execute the following vim commands for each file (filencode, save and next buffer)</p>
 <p>+&ldquo;q&rdquo; : quit after last one</p>
 <p>find : get all files with corresponding name</p>
 

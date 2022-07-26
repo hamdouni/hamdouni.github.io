@@ -71,8 +71,8 @@
 My work around was to &lsquo;pmount&rsquo; the disk. It works but I need to search for the right device before, with dmesg, then provide the right syntax. Not so fun.</p>
 <p>After digging a while, I found out that authorizations are managed with policykit. So after reading man page after man page, posts after posts, I found a way to easily mount my usb disks in my file manager.</p>
 <p>Just edit a new policykit config file :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo nano /etc/polkit-1/localauthority/50-local.d/55-myconf.pkla
-</code></pre></div><p>The number and the .pkla extension are mandatory to respect. The name &lsquo;myconf&rsquo; is as you will.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo nano /etc/polkit-1/localauthority/50-local.d/55-myconf.pkla
+</span></span></code></pre></div><p>The number and the .pkla extension are mandatory to respect. The name &lsquo;myconf&rsquo; is as you will.<br>
 Inside this file, insert those lines :</p>
 <pre tabindex="0"><code>[Dealing with disks]  
 Identity=unix-group:plugdev  
@@ -81,10 +81,10 @@ ResultAny=yes
 ResultInactive=yes  
 ResultActive=yes
 </code></pre><p>Now, we have to restart DBUS as it&rsquo;s the service that launch the polkitd daemon</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo restart dbus
-</code></pre></div><p>If you launch, as I do, gnome-settings-daemon manually, you need to relaunch it after dbus</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gnome-settings-daemon -r &amp;
-</code></pre></div><p>That&rsquo;s it ! Plug an usb drive and use your file manager to browse it. No more &lsquo;not authorized&rsquo; message !</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>sudo restart dbus
+</span></span></code></pre></div><p>If you launch, as I do, gnome-settings-daemon manually, you need to relaunch it after dbus</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>gnome-settings-daemon -r &amp;
+</span></span></code></pre></div><p>That&rsquo;s it ! Plug an usb drive and use your file manager to browse it. No more &rsquo;not authorized&rsquo; message !</p>
 
         
         <div class="links">

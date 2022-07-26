@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Brahim Hamdouni&#39;s website">
-<title>Brahim Hamdouni  ·  ابراهيم - usb mount and policykit</title>
+<title>Brahim Hamdouni  ·  ابراهيم - usb mount and policykit [EN]</title>
 <link rel="stylesheet" href="/css/style.css">
 <body><nav>
     <details>
@@ -40,24 +40,18 @@
                 </svg>
                 Lists
             </a>
-            <a href='/en/search'>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-                Search
-            </a>
         </div>
     </details>
 </nav><div id="content">
 <main>
     <header>
-        <h1>usb mount and policykit</h1>
+        <h1>usb mount and policykit [EN]</h1>
         <em></em>
-        <div class="date"> Wednesday, June 18, 2014 · 2 minutes · 231 words </div>
+        <div class="date"> Wednesday, June 18, 2014 · 2 minutes · 242 words </div>
     </header>
     <article>
 
-        <p><a href="http://dwm.suckless.org/">DWM</a> is my tiled window manager. It&rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&hellip; (ok, thanks also to the ssd :-) ).</p>
+        <p>When you&rsquo;re not on the ' <a href="http://dwm.suckless.org/">DWM</a>  as my tiled window manager and loving it for years. It&rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&hellip; (ok, thanks also to the ssd :-) ).</p>
 <p>But, after I upgraded to Ubuntu 14.04, I&rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&rsquo;m getting this frustrating &ldquo;not authorized&rdquo; message.<br>
 My work around was to &lsquo;pmount&rsquo; the disk. It works but I need to search for the right device before, with dmesg, then provide the right syntax. Not so fun.</p>
 <p>After digging a while, I found out that authorizations are managed with policykit. So after reading man page after man page, posts after posts, I found a way to easily mount my usb disks in my file manager.</p>
@@ -75,7 +69,7 @@ ResultActive=yes
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo restart dbus
 </code></pre></div><p>If you launch, as I do, gnome-settings-daemon manually, you need to relaunch it after dbus</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">gnome-settings-daemon -r &amp;
-</code></pre></div><p>That&rsquo;s it ! Plug an usb drive and use your file manager to browse it. No more &lsquo;not authorized&rsquo; message !</p>
+</code></pre></div><p>That&rsquo;s it ! Plug a usb drive and use your file manager to browse it. No more &lsquo;not authorized&rsquo; message !</p>
 
         
         <div class="links">

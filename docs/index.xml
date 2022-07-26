@@ -16,7 +16,7 @@
       <description>You can change the device link so your webcam will be always accessible at the same location /dev/video99. You can also persist some settings via the v4l-ctl command.
 We will need the v4l2-ctl utility from the &amp;ldquo;v4l-utils&amp;rdquo; package :
 sudo apt install v4l-utils First, let&amp;rsquo;s get the vendor and product id from the lsusb command :
-lsusb | grep -i Webcam # Bus 001 Device 014: ID 046d:082d Logitech, Inc. HD Pro Webcam C920 Information are located after the ID keyword as &amp;ldquo;vendor:product&amp;rdquo;.</description>
+lsusb | grep -i Webcam  # Bus 001 Device 014: ID 046d:082d Logitech, Inc.</description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@ echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git co
 Very usefull when you manage a lot of mysql databases and you forget which one :-)
 For example, if I&amp;rsquo;m working on the FooBar projet, I can use this prompt :
 mysql --prompt=&amp;#34;@FooBar&amp;gt; &amp;#34; Then I&amp;rsquo;ll have something like that :
-Type &amp;#39;help;&amp;#39; or &amp;#39;\h&amp;#39; for help. Type &amp;#39;\c&amp;#39; to clear the current input statement. @FooBar&amp;gt; show databases; Neat !</description>
+Type &amp;#39;help;&amp;#39; or &amp;#39;\h&amp;#39; for help. Type &amp;#39;\c&amp;#39; to clear the current input statement.  @FooBar&amp;gt; show databases; Neat !</description>
     </item>
     
     <item>
@@ -133,7 +133,7 @@ sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/i
       <guid>https://barim.us/post/2018-09-07-forcer-le-nom-de-linterface-wifi-sous-ubuntu-18-04/</guid>
       <description>Using Udev, you can change the wifi interface name.
 First, you need to get the mac address.
-$ ip link 1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000 link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000 link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
+$ ip link  1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000  link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 2: **wlp1s0**: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc mq state UP mode DORMANT group default qlen 1000  link/ether **9c:b6:d0:8a:71:11** brd ff:ff:ff:ff:ff:ff My wifi interface is name wlp1s0 and its mac address is just after the keyword &amp;ldquo;link/ether&amp;rdquo; : 9c:b6:d0:8a:71:11.</description>
     </item>
     
     <item>
@@ -268,7 +268,7 @@ For example, to double the initial limit in the httpd.cfg, :
       
       <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
-# edit your grub config sudo vi /etc/default/grub # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34; # save the file and update grub sudo update-grub </description>
+# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;  # save the file and update grub sudo update-grub </description>
     </item>
     
     <item>
@@ -361,7 +361,7 @@ But this is not the subject of this post. As I finished to read the article, I t
       <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
 Install the guessnet package :
 sudo apt-get install guessnet Edit your /etc/network/interface :
-auto wlan0 mapping wlan0 script /usr/sbin/guessnet-ifupdown map home work map timeout: 9 map init-time: 9 map verbose: true map debug: false	iface home inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt; iface work inet dhcp wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
+auto wlan0 mapping wlan0 	script /usr/sbin/guessnet-ifupdown 	map home work 	map timeout: 9 	map init-time: 9 	map verbose: true 	map debug: false	 iface home inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt;  iface work inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
     </item>
     
     <item>

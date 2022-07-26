@@ -67,15 +67,15 @@
     <article>
 
         <p>This note explains how to apply new commits in your forked repo from the parent (upstream) repo. If not already done, add a &ldquo;remote&rdquo; to the parent&rsquo;s repo like this :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git remote add parent https://github.com/project/name.git
-</code></pre></div><p>Then, fetch all commits from the parent&rsquo;s branch master (or any branch you like) :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git fetch parent master
-</code></pre></div><p>Now, apply all new commits to your repo :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git rebase parent/master
-</code></pre></div><p>You may have conflicts to solve if you&rsquo;ve done modifications on your repo. Solve them before going on.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git remote add parent https://github.com/project/name.git
+</span></span></code></pre></div><p>Then, fetch all commits from the parent&rsquo;s branch master (or any branch you like) :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git fetch parent master
+</span></span></code></pre></div><p>Now, apply all new commits to your repo :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git rebase parent/master
+</span></span></code></pre></div><p>You may have conflicts to solve if you&rsquo;ve done modifications on your repo. Solve them before going on.</p>
 <p>Finally, push (and force) all your modifications :</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git push --force origin master
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git push --force origin master
+</span></span></code></pre></div>
         
         <div class="links">
             

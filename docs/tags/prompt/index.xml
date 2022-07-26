@@ -17,7 +17,7 @@
 Very usefull when you manage a lot of mysql databases and you forget which one :-)
 For example, if I&amp;rsquo;m working on the FooBar projet, I can use this prompt :
 mysql --prompt=&amp;#34;@FooBar&amp;gt; &amp;#34; Then I&amp;rsquo;ll have something like that :
-Type &amp;#39;help;&amp;#39; or &amp;#39;\h&amp;#39; for help. Type &amp;#39;\c&amp;#39; to clear the current input statement. @FooBar&amp;gt; show databases; Neat !</description>
+Type &amp;#39;help;&amp;#39; or &amp;#39;\h&amp;#39; for help. Type &amp;#39;\c&amp;#39; to clear the current input statement.  @FooBar&amp;gt; show databases; Neat !</description>
     </item>
     
     <item>
