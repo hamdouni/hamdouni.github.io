@@ -14,9 +14,7 @@
       
       <guid>https://barim.us/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</guid>
       <description>The fastest and more efficient way to batch multiple files encoding conversion :
-vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find . -type f -name &amp;#34;*.rsp&amp;#34; +&amp;ldquo;argdo&amp;rdquo; : execute the following vim commands for each file (filencode, save and next buffer)
-+&amp;ldquo;q&amp;rdquo; : quit after last one
-find : get all files with corresponding name</description>
+vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find .</description>
     </item>
     
   </channel>

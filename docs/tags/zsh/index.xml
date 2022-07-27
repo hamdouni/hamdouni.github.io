@@ -23,10 +23,7 @@ PS1=$&amp;#39;%U${(r:$COLUMNS:: :)}%u&amp;#39;$PS1 _src = superuser.com _</descr
       <pubDate>Thu, 27 Nov 2014 11:58:55 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</guid>
-      <description>When I switched to ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.
-In ZSH, I get a message like this if I exit with running jobs :
-zsh you have running jobs If I exit again, my jobs are killed. But zsh accept some useful option to overide this :
-setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after terminal exit, and second one is for not warning you about it.</description>
+      <description>When I switched to ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.</description>
     </item>
     
   </channel>

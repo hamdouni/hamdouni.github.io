@@ -13,9 +13,7 @@
       <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
       
       <guid>https://barim.us/post/2019-11-18-disable-tabs-in-firefox/</guid>
-      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
-It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
-Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
+      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.</description>
     </item>
     
     <item>
@@ -24,9 +22,7 @@ Configuration  Type about:config in the address bar and press Enter. If you get 
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
-      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
-But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
-My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).</description>
     </item>
     
   </channel>

@@ -13,10 +13,7 @@
       <pubDate>Sat, 12 Sep 2020 15:47:33 +0000</pubDate>
       
       <guid>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
-      <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).
-First, close the ownCloud application on your desktop : commonly, right click the systray icon and quit ownCloud. This avoid any conflict when renaming the folder.
-Now, you can rename your local folder. For example :
-mv ~/owncloud ~/docs Open your ownCloud configuration file : location depends on the platform (cf ownCloud docs for more infos).</description>
+      <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).</description>
     </item>
     
   </channel>

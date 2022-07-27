@@ -768,6 +768,18 @@
                 href="https://barim.us/404/"
                 />
   </url><url>
+    <loc>https://barim.us/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://brahim.hamdouni.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://barim.us/about/"
+                />
+  </url><url>
     <loc>https://barim.us/categories/</loc>
     <xhtml:link
                 rel="alternate"

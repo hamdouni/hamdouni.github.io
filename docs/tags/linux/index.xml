@@ -13,10 +13,7 @@
       <pubDate>Fri, 01 Apr 2022 11:37:22 +0200</pubDate>
       
       <guid>https://barim.us/post/2022-04-01-udev-webcam/</guid>
-      <description>You can change the device link so your webcam will be always accessible at the same location /dev/video99. You can also persist some settings via the v4l-ctl command.
-We will need the v4l2-ctl utility from the &amp;ldquo;v4l-utils&amp;rdquo; package :
-sudo apt install v4l-utils First, let&amp;rsquo;s get the vendor and product id from the lsusb command :
-lsusb | grep -i Webcam  # Bus 001 Device 014: ID 046d:082d Logitech, Inc.</description>
+      <description>You can change the device link so your webcam will be always accessible at the same location /dev/video99. You can also persist some settings via the v4l-ctl command.</description>
     </item>
     
     <item>
@@ -25,9 +22,7 @@ lsusb | grep -i Webcam  # Bus 001 Device 014: ID 046d:082d Logitech, Inc.</descr
       <pubDate>Tue, 29 Mar 2022 17:50:41 +0200</pubDate>
       
       <guid>https://barim.us/post/2022-03-20-console-font-size/</guid>
-      <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?
-Just modify the default console setup file for a bigger font :
-&amp;gt; cat /etc/default/console-setup ACTIVE_CONSOLES=&amp;#34;/dev/tty[1-6]&amp;#34; CHARMAP=&amp;#34;UTF-8&amp;#34; CODESET=&amp;#34;guess&amp;#34; FONTFACE=&amp;#34;Terminus&amp;#34; FONTSIZE=&amp;#34;16x32&amp;#34; FONT=&amp;#39;Lat7-Terminus32x16&amp;#39; </description>
+      <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?</description>
     </item>
     
     <item>
@@ -36,9 +31,7 @@ Just modify the default console setup file for a bigger font :
       <pubDate>Wed, 14 Oct 2020 20:35:00 +0000</pubDate>
       
       <guid>https://barim.us/post/2020-10-14-horloge-geante-dans-le-terminal/</guid>
-      <description>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.is. Just your terminal and a few commands and you&amp;rsquo;ll get someting like this :It depends on figlet tool to make large character on terminal so you need to install it :
-sudo apt install figlet Then type in your terminal :
-while true; do printf &amp;#39;\033[2J\033[H&amp;#39;; date +&amp;#39;%T&amp;#39; | figlet -ctW; sleep 1; done Quick explanation :</description>
+      <description>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.</description>
     </item>
     
     <item>
@@ -47,10 +40,7 @@ while true; do printf &amp;#39;\033[2J\033[H&amp;#39;; date +&amp;#39;%T&amp;#39
       <pubDate>Sat, 12 Sep 2020 15:47:33 +0000</pubDate>
       
       <guid>https://barim.us/post/2020-09-12-changer-le-nom-du-dossier-owncloud/</guid>
-      <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).
-First, close the ownCloud application on your desktop : commonly, right click the systray icon and quit ownCloud. This avoid any conflict when renaming the folder.
-Now, you can rename your local folder. For example :
-mv ~/owncloud ~/docs Open your ownCloud configuration file : location depends on the platform (cf ownCloud docs for more infos).</description>
+      <description>To change the name of ownCloud main folder, there is a little trick you can do on Linux (may work as well on other platforms).</description>
     </item>
     
     <item>
@@ -59,9 +49,7 @@ mv ~/owncloud ~/docs Open your ownCloud configuration file : location depends on
       <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
       
       <guid>https://barim.us/post/2019-11-18-disable-tabs-in-firefox/</guid>
-      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
-It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
-Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
+      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.</description>
     </item>
     
     <item>
@@ -72,9 +60,7 @@ Configuration  Type about:config in the address bar and press Enter. If you get 
       <guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
       <description>Install LTS Hardware Enablement Stack
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
-sudo apt purge --autoremove Reboot to load new kernel
-reboot After boot, check your new kernel version
-uname -a </description>
+sudo apt purge --autoremove Reboot to load new kernel</description>
     </item>
     
     <item>
@@ -84,7 +70,7 @@ uname -a </description>
       
       <guid>https://barim.us/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
       <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
-sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
+sudo dd if=/path/to/image.</description>
     </item>
     
     <item>
@@ -106,12 +92,7 @@ $ ip link  1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue s
       <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
-This tip did not work for me.
-So let&amp;rsquo;s try to debug it.
-First, we close the auto-completion server (see github.com/nsf/gocode ) :
-gocode close killall gocode Then we relaunch it as a server in debug mode inside a console :
-gocode -debug -s So now, we can see what&amp;rsquo;s happening.
-OK, time to try an auto-completion inside VS Code.</description>
+This tip did not work for me.</description>
     </item>
     
     <item>
@@ -120,11 +101,7 @@ OK, time to try an auto-completion inside VS Code.</description>
       <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-10-samba-public-share/</guid>
-      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
-Create the public directory
-mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration
-vi /etc/samba/smb.conf Add the code below at the end
-[public] comment = Public Folder path = /media/public guest ok = yes public = yes writable = yes printable = no create mask = 777 Restart samba</description>
+      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?</description>
     </item>
     
     <item>
@@ -134,9 +111,7 @@ vi /etc/samba/smb.conf Add the code below at the end
       
       <guid>https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
       <description>As &amp;lsquo;man convert&amp;rsquo; states :
- The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
- I use it to convert a pdf file to png picture with enough pixel density for the screen. This is the command :
-convert -density 100 source.</description>
+ The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</description>
     </item>
     
     <item>
@@ -146,7 +121,7 @@ convert -density 100 source.</description>
       
       <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
-# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;  # save the file and update grub sudo update-grub </description>
+# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, .</description>
     </item>
     
     <item>
@@ -164,10 +139,7 @@ convert -density 100 source.</description>
       <pubDate>Sun, 17 May 2015 18:52:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
-      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
-Install the guessnet package :
-sudo apt-get install guessnet Edit your /etc/network/interface :
-auto wlan0 mapping wlan0 	script /usr/sbin/guessnet-ifupdown 	map home work 	map timeout: 9 	map init-time: 9 	map verbose: true 	map debug: false	 iface home inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt;  iface work inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
+      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ?</description>
     </item>
     
     <item>
@@ -197,7 +169,7 @@ php_value upload_max_filesize 50M php_value post_max_size 50M php_value memory_l
       
       <guid>https://barim.us/post/2014-12-03-substitute-a-text-only-in-files-where-it-appears/</guid>
       <description>For example, to substitute foo with bar
-for f in `grep -lR foo`; do echo -n &amp;quot;&amp;gt;&amp;gt; $f&amp;quot;; sed &#39;s/foo/bar/g&#39; $f &amp;gt; $f.2; mv $f.2 $f; echo &amp;quot; done.&amp;quot;; done   for loops on all files containing the text “foo”, grep -l only show the file name with corresponding text inside. sed replace foo with bar in all file mv save the modification (delete if you don’t want to overwrite the original files, the modified files is named with .</description>
+for f in `grep -lR foo`; do echo -n &amp;quot;&amp;gt;&amp;gt; $f&amp;quot;; sed &#39;s/foo/bar/g&#39; $f &amp;gt; $f.</description>
     </item>
     
     <item>
@@ -207,9 +179,7 @@ for f in `grep -lR foo`; do echo -n &amp;quot;&amp;gt;&amp;gt; $f&amp;quot;; sed
       
       <guid>https://barim.us/post/2014-12-03-convert-multiple-files-to-utf8-using-vim/</guid>
       <description>The fastest and more efficient way to batch multiple files encoding conversion :
-vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find . -type f -name &amp;#34;*.rsp&amp;#34; +&amp;ldquo;argdo&amp;rdquo; : execute the following vim commands for each file (filencode, save and next buffer)
-+&amp;ldquo;q&amp;rdquo; : quit after last one
-find : get all files with corresponding name</description>
+vim +&amp;#34;argdo se fileencoding=utf-8 | w | bnext&amp;#34; +&amp;#34;q&amp;#34; ` find .</description>
     </item>
     
     <item>
@@ -218,10 +188,7 @@ find : get all files with corresponding name</description>
       <pubDate>Thu, 27 Nov 2014 11:58:55 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-11-27-zsh-nohup-and-background-process-that-lasts/</guid>
-      <description>When I switched to ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.
-In ZSH, I get a message like this if I exit with running jobs :
-zsh you have running jobs If I exit again, my jobs are killed. But zsh accept some useful option to overide this :
-setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after terminal exit, and second one is for not warning you about it.</description>
+      <description>When I switched to ZSH, and let BASH behind, I missed some behaviour : one of them was the ability to quit my terminal while some jobs are still alive.</description>
     </item>
     
     <item>
@@ -230,9 +197,7 @@ setopt NO_HUP setopt NO_CHECK_JOBS First one is for not killing process after te
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
-      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
-But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
-My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).</description>
     </item>
     
   </channel>

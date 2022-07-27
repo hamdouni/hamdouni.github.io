@@ -15,9 +15,7 @@
       <guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
       <description>Install LTS Hardware Enablement Stack
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
-sudo apt purge --autoremove Reboot to load new kernel
-reboot After boot, check your new kernel version
-uname -a </description>
+sudo apt purge --autoremove Reboot to load new kernel</description>
     </item>
     
   </channel>

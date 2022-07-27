@@ -14,7 +14,7 @@
       
       <guid>https://barim.us/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
       <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
-sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
+sudo dd if=/path/to/image.</description>
     </item>
     
     <item>
@@ -23,9 +23,7 @@ sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/i
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
-      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
-But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
-My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).</description>
     </item>
     
   </channel>

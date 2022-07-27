@@ -13,11 +13,7 @@
       <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-10-samba-public-share/</guid>
-      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
-Create the public directory
-mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration
-vi /etc/samba/smb.conf Add the code below at the end
-[public] comment = Public Folder path = /media/public guest ok = yes public = yes writable = yes printable = no create mask = 777 Restart samba</description>
+      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?</description>
     </item>
     
   </channel>

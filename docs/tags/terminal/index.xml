@@ -13,9 +13,7 @@
       <pubDate>Wed, 14 Oct 2020 20:35:00 +0000</pubDate>
       
       <guid>https://barim.us/post/2020-10-14-horloge-geante-dans-le-terminal/</guid>
-      <description>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.is. Just your terminal and a few commands and you&amp;rsquo;ll get someting like this :It depends on figlet tool to make large character on terminal so you need to install it :
-sudo apt install figlet Then type in your terminal :
-while true; do printf &amp;#39;\033[2J\033[H&amp;#39;; date +&amp;#39;%T&amp;#39; | figlet -ctW; sleep 1; done Quick explanation :</description>
+      <description>This note explains how to show a big clock on Linux without using an application or having a browser opened on time.</description>
     </item>
     
   </channel>

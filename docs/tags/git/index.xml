@@ -13,10 +13,7 @@
       <pubDate>Sun, 08 Nov 2020 15:59:00 +0000</pubDate>
       
       <guid>https://barim.us/post/2020-11-08-appliquer-les-modifications-depuis-le-depot-git-parent/</guid>
-      <description>This note explains how to apply new commits in your forked repo from the parent (upstream) repo. If not already done, add a &amp;ldquo;remote&amp;rdquo; to the parent&amp;rsquo;s repo like this :
-git remote add parent https://github.com/project/name.git Then, fetch all commits from the parent&amp;rsquo;s branch master (or any branch you like) :
-git fetch parent master Now, apply all new commits to your repo :
-git rebase parent/master You may have conflicts to solve if you&amp;rsquo;ve done modifications on your repo.</description>
+      <description>This note explains how to apply new commits in your forked repo from the parent (upstream) repo. If not already done, add a &amp;ldquo;remote&amp;rdquo; to the parent&amp;rsquo;s repo like this :</description>
     </item>
     
     <item>
@@ -26,10 +23,7 @@ git rebase parent/master You may have conflicts to solve if you&amp;rsquo;ve don
       
       <guid>https://barim.us/post/2019-12-02-git-local/</guid>
       <description>Define a repo somewhere in your file system with a bare init
-mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only
-mkdir -p /somewhereelse/work/test_project cd /somewhereelse/work/test_project git init Attach your working folder to the repo
-git remote add origin file:///somewhere/repo/test_project Create your files and commit it
-echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git commit Now push to origin and set upstream</description>
+mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only</description>
     </item>
     
     <item>
@@ -39,8 +33,7 @@ echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git co
       
       <guid>https://barim.us/post/2016-06-07-french-git-log/</guid>
       <description>Git log in colors.
-git log --pretty=&amp;#39;format:%Cblue%h%Creset %ad %Cred%&amp;lt;(8,trunc)%an%Creset%Cgreen%d%Creset %s&amp;#39; --date=short Shows how to use pretty format in Git with colors and fixed with columns (trunc) :
- %Cblue &amp;hellip; %Creset begin and end a colored sequence (here in blue, also possible : red and green) %h hash short format %ad author date (short version with the - date=short git argument) %&amp;lt;(8,trunc) the next item will take 8 positions with spaces at right if necessary and truncated if longer %an author name %d ref names (branch, tag, &amp;hellip;) %s subject (ie the commit comment)  </description>
+git log --pretty=&amp;#39;format:%Cblue%h%Creset %ad %Cred%&amp;lt;(8,trunc)%an%Creset%Cgreen%d%Creset %s&amp;#39; --date=short Shows how to use pretty format in Git with colors and fixed with columns (trunc) :</description>
     </item>
     
     <item>
@@ -50,9 +43,7 @@ git log --pretty=&amp;#39;format:%Cblue%h%Creset %ad %Cred%&amp;lt;(8,trunc)%an%
       
       <guid>https://barim.us/post/2015-01-07-git-delete-remote-branch/</guid>
       <description>As of Git v1.7.0, you can delete a remote branch using :
-git push origin --delete &amp;lt;branchName&amp;gt;  And you can do exactly the same with a tag
-git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
- for branch stackoverflow.com for tag W3docs  </description>
+git push origin --delete &amp;lt;branchName&amp;gt;  And you can do exactly the same with a tag</description>
     </item>
     
     <item>
@@ -61,10 +52,7 @@ git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
       <pubDate>Fri, 28 Nov 2014 11:19:27 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-11-28-git-stop-tracking-files/</guid>
-      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :
-git update-index --skip-worktree &amp;lt;FILES&amp;gt;  Then a “git status” won’t show those files until you do :
-git update-index --no-skip-worktree &amp;lt;FILES&amp;gt;  To show the skipped files :
-git ls-files -v . | grep ^S   skip-worktree is a better solution than - assume-unchanged because status will not get lost once an upstream change is pulled.</description>
+      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :</description>
     </item>
     
   </channel>

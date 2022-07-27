@@ -132,6 +132,26 @@ dl {
     border-radius: 1rem;
     padding: 0.1rem 0.5rem;
 }
+.index_articles {
+	margin-top: 2rem;
+}
+.index_articles article {
+	font-size: 1.15rem;
+	margin-bottom: 2rem;
+}
+.index_articles article a {
+	text-decoration: none;
+	font-weight: bold;
+}
+.index_articles article .date {
+	font-style: italic;
+	color: var(--gray-500);
+}
+.index_articles article .sumup {
+	display: block;
+	margin-top: 0.5rem;
+	font-style: italic;
+}
 a {
     color: var(--blue-700);
 }
@@ -256,9 +276,6 @@ article .links .link a {
     }
     p {
         margin: 1.7rem 0 0.7rem 0;
-    }
-    .tags {
-        display: block;
     }
     dl {
         display: flex;

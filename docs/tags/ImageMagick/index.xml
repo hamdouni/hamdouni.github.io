@@ -14,9 +14,7 @@
       
       <guid>https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
       <description>As &amp;lsquo;man convert&amp;rsquo; states :
- The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
- I use it to convert a pdf file to png picture with enough pixel density for the screen. This is the command :
-convert -density 100 source.</description>
+ The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</description>
     </item>
     
   </channel>

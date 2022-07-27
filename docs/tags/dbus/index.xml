@@ -13,9 +13,7 @@
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
-      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
-But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
-My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).</description>
     </item>
     
   </channel>

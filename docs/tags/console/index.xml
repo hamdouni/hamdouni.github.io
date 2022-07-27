@@ -13,9 +13,7 @@
       <pubDate>Tue, 29 Mar 2022 17:50:41 +0200</pubDate>
       
       <guid>https://barim.us/post/2022-03-20-console-font-size/</guid>
-      <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?
-Just modify the default console setup file for a bigger font :
-&amp;gt; cat /etc/default/console-setup ACTIVE_CONSOLES=&amp;#34;/dev/tty[1-6]&amp;#34; CHARMAP=&amp;#34;UTF-8&amp;#34; CODESET=&amp;#34;guess&amp;#34; FONTFACE=&amp;#34;Terminus&amp;#34; FONTSIZE=&amp;#34;16x32&amp;#34; FONT=&amp;#39;Lat7-Terminus32x16&amp;#39; </description>
+      <description>This days, with 4K monitors, the linux console is unreadable : the font is too small. So how can we scale the font size in the console after boot ?</description>
     </item>
     
     <item>
@@ -25,7 +23,7 @@ Just modify the default console setup file for a bigger font :
       
       <guid>https://barim.us/post/2018-11-08-installer-un-iso-sur-une-cle-usb-dans-une-console-linux/</guid>
       <description>How to flash any iso (think about your favorite distro) on an USB key without graphical IHM ?
-sudo dd if=/path/to/image.iso of=/dev/sda status=progress  &amp;ldquo;/path/to/image.iso&amp;rdquo; is the path to the ISO file /dev/sda is your USB key device (see below to get yours) : note that it is the whole device, not a partition (e.g. /dev/sda and not /dev/sda1) status=progress show flashing progression  How to know wich device to use ?</description>
+sudo dd if=/path/to/image.</description>
     </item>
     
     <item>
@@ -45,10 +43,7 @@ $ ip link  1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue s
       <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
-      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
-But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
-Compile staticaly your go program :
-CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server Your Dockerfile looks like this :</description>
+      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.</description>
     </item>
     
     <item>
@@ -57,11 +52,7 @@ CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server 
       <pubDate>Wed, 10 Jan 2018 17:48:35 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-10-samba-public-share/</guid>
-      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?
-Create the public directory
-mkdir /media/public &amp;amp;&amp;amp; chmod 777 /media/public Edit the samba file configuration
-vi /etc/samba/smb.conf Add the code below at the end
-[public] comment = Public Folder path = /media/public guest ok = yes public = yes writable = yes printable = no create mask = 777 Restart samba</description>
+      <description>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?</description>
     </item>
     
     <item>
@@ -71,9 +62,7 @@ vi /etc/samba/smb.conf Add the code below at the end
       
       <guid>https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/</guid>
       <description>As &amp;lsquo;man convert&amp;rsquo; states :
- The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.
- I use it to convert a pdf file to png picture with enough pixel density for the screen. This is the command :
-convert -density 100 source.</description>
+ The convert program is a member of the ImageMagick suite of tools. Use it to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</description>
     </item>
     
     <item>
@@ -83,7 +72,7 @@ convert -density 100 source.</description>
       
       <guid>https://barim.us/post/2016-08-29-demarrer-linux-sur-la-console-texte/</guid>
       <description>Get rid of graphic boot on Linux with a few modifications in grub configuration :
-# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;text&amp;#34;  # save the file and update grub sudo update-grub </description>
+# edit your grub config sudo vi /etc/default/grub  # remove splash, quiet, .</description>
     </item>
     
   </channel>

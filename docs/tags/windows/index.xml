@@ -13,7 +13,7 @@
       <pubDate>Mon, 31 Aug 2015 07:30:05 +0000</pubDate>
       
       <guid>https://barim.us/post/2015-08-31-how-to-forward-outlook-emails-with-vb-script/</guid>
-      <description>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects In Microsoft Outlook, open the VB editor and copy/paste the code below Replace your@email.here and save Click on Tools &amp;gt; Digital Signature Click on [Choose] and select your certificate Click OK, then save and close the VB editor Create the Outlook rule with [run a script] as action and select your macro That&amp;rsquo;s all folks !</description>
+      <description>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects In Microsoft Outlook, open the VB editor and copy/paste the code below Replace your@email.</description>
     </item>
     
   </channel>

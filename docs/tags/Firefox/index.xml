@@ -13,9 +13,7 @@
       <pubDate>Mon, 18 Nov 2019 17:30:56 +0000</pubDate>
       
       <guid>https://barim.us/post/2019-11-18-disable-tabs-in-firefox/</guid>
-      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.
-It&amp;rsquo;s nearly easy not to show tabs in Firefox : change a configuration and add a custom css. This is how I do it.
-Configuration  Type about:config in the address bar and press Enter. If you get a warning about security, click the button accepting the risk.</description>
+      <description>If you use a tiled window manager like me, Suckless DWM for example, and have Firefox as your browser, you may be interested by not showing the tabs.</description>
     </item>
     
   </channel>

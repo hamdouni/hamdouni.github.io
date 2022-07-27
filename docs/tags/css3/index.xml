@@ -14,10 +14,7 @@
       
       <guid>https://barim.us/post/2014-05-06-video-background/</guid>
       <description>Forget large background image for your web site. Now, comes video time.
- So you want to put a nice video as background of your site but don&amp;rsquo;t know how to do ? &amp;ldquo;Fear you must not&amp;rdquo; said Yoda as it&amp;rsquo;s really simple.
-First, have a look at the effect in action . Nice, isn&amp;rsquo;t it ?
-First thing first, the html :
-&amp;lt;video src=&amp;#34;your-video.mp4&amp;#34;&amp;gt;&amp;lt;/video&amp;lt; &amp;lt;div&amp;gt; your fantastic text here &amp;lt;/div&amp;gt; Now, the css magic :</description>
+ So you want to put a nice video as background of your site but don&amp;rsquo;t know how to do ?</description>
     </item>
     
   </channel>

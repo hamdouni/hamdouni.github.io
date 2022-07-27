@@ -15,9 +15,7 @@
       <guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
       <description>Install LTS Hardware Enablement Stack
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
-sudo apt purge --autoremove Reboot to load new kernel
-reboot After boot, check your new kernel version
-uname -a </description>
+sudo apt purge --autoremove Reboot to load new kernel</description>
     </item>
     
     <item>
@@ -37,10 +35,7 @@ $ ip link  1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue s
       <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
-      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
-But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
-Compile staticaly your go program :
-CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server Your Dockerfile looks like this :</description>
+      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.</description>
     </item>
     
     <item>
@@ -49,10 +44,7 @@ CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server 
       <pubDate>Sun, 17 May 2015 18:52:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2015-05-17-wireless-auto-configuration-with-guessnet-on-linux/</guid>
-      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ? Welcome guessnet !
-Install the guessnet package :
-sudo apt-get install guessnet Edit your /etc/network/interface :
-auto wlan0 mapping wlan0 	script /usr/sbin/guessnet-ifupdown 	map home work 	map timeout: 9 	map init-time: 9 	map verbose: true 	map debug: false	 iface home inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;homessid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;homepassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;HOMESSID&amp;lt;/em&amp;gt;  iface work inet dhcp 	wpa-ssid &amp;#34;&amp;lt;em&amp;gt;workssid&amp;lt;/em&amp;gt;&amp;#34; 	wpa-psk &amp;#34;&amp;lt;em&amp;gt;workpassword&amp;lt;/em&amp;gt;&amp;#34; 	test wireless essid &amp;lt;em&amp;gt;WORKESSID&amp;lt;/em&amp;gt; (variables to adapt to your configuration in italic)</description>
+      <description>Assume we have access to the wifi at work and at home. How can I configure my laptop to automatically connect to the right network without using a graphical network manager ?</description>
     </item>
     
     <item>
@@ -61,9 +53,7 @@ auto wlan0 mapping wlan0 	script /usr/sbin/guessnet-ifupdown 	map home work 	map
       <pubDate>Wed, 18 Jun 2014 22:41:51 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-06-18-usb-disk-et-policykit/</guid>
-      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).
-But, after I upgraded to Ubuntu 14.04, I&amp;rsquo;ve lost the ability to mount my usb disks with the file manager (same problem with Nautilus or Thunar). I&amp;rsquo;m getting this frustrating &amp;ldquo;not authorized&amp;rdquo; message.
-My work around was to &amp;lsquo;pmount&amp;rsquo; the disk.</description>
+      <description>DWM is my tiled window manager. It&amp;rsquo;s fast, flexible and fun. My linux desktop is up and running after a few seconds&amp;hellip; (ok, thanks also to the ssd :-) ).</description>
     </item>
     
   </channel>

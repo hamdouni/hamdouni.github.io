@@ -15,12 +15,7 @@
       <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
-This tip did not work for me.
-So let&amp;rsquo;s try to debug it.
-First, we close the auto-completion server (see github.com/nsf/gocode ) :
-gocode close killall gocode Then we relaunch it as a server in debug mode inside a console :
-gocode -debug -s So now, we can see what&amp;rsquo;s happening.
-OK, time to try an auto-completion inside VS Code.</description>
+This tip did not work for me.</description>
     </item>
     
     <item>
@@ -31,8 +26,7 @@ OK, time to try an auto-completion inside VS Code.</description>
       <guid>https://barim.us/post/2014-06-30-speech-tasks-une-webapp-avec-reconnaissance-vocale/</guid>
       <description>With the Go http server. (By the way, I love opensource community !)
 Try the demo !
-See the code !
-Source; tutorial to deploy go app on Heroku</description>
+See the code !</description>
     </item>
     
   </channel>

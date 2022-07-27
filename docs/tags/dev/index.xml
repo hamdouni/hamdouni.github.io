@@ -14,10 +14,7 @@
       
       <guid>https://barim.us/post/2019-12-02-git-local/</guid>
       <description>Define a repo somewhere in your file system with a bare init
-mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only
-mkdir -p /somewhereelse/work/test_project cd /somewhereelse/work/test_project git init Attach your working folder to the repo
-git remote add origin file:///somewhere/repo/test_project Create your files and commit it
-echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git commit Now push to origin and set upstream</description>
+mkdir -p /somewhere/repo/test_project cd /somewhere/repo/test_project git init --bare Now create a local folder for your work with init only</description>
     </item>
     
     <item>
@@ -28,12 +25,7 @@ echo &amp;#34;#first commit&amp;#34; &amp;gt; README.md git add README.md git co
       <guid>https://barim.us/post/2018-03-27-vs-code-loses-go-autocompletion-on-linux/</guid>
       <description>On my Linux, just after upgrading Go to version 1.9, I lost autompletion functionality in VS Code.
 :vscode_completion_not_working
-This tip did not work for me.
-So let&amp;rsquo;s try to debug it.
-First, we close the auto-completion server (see github.com/nsf/gocode ) :
-gocode close killall gocode Then we relaunch it as a server in debug mode inside a console :
-gocode -debug -s So now, we can see what&amp;rsquo;s happening.
-OK, time to try an auto-completion inside VS Code.</description>
+This tip did not work for me.</description>
     </item>
     
     <item>
@@ -42,10 +34,7 @@ OK, time to try an auto-completion inside VS Code.</description>
       <pubDate>Fri, 26 Jan 2018 14:25:23 +0000</pubDate>
       
       <guid>https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/</guid>
-      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.
-But to put a golang binary in it you have to take care of some important stuff. We&amp;rsquo;ll see briefly how to do it. For more details, see Building Minimal Docker Containers For Go Applications
-Compile staticaly your go program :
-CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server Your Dockerfile looks like this :</description>
+      <description>To reduce docker container size we can built the image from scratch instead of using bloated images, like debian or worse ubuntu.</description>
     </item>
     
     <item>
@@ -54,7 +43,7 @@ CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server 
       <pubDate>Mon, 20 Feb 2017 18:54:46 +0000</pubDate>
       
       <guid>https://barim.us/post/2017-02-20-dont-forget-master-infos-in-your-mysql-dump/</guid>
-      <description>I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup. To avoid lock tables on the master and remember the binary log name and position to put them on the slave configuration, there is a tip to take care of all that : the &amp;ldquo;- master-data&amp;rdquo; option in mysqldump.</description>
+      <description>I tried to resync a slave MySQL after it disconnected from the master. But the binary log was already deleted on master, so the only solution was to restore from the last backup.</description>
     </item>
     
     <item>
@@ -64,7 +53,7 @@ CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -a -installsuffix cgo -o server 
       
       <guid>https://barim.us/post/2016-10-12-mysql-import-from-csv/</guid>
       <description>To import a local CSV file into MySQL, use the syntax below :
-LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.table FIELDS TERMINATED BY &#39;;&#39; OPTIONALLY ENCLOSED BY &#39;&amp;quot;&#39; ESCAPED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; IGNORE 1 LINES (`field1`,`field2`,...) </description>
+LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE database.</description>
     </item>
     
     <item>
@@ -74,7 +63,7 @@ LOAD DATA LOW_PRIORITY LOCAL INFILE &#39;/path/tofile.csv&#39; INTO TABLE databa
       
       <guid>https://barim.us/post/2016-10-12-mysql-export-to-csv/</guid>
       <description>To export a mysql results in CSV format, use the syntax below :
-SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.csv&#39; FIELDS TERMINATED BY &#39;;&#39; ENCLOSED BY &#39;&amp;quot;&#39; LINES TERMINATED BY &#39;\n&#39; ; </description>
+SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/toto.</description>
     </item>
     
     <item>
@@ -83,9 +72,7 @@ SELECT field1, field2, ... FROM table WHERE condition INTO OUTFILE &#39;/tmp/tot
       <pubDate>Mon, 23 May 2016 15:55:55 +0000</pubDate>
       
       <guid>https://barim.us/post/2016-05-23-autoriser-les-dates-invalides-dans-mysql/</guid>
-      <description>Just in case you absolutely have to insert a date in MySQL that does&amp;rsquo;nt exist, eg 2014-02-30, you can run MySQL server in a special mode that authorizes such dates :
-mysqld --sql-mode=&amp;#34;ALLOW_INVALID_DATES&amp;#34; MySQL will only check that the month is in the range from 1 to 12 and the day is in the range from 1 to 31.
-see Mysql DOC</description>
+      <description>Just in case you absolutely have to insert a date in MySQL that does&amp;rsquo;nt exist, eg 2014-02-30, you can run MySQL server in a special mode that authorizes such dates :</description>
     </item>
     
     <item>
@@ -95,9 +82,7 @@ see Mysql DOC</description>
       
       <guid>https://barim.us/post/2015-01-07-git-delete-remote-branch/</guid>
       <description>As of Git v1.7.0, you can delete a remote branch using :
-git push origin --delete &amp;lt;branchName&amp;gt;  And you can do exactly the same with a tag
-git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
- for branch stackoverflow.com for tag W3docs  </description>
+git push origin --delete &amp;lt;branchName&amp;gt;  And you can do exactly the same with a tag</description>
     </item>
     
     <item>
@@ -106,10 +91,7 @@ git push origin --delete &amp;lt;tagName&amp;gt;  Sources :
       <pubDate>Fri, 28 Nov 2014 11:19:27 +0000</pubDate>
       
       <guid>https://barim.us/post/2014-11-28-git-stop-tracking-files/</guid>
-      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :
-git update-index --skip-worktree &amp;lt;FILES&amp;gt;  Then a “git status” won’t show those files until you do :
-git update-index --no-skip-worktree &amp;lt;FILES&amp;gt;  To show the skipped files :
-git ls-files -v . | grep ^S   skip-worktree is a better solution than - assume-unchanged because status will not get lost once an upstream change is pulled.</description>
+      <description>If you have some files that you need to have in your repo but don’t need to have updates, git allows it :</description>
     </item>
     
   </channel>
