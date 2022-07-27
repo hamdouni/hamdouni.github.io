@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>kernel on Brahim Hamdouni  ·  ابراهيم</title>
-    <link>https://barim.us/tags/kernel/</link>
-    <description>Recent content in kernel on Brahim Hamdouni  ·  ابراهيم</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Sun, 27 Oct 2019 08:10:02 +0000</lastBuildDate><atom:link href="https://barim.us/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Make your ubuntu LTS kernel up to date</title>
-      <link>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</link>
-      <pubDate>Sun, 27 Oct 2019 08:10:02 +0000</pubDate>
-      
-      <guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid>
-      <description>Install LTS Hardware Enablement Stack
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>kernel on Brahim Hamdouni · ابراهيم</title><link>https://barim.us/tags/kernel/</link><description>Recent content in kernel on Brahim Hamdouni · ابراهيم</description><generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Sun, 27 Oct 2019 08:10:02 +0000</lastBuildDate><atom:link href="https://barim.us/tags/kernel/index.xml" rel="self" type="application/rss+xml"/><item><title>Make your ubuntu LTS kernel up to date</title><link>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</link><pubDate>Sun, 27 Oct 2019 08:10:02 +0000</pubDate><guid>https://barim.us/post/2019-10-27-make-your-ubuntu-lts-kernel-up-to-date/</guid><description>Install LTS Hardware Enablement Stack
 sudo apt-get install --install-recommends linux-generic-hwe-18.04 xserver-xorg-hwe-18.04 Clean
-sudo apt purge --autoremove Reboot to load new kernel</description>
-    </item>
-    
-  </channel>
-</rss>
+sudo apt purge --autoremove Reboot to load new kernel</description></item></channel></rss>
