@@ -32,8 +32,9 @@ body {
     max-width: 720px;
     margin: auto;
     padding: 1rem;
-    font-family: "Segoe UI",system-ui,-apple-system,sans-serif;
-    font-size: 1.35rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 1.35rem;
+	line-height: 1.90rem;
     color: var(--blue-900);
 }
 img {
@@ -95,17 +96,16 @@ nav .lang a {
     font-size: 1rem;
     display: block;
     background-color: var(--blue-50);
-    padding: 0.3rem;
+    padding: 0.3rem 1rem;
 }
 header {
     margin: 2rem 0;
 }
 header h1 {
-    margin: 0;
+	margin: 1rem 0 0.3rem;
 }
 header .date {
-    font-size: 1rem;
-    margin-top: 1rem;
+    font-size: 80%;
     color: var(--blue-700);
 }
 dt {
@@ -125,38 +125,40 @@ dl {
     display: inline;
 }
 .tag {
-    font-size: 0.9rem;
-    font-style: italic;
+	text-decoration: none;
+    font-size: 80%;
+	font-weight: bold;
     color: var(--blue-700);
     background-color: var(--blue-100);
     border-radius: 1rem;
-    padding: 0.1rem 0.5rem;
-}
-.index_articles {
-	margin-top: 2rem;
+    padding: 0.25rem 0.5rem;
 }
 .index_articles article {
 	font-size: 1.15rem;
 	margin-bottom: 2rem;
 }
-.index_articles article a {
+.index_articles article .title {
 	text-decoration: none;
 	font-weight: bold;
 }
 .index_articles article .date {
-	font-style: italic;
+	font-size: 80%;
 	color: var(--gray-500);
 }
 .index_articles article .sumup {
 	display: block;
 	margin-top: 0.5rem;
-	font-style: italic;
+}
+.index_articles article .more {
+	font-size: 80%;
 }
 a {
     color: var(--blue-700);
 }
 h1, h2 {
-    font-family:  Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    /* font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif; */
+	letter-spacing: -0.001em !important;
+	font-weight: 600 !important;
 }
 h1 {
     margin: 2rem 0;
@@ -169,8 +171,8 @@ h2 {
     font-size: 2.2rem;
 }
 p, li {
-    margin: 2rem 0 1rem 0;
-    line-height: 2rem;
+    margin: 1rem 0 1rem 0;
+    line-height: 1.8rem;
 }
 h1 + h2 {
     margin: 0 0 1rem;
@@ -190,7 +192,7 @@ pre {
 code {
     white-space: pre;
     font-family: monospace;
-    font-size: 1rem;
+	font-size: 1rem;
 }
 ol {
     margin-left: 2rem;
@@ -272,10 +274,7 @@ article .links .link a {
     h2 {
         font-size: 1.9rem;
         line-height: 2.4rem;
-        margin: 1rem 0 0.5rem;
-    }
-    p {
-        margin: 1.7rem 0 0.7rem 0;
+        margin: 2rem 0 0.5rem;
     }
     dl {
         display: flex;
@@ -292,4 +291,8 @@ article .links .link a {
     dd {
         margin-bottom: 2rem;
     }
+	.index_articles article {
+		display: flex;
+		flex-direction: column;
+	}
 }
