@@ -25,7 +25,7 @@ Abstraction Data visibility from the outside2 is defined by the case of the vari
 type Car struct { Color string // accessible from outside code string // not accessible from outside } The same principle is applied for methods which, if their name begins with a lowercase letter, cannot be used externally. Conversely, if their name begins with a capital letter, they will be visible.
 Go calls this mechanism the export of names and allows functionality to be hidden or exposed, as defined by the abstraction.
 Inheritance I said above that I knew Go had no inheritance. But that doesn\u0026rsquo;t necessarily mean that Go doesn\u0026rsquo;t achieve the same thing as inheritance. Indeed, Go allows type embedding.
-For example, let\u0026rsquo;s take the example of the car and define a \u0026ldquo;Vehicule\u0026rdquo; object with a \u0026ldquo;Drive\u0026rdquo; method:
+For example, let\u0026rsquo;s take the example of the car and define a \u0026ldquo;Vehicule\u0026rdquo; object with a \u0026ldquo;Move\u0026rdquo; method:
 type Car struct { Name string } func (v Vehicule) Move() { println(\u0026#34;I move\u0026#34;) } Anything that makes up a vehicule can be incorporated into a \u0026ldquo;Car\u0026rdquo; object as follows:
 type Car struct { Vehicule } What if we had to use all of this:
 var tuture Car tuture.Vehicule.Move() // \u0026#34;I move\u0026#34; tuture.Move() // \u0026#34;I move\u0026#34; Complete example on the playground
