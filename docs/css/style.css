@@ -181,6 +181,14 @@ h1 + h2 {
     line-height: 1.8rem;
     color: var(--gray-700);
 }
+code {
+    white-space: pre;
+    font-family: monospace;
+	font-size: 1rem;
+	background: var(--gray-200);
+	border-radius: 0.33rem;
+	padding: 0.15rem 0.25rem;
+}
 pre {
     white-space: nowrap;
     background-color: var(--blue-50) !important;
@@ -190,10 +198,8 @@ pre {
 	border-radius: 7px;
 	overflow: auto;
 }
-code {
-    white-space: pre;
-    font-family: monospace;
-	font-size: 1rem;
+pre code {
+    background-color: var(--blue-50) !important;
 }
 ol {
     margin-left: 2rem;
