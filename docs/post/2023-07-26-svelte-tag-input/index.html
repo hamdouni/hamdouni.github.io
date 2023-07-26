@@ -1,152 +1,152 @@
-<!doctype html><html lang=en><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Brahim Hamdouni's website"><title>Barim's blog · ابراهيم - Tags in Svelte</title><link rel=stylesheet href=/css/style.css><body><nav><details><summary><div><svg xmlns="http://www.w3.org/2000/svg" class="icon open" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon close" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 18 6M6 6l12 12"/></svg><span>Barim's blog · ابراهيم</span></div><span class=lang><a href=https://brahim.hamdouni.com/post/2023-07-26-svelte-tag-input/>fr</a></span></summary><div class=links><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11 2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>Home</a>
+<!doctype html><html lang=en><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Brahim Hamdouni's website"><title>Barim's blog · ابراهيم - Tags in Svelte</title><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/syntax.css><body><nav><details><summary><div><svg xmlns="http://www.w3.org/2000/svg" class="icon open" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon close" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 18 6M6 6l12 12"/></svg><span>Barim's blog · ابراهيم</span></div><span class=lang><a href=https://brahim.hamdouni.com/post/2023-07-26-svelte-tag-input/>fr</a></span></summary><div class=links><a href=/><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11 2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>Home</a>
 <a href=/post><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>Posts</a>
 <a href=/lists><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4A1 1 0 003 5v14a1 1 0 001 1z"/></svg>Lists</a>
 <a href=/search><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5A7 7 0 113 10a7 7 0 0114 0z"/></svg>Search</a>
 <a href=/about><svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7A4 4 0 118 7a4 4 0 018 0zm-4 7a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>About</a></div></details></nav><div id=content><main><header><span class=tags><a class=tag href=/tags/tuto/>tuto</a>
-<a class=tag href=/tags/svelte/>svelte</a></span><h1>Tags in Svelte</h1><em></em><div class=date>Tuesday, July 25, 2023 · 6 minutes · 1,121 words</div></header><article><p><img src=/img/svelte-tagsinput.gif alt></p><p>I want to code a simple tags input component in Svelte like the animation above.</p><ul><li>An input text where I can type words.</li><li>As soon as I type a comma or Enter, the input turns into a &ldquo;tag&rdquo;.</li><li>The tag appears next to the input text with a small cross to delete it.</li></ul><p>I can retrieve the list of tags in an easy-to-use data structure: for example, an array of string.</p><p>I&rsquo;ll use the <a href=https://svelte.dev/repl>Svelte Repl</a> for this tutorial.</p><h2 id=exploring-possibilities>Exploring possibilities</h2><p>In Svelte, <code>on:keydown</code> triggers a function on every keypress. So I create a
-small piece of code to highlight this behavior:</p><pre><code>&lt;script&gt;
-function pressed(ev){
-    console.info(ev.key);
-};
-&lt;/script&gt;
-&lt;input on:keydown={pressed}/&gt;
-</code></pre><p><code>keydown</code> call <code>pressed</code> function passing an <code>event</code> object as parameter. I&rsquo;m
+<a class=tag href=/tags/svelte/>svelte</a></span><h1>Tags in Svelte</h1><em></em><div class=date>Tuesday, July 25, 2023 · 6 minutes · 1,121 words</div></header><article><p><img src=/img/svelte-tagsinput.gif alt="Tags input"></p><p>I want to code a simple tags input component in Svelte like the animation above.</p><ul><li>An input text where I can type words.</li><li>As soon as I type a comma or Enter, the input turns into a &ldquo;tag&rdquo;.</li><li>The tag appears next to the input text with a small cross to delete it.</li></ul><p>I can retrieve the list of tags in an easy-to-use data structure: for example, an array of string.</p><p>I&rsquo;ll use the <a href=https://svelte.dev/repl>Svelte Repl</a> for this tutorial.</p><h2 id=exploring-possibilities>Exploring possibilities</h2><p>In Svelte, <code>on:keydown</code> triggers a function on every keypress. So I create a
+small piece of code to highlight this behavior:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    console.info(ev.key);
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keydown<span style=color:#ff79c6>=</span>{pressed}<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p><code>keydown</code> call <code>pressed</code> function passing an <code>event</code> object as parameter. I&rsquo;m
 only interested in the <code>key</code> information inside this object as it contains the
-key pressed by the user.</p><p>Each press on the keyboard, with the cursor in the text field, will cause a display in the console.</p><p>So, I can monitor the input waiting for a comma by doing a test on <code>key</code>:</p><pre><code>&lt;script&gt;
-function pressed(ev){
-    if(ev.key === ',') {
-        console.info(&quot;VIRGULE!!!&quot;)
-    }
-};
-&lt;/script&gt;
-&lt;input on:keydown={key}/&gt;
-</code></pre><p>We&rsquo;ve got something, now let&rsquo;s use that.</p><h2 id=into-the-heart-of-the-matter>Into the heart of the matter</h2><p>When you press comma, that&rsquo;s when you have a tag to add: so I take the
+key pressed by the user.</p><p>Each press on the keyboard, with the cursor in the text field, will cause a display in the console.</p><p>So, I can monitor the input waiting for a comma by doing a test on <code>key</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) {
+</span></span><span style=display:flex><span>        console.info(<span style=color:#f1fa8c>&#34;VIRGULE!!!&#34;</span>)
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keydown<span style=color:#ff79c6>=</span>{key}<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>We&rsquo;ve got something, now let&rsquo;s use that.</p><h2 id=into-the-heart-of-the-matter>Into the heart of the matter</h2><p>When you press comma, that&rsquo;s when you have a tag to add: so I take the
 content of the input field and I add it to my list.</p><p>To see what I&rsquo;m doing, I add a line with &lsquo;{tags}&rsquo; which will display the list
-of saved tags:</p><pre><code>&lt;script&gt;
-let tags = [];                      // save tags here
-let value = &quot;&quot;;                     // input value
-function pressed(ev){
-    if(ev.key === ',') {            // comma ?
-        tags = [...tags, value];    // add to the list
-        value = &quot;&quot;;                 // and clean input
-    }
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keydown={key} bind:value/&gt;
-</code></pre><p>Small problem: the comma remains in the field despite the cleaning.</p><p>The <code>keydown</code> intercepts the event before the key is taken into account
+of saved tags:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];                      <span style=color:#6272a4>// save tags here
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;                     <span style=color:#6272a4>// input value
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) {            <span style=color:#6272a4>// comma ?
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>        tags <span style=color:#ff79c6>=</span> [...tags, value];    <span style=color:#6272a4>// add to the list
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>        value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;                 <span style=color:#6272a4>// and clean input
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>    }
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keydown<span style=color:#ff79c6>=</span>{key} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>Small problem: the comma remains in the field despite the cleaning.</p><p>The <code>keydown</code> intercepts the event before the key is taken into account
 by the input field. So our processing is fired before the comma is
 added in the <code>value</code> variable.</p><p>Instead of <code>keydown</code>, we will rather use <code>keyup</code>, which will trigger our
 function after input is taken care. So the comma will be embeded in
-the value of the field.</p><pre><code>&lt;script&gt;
-let tags = [];
-let value = &quot;&quot;;
-function pressed(ev){
-    if(ev.key === ',') {
-        tags = [...tags, value];
-        value = &quot;&quot;;
-    }
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keyup={pressed} bind:value/&gt; // &lt;-- keyup instead of keydown
-</code></pre><p>Now the comma no longer stays in the field, but is part of the &lsquo;value&rsquo;.</p><p>I can easily remove it before adding to the list:</p><pre><code>value = value.replace(',','');
-</code></pre><p>So now my code looks like :</p><pre><code>&lt;script&gt;
-let tags = [];
-let value = &quot;&quot;;
-function pressed(ev){
-    if(ev.key === ',') {
-        value = value.replace(',',''); // &lt;-- here we remove comma
-        tags = [...tags, value];
-        value = &quot;&quot;;
-    }
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keyup={pressed} bind:value/&gt;
-</code></pre><p>Before continuing, I make sure that the user does not enter anything wrong in
+the value of the field.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) {
+</span></span><span style=display:flex><span>        tags <span style=color:#ff79c6>=</span> [...tags, value];
+</span></span><span style=display:flex><span>        value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span> <span style=color:#6272a4>// &lt;-- keyup instead of keydown
+</span></span></span></code></pre></div><p>Now the comma no longer stays in the field, but is part of the &lsquo;value&rsquo;.</p><p>I can easily remove it before adding to the list:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span>value <span style=color:#ff79c6>=</span> value.replace(<span style=color:#f1fa8c>&#39;,&#39;</span>,<span style=color:#f1fa8c>&#39;&#39;</span>);
+</span></span></code></pre></div><p>So now my code looks like :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) {
+</span></span><span style=display:flex><span>        value <span style=color:#ff79c6>=</span> value.replace(<span style=color:#f1fa8c>&#39;,&#39;</span>,<span style=color:#f1fa8c>&#39;&#39;</span>); <span style=color:#6272a4>// &lt;-- here we remove comma
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>        tags <span style=color:#ff79c6>=</span> [...tags, value];
+</span></span><span style=display:flex><span>        value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>Before continuing, I make sure that the user does not enter anything wrong in
 the field. For example, a single comma or an Enter with no value should have no
-effect, which is not the case with the current code.</p><p>So, once I remove the comma, if I have nothing left, it means I have nothing to do:</p><pre><code>&lt;script&gt;
-let tags = [];
-let value = &quot;&quot;;
-function pressed(ev){
-    if(ev.key === ',') {
-        value = value.replace(',','');
-        if(value !== &quot;&quot;) {              // &lt;-- not empty ?
-            tags = [...tags, value];    // &lt;-- let's work...
-            value = &quot;&quot;;
-        }
-    }
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keyup={pressed} bind:value/&gt;
-</code></pre><p>I don&rsquo;t like this multi-nested level. I rather reverse the tests
+effect, which is not the case with the current code.</p><p>So, once I remove the comma, if I have nothing left, it means I have nothing to do:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) {
+</span></span><span style=display:flex><span>        value <span style=color:#ff79c6>=</span> value.replace(<span style=color:#f1fa8c>&#39;,&#39;</span>,<span style=color:#f1fa8c>&#39;&#39;</span>);
+</span></span><span style=display:flex><span>        <span style=color:#ff79c6>if</span>(value <span style=color:#ff79c6>!==</span> <span style=color:#f1fa8c>&#34;&#34;</span>) {              <span style=color:#6272a4>// &lt;-- not empty ?
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>            tags <span style=color:#ff79c6>=</span> [...tags, value];    <span style=color:#6272a4>// &lt;-- let&#39;s work...
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>            value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>        }
+</span></span><span style=display:flex><span>    }
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>I don&rsquo;t like this multi-nested level. I rather reverse the tests
 and exit immediately if the conditions are not met. Thus, I
-end up with the &ldquo;good code&rdquo; aligned to the left.</p><p>Demonstration:</p><pre><code>&lt;script&gt;
-let tags = [];
-let value = &quot;&quot;;
-function pressed(ev){
-    if(ev.key !== ',') return;
-    value = value.replace(',','');
-    if(value === &quot;&quot;) return;
-    tags = [...tags, value];
-    value = &quot;&quot;;
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keyup={pressed} bind:value/&gt;
-</code></pre><p>Oh, I forgot I wanted to use also <code>Enter</code> as a tag separator :</p><pre><code>&lt;script&gt;
-let tags = [];
-let value = &quot;&quot;;
-function pressed(ev){
-    if(ev.key !== ',' &amp;&amp; ev.key !== 'Enter') return; // &lt;-- Enter too
-    value = value.replace(',','');
-    tags = [...tags, value];
-    value = &quot;&quot;;
-};
-&lt;/script&gt;
-{tags}
-&lt;input on:keyup={pressed} bind:value/&gt;
-</code></pre><p>Time to take care of the tags visualisation : I iterate on every saved tags
-with the <code>#each</code> command:</p><pre><code>{#each tags as t,i}
-...
-{/each}
-</code></pre><p><code>#each</code> takes every item inside the <code>tags</code> array and makes it available in the
+end up with the &ldquo;good code&rdquo; aligned to the left.</p><p>Demonstration:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>!==</span> <span style=color:#f1fa8c>&#39;,&#39;</span>) <span style=color:#ff79c6>return</span>;
+</span></span><span style=display:flex><span>    value <span style=color:#ff79c6>=</span> value.replace(<span style=color:#f1fa8c>&#39;,&#39;</span>,<span style=color:#f1fa8c>&#39;&#39;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(value <span style=color:#ff79c6>===</span> <span style=color:#f1fa8c>&#34;&#34;</span>) <span style=color:#ff79c6>return</span>;
+</span></span><span style=display:flex><span>    tags <span style=color:#ff79c6>=</span> [...tags, value];
+</span></span><span style=display:flex><span>    value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>Oh, I forgot I wanted to use also <code>Enter</code> as a tag separator :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>script<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tags <span style=color:#ff79c6>=</span> [];
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> pressed(ev){
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>if</span>(ev.key <span style=color:#ff79c6>!==</span> <span style=color:#f1fa8c>&#39;,&#39;</span> <span style=color:#ff79c6>&amp;&amp;</span> ev.key <span style=color:#ff79c6>!==</span> <span style=color:#f1fa8c>&#39;Enter&#39;</span>) <span style=color:#ff79c6>return</span>; <span style=color:#6272a4>// &lt;-- Enter too
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>    value <span style=color:#ff79c6>=</span> value.replace(<span style=color:#f1fa8c>&#39;,&#39;</span>,<span style=color:#f1fa8c>&#39;&#39;</span>);
+</span></span><span style=display:flex><span>    tags <span style=color:#ff79c6>=</span> [...tags, value];
+</span></span><span style=display:flex><span>    value <span style=color:#ff79c6>=</span> <span style=color:#f1fa8c>&#34;&#34;</span>;
+</span></span><span style=display:flex><span>};
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/script&gt;
+</span></span><span style=display:flex><span>{tags}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>Time to take care of the tags visualisation : I iterate on every saved tags
+with the <code>#each</code> command:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span>{#each tags as t,i}
+</span></span><span style=display:flex><span>...
+</span></span><span style=display:flex><span>{/each}
+</span></span></code></pre></div><p><code>#each</code> takes every item inside the <code>tags</code> array and makes it available in the
 <code>t</code> variable with its index in <code>i</code>.</p><p>Let&rsquo;s use this to display each tag with an X next to it. The X is used to
-remove the tag.</p><p>It&rsquo;s not a real X, it&rsquo;s an utf8 code that looks way more stylish 😎.</p><pre><code>{#each tags as t,i}
-    {t} ⨉
-{/each}
-</code></pre><p>Ok, the X is not activable yet, so I add an anchor around it with a call to a
-<code>del</code> function with the index of the tag to remove.</p><pre><code>{#each tags as t,i}
-    {t} &lt;a href=&quot;#del&quot; on:click={()=&gt;del(i)}&gt;⨉&lt;/a&gt;
-{/each}
-</code></pre><p>The <code>del</code> function just call
-<a href=https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>Splice</a>.</p><pre><code>function del(idx){
-    tags.splice(idx,1); // &lt;-- remove the element at index `idx`
-    tags = tags;        // &lt;-- force Svelte reactivity
-}
-</code></pre><p>The line with <code>tags = tags</code> is used to force Svelte to refresh. This is one of
+remove the tag.</p><p>It&rsquo;s not a real X, it&rsquo;s an utf8 code that looks way more stylish 😎.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span>{#each tags as t,i}
+</span></span><span style=display:flex><span>    {t} ⨉
+</span></span><span style=display:flex><span>{/each}
+</span></span></code></pre></div><p>Ok, the X is not activable yet, so I add an anchor around it with a call to a
+<code>del</code> function with the index of the tag to remove.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span>{#each tags as t,i}
+</span></span><span style=display:flex><span>    {t} <span style=color:#ff79c6>&lt;</span>a href<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;#del&#34;</span> on<span style=color:#ff79c6>:</span>click<span style=color:#ff79c6>=</span>{()=&gt;del(i)}<span style=color:#ff79c6>&gt;</span>⨉<span style=color:#ff79c6>&lt;</span>/a&gt;
+</span></span><span style=display:flex><span>{/each}
+</span></span></code></pre></div><p>The <code>del</code> function just call
+<a href=https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/splice>Splice</a>.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>function</span> del(idx){
+</span></span><span style=display:flex><span>    tags.splice(idx,<span style=color:#bd93f9>1</span>); <span style=color:#6272a4>// &lt;-- remove the element at index `idx`
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>    tags <span style=color:#ff79c6>=</span> tags;        <span style=color:#6272a4>// &lt;-- force Svelte reactivity
+</span></span></span><span style=display:flex><span><span style=color:#6272a4></span>}
+</span></span></code></pre></div><p>The line with <code>tags = tags</code> is used to force Svelte to refresh. This is one of
 the rare cases where I need to explicitly indicate to Svelte that de data model
 has changed.</p><p>I surround each tag with a &lsquo;span&rsquo; element and add a little touch of css to make
-it look more <code>taggy</code>:</p><pre><code>{#each tags as t,i}
-    &lt;span class=&quot;tag&quot;&gt;
-    {t} &lt;a href=&quot;#del&quot; on:click={()=&gt;del(i)}&gt;⨉&lt;/a&gt;
-    &lt;/span&gt;
-{/each}
-&lt;input on:keyup={pressed} bind:value/&gt;
-
-&lt;style&gt;
-.tag {font-size: 0.8rem; margin-right:0.33rem; padding:0.15rem 0.25rem; border-radius:1rem; background-color: #5AD; color: white;}
-.tag a {text-decoration: none; color: inherit;}
-&lt;/style&gt;
-</code></pre><h2 id=icing-on-the-cake-suggestions>Icing on the cake: suggestions!</h2><p>It will be nice if I can have suggestions as I type the first characters.</p><p><img src=/img/svelte-tagsinput-suggest.gif alt></p><p>HTML let us the possibility to add suggestions in a input field, from a
+it look more <code>taggy</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span>{#each tags as t,i}
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>&lt;</span>span <span style=color:#ff79c6>class</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;tag&#34;</span><span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span>    {t} <span style=color:#ff79c6>&lt;</span>a href<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;#del&#34;</span> on<span style=color:#ff79c6>:</span>click<span style=color:#ff79c6>=</span>{()=&gt;del(i)}<span style=color:#ff79c6>&gt;</span>⨉<span style=color:#ff79c6>&lt;</span>/a&gt;
+</span></span><span style=display:flex><span>    <span style=color:#ff79c6>&lt;</span>/span&gt;
+</span></span><span style=display:flex><span>{/each}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>style<span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span>.tag {font<span style=color:#ff79c6>-</span>size<span style=color:#ff79c6>:</span> <span style=color:#bd93f9>0.8</span>rem; margin<span style=color:#ff79c6>-</span>right<span style=color:#ff79c6>:</span><span style=color:#bd93f9>0.33</span>rem; padding<span style=color:#ff79c6>:</span><span style=color:#bd93f9>0.15</span>rem <span style=color:#bd93f9>0.25</span>rem; border<span style=color:#ff79c6>-</span>radius<span style=color:#ff79c6>:</span><span style=color:#bd93f9>1</span>rem; background<span style=color:#ff79c6>-</span>color<span style=color:#ff79c6>:</span> #<span style=color:#bd93f9>5</span>AD; color<span style=color:#ff79c6>:</span> white;}
+</span></span><span style=display:flex><span>.tag a {text<span style=color:#ff79c6>-</span>decoration<span style=color:#ff79c6>:</span> none; color<span style=color:#ff79c6>:</span> inherit;}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/style&gt;
+</span></span></code></pre></div><h2 id=icing-on-the-cake-suggestions>Icing on the cake: suggestions!</h2><p>It will be nice if I can have suggestions as I type the first characters.</p><p><img src=/img/svelte-tagsinput-suggest.gif alt></p><p>HTML let us the possibility to add suggestions in a input field, from a
 predefined list: <code>datalist</code> contains the suggestions list and we use it with
-the <code>list</code> property inside the input field.</p><p>I define a new <code>tagsugg</code> variable with all my suggestions:</p><pre><code>let tagsugg = [&quot;tag1&quot;, &quot;tag2&quot;, &quot;tag3&quot;];
-</code></pre><p>In a real project, this list can be generated from all previously saved tags in the system.</p><p>From this list, I construct the HTML <code>datalist</code>:</p><pre><code>&lt;datalist id=&quot;tag_suggestion&quot;&gt;
-    {#each tagsugg as ts}
-        &lt;option&gt;{ts}&lt;/option&gt;
-    {/each}
-&lt;/datalist&gt;
-</code></pre><p>Then I can reference it inside the input field with the <code>list</code> property:</p><pre><code>&lt;input list=&quot;tag_suggestion&quot; on:keyup={pressed} bind:value/&gt;
-</code></pre><p>That&rsquo;s it (for the moment) !</p><p>I now have an input text field that generates tags with a suggestion list !</p><p>A very usefull evolution is to transform this code to a web component so it can be used like a HTML tag (no pun intended 😎).</p><p>You can get the complete code with comments on <a href="https://svelte.dev/repl/211aabf7a4b04eae86899af96a073eba?version=4.1.1">this Repl Svelte page</a></p><div class=links><span class=link><a href=https://barim.us/post/2023-03-31-go-is-object/>← Is Go Object Oriented ?</a></span></div></article></main></div></body></html>
+the <code>list</code> property inside the input field.</p><p>I define a new <code>tagsugg</code> variable with all my suggestions:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>let</span> tagsugg <span style=color:#ff79c6>=</span> [<span style=color:#f1fa8c>&#34;tag1&#34;</span>, <span style=color:#f1fa8c>&#34;tag2&#34;</span>, <span style=color:#f1fa8c>&#34;tag3&#34;</span>];
+</span></span></code></pre></div><p>In a real project, this list can be generated from all previously saved tags in the system.</p><p>From this list, I construct the HTML <code>datalist</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>datalist id<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;tag_suggestion&#34;</span><span style=color:#ff79c6>&gt;</span>
+</span></span><span style=display:flex><span>    {#each tagsugg as ts}
+</span></span><span style=display:flex><span>        <span style=color:#ff79c6>&lt;</span>option<span style=color:#ff79c6>&gt;</span>{ts}<span style=color:#ff79c6>&lt;</span>/option&gt;
+</span></span><span style=display:flex><span>    {/each}
+</span></span><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>/datalist&gt;
+</span></span></code></pre></div><p>Then I can reference it inside the input field with the <code>list</code> property:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#ff79c6>&lt;</span>input list<span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;tag_suggestion&#34;</span> on<span style=color:#ff79c6>:</span>keyup<span style=color:#ff79c6>=</span>{pressed} bind<span style=color:#ff79c6>:</span>value<span style=color:#ff79c6>/&gt;</span>
+</span></span></code></pre></div><p>That&rsquo;s it (for the moment) !</p><p>I now have an input text field that generates tags with a suggestion list !</p><p>A very usefull evolution is to transform this code to a web component so it can be used like a HTML tag (no pun intended 😎).</p><p>You can get the complete code with comments on <a href="https://svelte.dev/repl/211aabf7a4b04eae86899af96a073eba?version=4.1.1">this Repl Svelte page</a></p><div class=links><span class=link><a href=https://barim.us/post/2023-03-31-go-is-object/>← Is Go Object Oriented ?</a></span></div></article></main></div></body></html>
