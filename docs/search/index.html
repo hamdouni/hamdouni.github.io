@@ -33,7 +33,7 @@ Let\u0026rsquo;s use this to display each tag with an X next to it. The X is use
 It\u0026rsquo;s not a real X, it\u0026rsquo;s an utf8 code that looks way more stylish 😎.
 {#each tags as t,i} {t} ⨉ {/each} Ok, the X is not activable yet, so I add an anchor around it with a call to a del function with the index of the tag to remove.
 {#each tags as t,i} {t} \u0026lt;a href=\u0026quot;#del\u0026quot; on:click={()=\u0026gt;del(i)}\u0026gt;⨉\u0026lt;/a\u0026gt; {/each} The del function just call Splice.
-function del(idx){ tags.splice(idx,1); // \u0026lt;-- supprime un élément en idx tags = tags; // \u0026lt;-- force la réactivité de Svelte } The line with tags = tags is used to force Svelte to refresh (this is one of the rare cases where I need to explicitly indicate to Svelte that de data model has changed).
+function del(idx){ tags.splice(idx,1); // \u0026lt;-- remove the element at index \`idx\` tags = tags; // \u0026lt;-- force Svelte reactivity } The line with tags = tags is used to force Svelte to refresh. This is one of the rare cases where I need to explicitly indicate to Svelte that de data model has changed.
 I surround each tag with a \u0026lsquo;span\u0026rsquo; element and add a little touch of css to make it look more taggy:
 {#each tags as t,i} \u0026lt;span class=\u0026quot;tag\u0026quot;\u0026gt; {t} \u0026lt;a href=\u0026quot;#del\u0026quot; on:click={()=\u0026gt;del(i)}\u0026gt;⨉\u0026lt;/a\u0026gt; \u0026lt;/span\u0026gt; {/each} \u0026lt;input on:keyup={pressed} bind:value/\u0026gt; \u0026lt;style\u0026gt; .tag {font-size: 0.8rem; margin-right:0.33rem; padding:0.15rem 0.25rem; border-radius:1rem; background-color: #5AD; color: white;} .tag a {text-decoration: none; color: inherit;} \u0026lt;/style\u0026gt; Icing on the cake: suggestions! It will be nice if I can have suggestions as I type the first characters.
 HTML let us the possibility to add suggestions in a input field, from a predefined list: datalist contains the suggestions list and we use it with the list property inside the input field.
@@ -44,7 +44,7 @@ From this list, I construct the HTML datalist:
 \u0026lt;input list=\u0026quot;tag_suggestion\u0026quot; on:keyup={pressed} bind:value/\u0026gt; That\u0026rsquo;s it (for the moment) !
 I now have an input text field that generates tags with a suggestion list !
 A very usefull evolution is to transform this code to a web component so it can be used like a HTML tag (no pun intended 😎).
-You can get the complete code with commends on this Repl Svelte page
+You can get the complete code with comments on this Repl Svelte page
 `,url:"/post/2023-07-26-svelte-tag-input/",date:"2023-07-25"},"/post/2023-03-31-go-is-object/":{title:"Is Go Object Oriented ?",tags:[],content:`During a discussion on a Discord channel, a message puzzled me: Go is not an object oriented language.
 I knew Go didn\u0026rsquo;t have an inheritance mechanism. But, was that enough to disqualify it as an object language ?
 Allow me to share with you my thoughts on the subject.
