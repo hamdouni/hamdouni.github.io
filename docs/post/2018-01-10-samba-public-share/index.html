@@ -6,8 +6,8 @@
 <a class=tag href=/tags/howto/>howto</a>
 <a class=tag href=/tags/linux/>linux</a>
 <a class=tag href=/tags/samba/>samba</a>
-<a class=tag href=/tags/shell/>shell</a></span><h1>Samba public share</h1><em></em><div class=date>Wednesday, January 10, 2018 · 1 minute · 78 words</div></header><article><p>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?</p><p>Create the public directory</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>mkdir /media/public <span style=color:#f92672>&amp;&amp;</span> chmod <span style=color:#ae81ff>777</span> /media/public
-</span></span></code></pre></div><p>Edit the samba file configuration</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>vi /etc/samba/smb.conf
+<a class=tag href=/tags/shell/>shell</a></span><h1>Samba public share</h1><em></em><div class=date>Wednesday, January 10, 2018 · 1 minute · 78 words</div></header><article><p>How to configure a Debian based Linux distribution to share a folder with anyone on the network, with read and write access ?</p><p>Create the public directory</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>mkdir /media/public &amp;&amp; chmod 777 /media/public
+</span></span></code></pre></div><p>Edit the samba file configuration</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vi /etc/samba/smb.conf
 </span></span></code></pre></div><p>Add the code below at the end</p><pre tabindex=0><code>[public]
 comment = Public Folder
 path = /media/public
@@ -16,6 +16,6 @@ public = yes
 writable = yes
 printable = no
 create mask = 777
-</code></pre><p>Restart samba</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span>sudo service smbd restart
+</code></pre><p>Restart samba</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>sudo service smbd restart
 </span></span></code></pre></div><div class=links><span class=link><a href=https://barim.us/post/2017-03-28-convert-pdf-to-png-with-enough-resolution/>← Convert PDF to PNG with enough resolution</a></span>
 <span class=link><a href=https://barim.us/post/2018-01-26-minimal-docker-golang-et-le-televersement-multipart/>Docker from scratch, Go and Multipart upload →</a></span></div></article></main></div></body></html>

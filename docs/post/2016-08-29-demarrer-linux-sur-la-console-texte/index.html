@@ -6,13 +6,13 @@
 <a class=tag href=/tags/console/>console</a>
 <a class=tag href=/tags/howto/>howto</a>
 <a class=tag href=/tags/linux/>linux</a>
-<a class=tag href=/tags/text/>text</a></span><h1>Boot Linux in text console</h1><em></em><div class=date>Monday, August 29, 2016 · 1 minute · 40 words</div></header><article><p>Get rid of graphic boot on Linux with a few modifications in grub configuration :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#75715e># edit your grub config</span>
+<a class=tag href=/tags/text/>text</a></span><h1>Boot Linux in text console</h1><em></em><div class=date>Monday, August 29, 2016 · 1 minute · 40 words</div></header><article><p>Get rid of graphic boot on Linux with a few modifications in grub configuration :</p><div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#888;font-style:italic># edit your grub config</span>
 </span></span><span style=display:flex><span>sudo vi /etc/default/grub
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT</span>
-</span></span><span style=display:flex><span>GRUB_CMDLINE_LINUX_DEFAULT<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;text&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#888;font-style:italic># remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT</span>
+</span></span><span style=display:flex><span><span style=color:#666;font-weight:700;font-style:italic>GRUB_CMDLINE_LINUX_DEFAULT</span>=<span style=color:#666;font-style:italic>&#34;text&#34;</span>
 </span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#75715e># save the file and update grub</span>
+</span></span><span style=display:flex><span><span style=color:#888;font-style:italic># save the file and update grub</span>
 </span></span><span style=display:flex><span>sudo update-grub
 </span></span></code></pre></div><div class=links><span class=link><a href=https://barim.us/post/2016-06-07-french-git-log/>← French Git Log</a></span>
 <span class=link><a href=https://barim.us/post/2016-10-03-cheyenne-server-and-post-size-limit/>Cheyenne server and POST size limit →</a></span></div></article></main></div></body></html>
