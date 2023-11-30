@@ -206,6 +206,7 @@ p code {
 	margin: 1rem 0;
 	padding: 1rem;
 	border-radius: 1rem;
+	overflow: scroll;
 }
 ol {
     margin-left: 2rem;
