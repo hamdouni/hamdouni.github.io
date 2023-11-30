@@ -20,9 +20,21 @@
     --gray-700: #374151;
     --gray-800: #1F2937;
     --gray-900: #111827;
-    
+
+	--pink-100: #FFF5F7;
+	--pink-200: #FED7E2;
+	--pink-300: #FBB6CE;
+	--pink-400: #F687B3;
+	--pink-500: #ED64A6;
+	--pink-600: #D53F8C;
+	--pink-700: #B83280;
+	--pink-800: #97266D;
+	--pink-900: #702459; 
+
     --main-color: var(--blue-700);
     --main-color-light: var(--blue-200);
+
+	--size-margin: 1.5rem;
 
     margin: 0;
     padding: 0;
@@ -32,10 +44,10 @@ body {
     max-width: 720px;
     margin: auto;
     padding: 1rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-	font-size: 1rem;
-	line-height: 1.5;
-    color: var(--blue-900);
+    font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 18px;
+	line-height: 1.6;
+    color: var(--gray-900);
 }
 img {
     max-width: 100%;
@@ -101,9 +113,6 @@ nav .lang a {
 header {
     margin: 2rem 0;
 }
-header h1 {
-	margin: 1rem 0 0.3rem;
-}
 header .date {
     font-size: 80%;
     color: var(--blue-700);
@@ -121,6 +130,9 @@ dl {
     gap: 2rem;
     margin-bottom: 2rem;
 }
+a {
+    color: var(--blue-700);
+}
 .tags {
     display: inline;
 }
@@ -134,8 +146,12 @@ dl {
     padding: 0.25rem 0.5rem;
 }
 .index_articles article {
-	font-size: 1.15rem;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
+}
+.index_articles article .header, .index_articles article .footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .index_articles article .title {
 	text-decoration: none;
@@ -152,27 +168,25 @@ dl {
 .index_articles article .more {
 	font-size: 80%;
 }
-a {
-    color: var(--blue-700);
-}
 h1, h2 {
     /* font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif; */
-	letter-spacing: -0.001em !important;
-	font-weight: 600 !important;
+	letter-spacing: -1px;
+	font-weight: 700 !important;
+	word-spacing: 3px;
+	margin: 3rem 0 2rem;
+	line-height: 4rem;
 }
 h1 {
-    margin: 2rem 0;
-    line-height: 3.4rem;
     font-size: 3rem;
 }
 h2 {
-    margin: 2rem 0 1rem;
-    line-height: 3rem;
     font-size: 2.2rem;
 }
-p, li {
+p {
+	margin-bottom: 1.5rem;
+}
+li {
     margin: 1rem 0 1rem 0;
-    line-height: 1.8rem;
 }
 h1 + h2 {
     margin: 0 0 1rem;
@@ -181,17 +195,15 @@ h1 + h2 {
     line-height: 1.8rem;
     color: var(--gray-700);
 }
-pre, p code {
-	border-radius: 0.375rem;
-	padding: 0.1rem 0.25rem;
-	white-space: pre-wrap;
-}
-pre code {
-	font-size: 1rem;
-}
 p code {
-	background-color: var(--blue-50);
-	font-style: italic;
+	white-space: pre-wrap;
+	color: var(--pink-700);
+}
+.highlight pre {
+	font-size: 1rem;
+	margin: 1rem 0;
+	padding: 1rem;
+	border-radius: 1rem;
 }
 ol {
     margin-left: 2rem;
@@ -294,4 +306,65 @@ article .links .link a {
 		display: flex;
 		flex-direction: column;
 	}
+}
+
+/* 
+* FONTS DEFINITION
+* 
+* 
+* Thanks to https://gwfh.mranftl.com 
+*/
+
+/* rubik-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/rubik-v28-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/rubik-v28-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/rubik-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-900italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/rubik-v28-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
