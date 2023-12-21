@@ -73,8 +73,9 @@ nav .links a {
     display: flex;
     align-items: center;
 }
-nav .links a:hover {
-    padding-left: 1rem;
+nav .links a:hover svg {
+	background: var(--blue-900);
+	color: var(--blue-100);
 }
 nav details, nav summary {
     width: 100%;
