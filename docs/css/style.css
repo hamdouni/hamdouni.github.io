@@ -47,7 +47,8 @@ body {
     font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 18px;
 	line-height: 1.6;
-    color: var(--gray-700);
+    color: var(--gray-50);
+	background-color: var(--gray-700)
 }
 img {
     max-width: 100%;
@@ -56,7 +57,6 @@ img {
 	display: block;
 }
 nav {
-    color: var(--blue-900);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,11 +74,16 @@ nav .links a {
     align-items: center;
 }
 nav .links a:hover svg {
-	background: var(--blue-900);
-	color: var(--blue-100);
+	color: var(--blue-700);
+	background: var(--blue-300);
 }
 nav details, nav summary {
     width: 100%;
+}
+nav details {
+    border: 1px solid var(--blue-300);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 nav summary {
     list-style: none;
@@ -103,14 +108,14 @@ nav .icon {
     height: 40px;
     margin-right: 1rem;
     padding: 8px;
-    background-color: var(--blue-100);
+	color: var(--blue-900);
+    background-color: var(--blue-50);
     border-radius: 24px;
 }
 nav .lang a {
     text-decoration: none;
     font-size: 1rem;
     display: block;
-    background-color: var(--blue-50);
     padding: 0.3rem 1rem;
 }
 header {
@@ -133,7 +138,10 @@ dl {
     margin-bottom: 2rem;
 }
 a {
-    color: var(--blue-900);
+    color: var(--blue-100);
+}
+a:hover{
+	color: var(--blue-300);
 }
 .tags {
     display: inline;
@@ -199,14 +207,14 @@ h1 + h2 {
 }
 p code {
 	white-space: pre-wrap;
-	color: var(--pink-700);
+	color: var(--pink-400);
 }
 .highlight pre {
 	font-size: 1rem;
 	margin: 1rem 0;
 	padding: 1rem;
 	border-radius: 1rem;
-	overflow: scroll;
+	overflow: auto;
 }
 ol {
     margin-left: 2rem;
@@ -309,6 +317,38 @@ article .links .link a {
 	.index_articles article {
 		display: flex;
 		flex-direction: column;
+	}
+}
+
+/*
+* LIGHT MODE
+*
+*/
+
+@media (prefers-color-scheme: light) {
+	body {
+		color: var(--gray-700);
+		background-color: var(--gray-50);
+	}
+	nav .links a:hover svg {
+		color: var(--blue-100);
+		background: var(--blue-900);
+	}
+	nav .icon {
+		color: var(--gray-50);
+		background-color: var(--gray-700);
+	}
+	nav details {
+		border: 1px solid var(--blue-900);
+	}
+	a {
+		color: var(--blue-900);
+	}
+	a:hover{
+		color: var(--blue-500);
+	}
+	p code {
+		color: var(--pink-700);
 	}
 }
 
