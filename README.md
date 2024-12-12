@@ -1,5 +1,4 @@
-barim.us
-========
+# barim.us
 
 Hi, it's Brahim.
 
@@ -9,7 +8,7 @@ I’m also the co-founder of Softinnov, a development shop specialized in web ap
 
 You’ll find here mainly posts about programming languages, operating systems and applications related to the open-source eco-system and, occasionally, my random thoughts about topics that matter to me.
 
-Contact me on Twitter, or on my email brahim ( at ) hamdouni.com.
+Contact me on Mastodon as @codecadim, or on my email brahim ( at ) hamdouni.com.
 
 This blog is personal and opinions here are mine.
 
