@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>windows on Barim's blog · ابراهيم</title><link>https://barim.us/tags/windows/</link><description>Recent content in windows on Barim's blog · ابراهيم</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 31 Aug 2015 07:30:05 +0000</lastBuildDate><atom:link href="https://barim.us/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Forward Outlook Emails With VB Script</title><link>https://barim.us/post/2015-08-31-how-to-forward-outlook-emails-with-vb-script/</link><pubDate>Mon, 31 Aug 2015 07:30:05 +0000</pubDate><guid>https://barim.us/post/2015-08-31-how-to-forward-outlook-emails-with-vb-script/</guid><description>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects In Microsoft Outlook, open the VB editor and copy/paste the code below Replace your@email.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Barim's blog · ابراهيم</title><link>https://barim.us/tags/windows/</link><description>Recent content in Windows on Barim's blog · ابراهيم</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 14 Jan 2025 18:17:46 +0100</lastBuildDate><atom:link href="https://barim.us/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Forward Outlook Emails With VB Script</title><link>https://barim.us/post/2015-08-31-how-to-forward-outlook-emails-with-vb-script/</link><pubDate>Mon, 31 Aug 2015 07:30:05 +0000</pubDate><guid>https://barim.us/post/2015-08-31-how-to-forward-outlook-emails-with-vb-script/</guid><description>&lt;ol>
+&lt;li>In Windows, create a certificate via Start &amp;gt; All Programs &amp;gt; Microsoft Office &amp;gt; Microsoft Office Tools &amp;gt; Digital Certificate for VBA Projects&lt;/li>
+&lt;li>In Microsoft Outlook, open the VB editor and copy/paste the code below&lt;/li>
+&lt;li>Replace &lt;strong>&lt;a href="mailto:your@email.here">your@email.here&lt;/a>&lt;/strong> and save&lt;/li>
+&lt;li>Click on Tools &amp;gt; Digital Signature&lt;/li>
+&lt;li>Click on [Choose] and select your certificate&lt;/li>
+&lt;li>Click OK, then save and close the VB editor&lt;/li>
+&lt;li>Create the Outlook rule with [run a script] as action and select your macro&lt;/li>
+&lt;li>That&amp;rsquo;s all folks !&lt;/li>
+&lt;/ol>
+&lt;pre>&lt;code>Private Const TO_EMAIL As String = &amp;quot;your@email.here&amp;quot;
+Sub ForwardAllEmail(theMail As MailItem)
+	On Error GoTo EndSub
+	Dim mailObj As Outlook.MailItem
+	Dim item As Outlook.MailItem
+	Set mailObj = Application.Session.GetItemFromID(theMail.EntryID)
+	Set item = mailObj.Forward
+	item.Recipients.Add (TO_EMAIL)
+	item.Send
+	Set item = Nothing      ' Set variables to null to prevent memory leaks
+	Set mailObj = Nothing
+	Exit Sub
+EndSub:
+ MsgBox &amp;quot;Error: &amp;quot; &amp;amp; Err.Description
+End Sub
+&lt;/code>&lt;/pre></description></item></channel></rss>

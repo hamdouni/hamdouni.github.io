@@ -52,6 +52,9 @@ body {
     margin: auto;
     padding: 1rem;
 }
+.brand {
+	font-size: 1.5rem;
+}
 img {
     max-width: 100%;
     object-fit: cover;
@@ -181,8 +184,11 @@ a:hover{
 .index_articles article .more {
 	font-size: 80%;
 }
-h1, h2 {
+h1,h2,h3,.header,.brand {
     /* font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif; */
+	font-family: 'Space Grotesk';
+}
+h1, h2 {
 	letter-spacing: -1px;
 	font-weight: 700 !important;
 	word-spacing: 3px;
@@ -329,7 +335,7 @@ article .links .link a {
 */
 
 @media (prefers-color-scheme: light) {
-	body {
+	body, nav {
 		color: var(--gray-700);
 		background-color: var(--gray-50);
 	}
@@ -341,8 +347,8 @@ article .links .link a {
 		color: var(--gray-50);
 		background-color: var(--gray-700);
 	}
-	nav details {
-		border: 1px solid var(--blue-900);
+	nav {
+		border-bottom: 1px solid var(--gray-700);
 	}
 	a {
 		color: var(--blue-900);
@@ -414,4 +420,22 @@ article .links .link a {
   font-style: italic;
   font-weight: 900;
   src: url('../fonts/rubik-v28-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* space-grotesk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-grotesk-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* space-grotesk-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-grotesk-v16-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
