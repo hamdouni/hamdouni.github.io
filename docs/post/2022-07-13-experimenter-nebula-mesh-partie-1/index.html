@@ -10,111 +10,111 @@ Lists
 </a><a href=/search><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5A7 7 0 113 10a7 7 0 0114 0z"/></svg>
 Search
 </a><a href=/about><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7A4 4 0 118 7a4 4 0 018 0zm-4 7a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-About</a></div></details></nav><div id=content class=wrapped><main><header><h1>Experiment Nebula Mesh - Part 1</h1><em></em><div class=date>Saturday, July 16, 2022 · 5 minutes · 877 words</div></header><article><p>Is it possible to use the public network, namely Internet, to make 2 machines communicate securely ? And if possible something easier to install and configure than OpenVpn ?</p><p>A few months ago, I heard about Nebula from <a href=https://www.defined.net/nebula/>Defined</a> and wanted to test it : one single binary, some certificates and as secure as it can be, that sounded promising !</p><p>So here we are trying to simulate a mesh network between 2 virtual machines using <a href=https://www.vagrantup.com>Vagrant</a> on my Ubuntu Linux distribution 20.04 with Virtualbox already installed.</p><h2 id=vagrant>Vagrant</h2><p><a href=https://www.vagrantup.com/>Vagrant</a> from Hashicorp is the tool I use to manage virtual machines.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>sudo apt install -y vagrant
-</span></span></code></pre></div><p>I configure Vagrant to have 2 virtual machines with Debian 11, named respectively boxA and boxB.</p><p>To make it simple, I use my host network interface to link the 2 virtual machines (so <code>eth0</code> in my case) and use the available DHCP of my local network.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>cat <span style=color:#f1fa8c>&lt;&lt;EOF &gt; Vagrantfile
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>Vagrant.configure(&#34;2&#34;) do |config|
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    config.vm.define &#34;boxA&#34; do |boxA|
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>        boxA.vm.box = &#34;generic/debian11&#34;
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>        boxA.vm.network &#34;public_network&#34;, bridge: &#34;eth0&#34;
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    end
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    config.vm.define &#34;boxB&#34; do |boxB|
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>        boxB.vm.box = &#34;generic/debian11&#34;
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>        boxB.vm.network &#34;public_network&#34;, bridge: &#34;eth0&#34;
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    end
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>end
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>EOF</span>
-</span></span></code></pre></div><p>Now I can launch the 2 machines with a single command :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant up
-</span></span></code></pre></div><h2 id=nebula>Nebula</h2><p>Installing nebula is as simple as downloading the binaries from <a href=https://github.com/slackhq/nebula/releases>github</a>. I choose <code>nebula-linux-amd64.tar.gz</code> to comply to my configuration.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>wget https://github.com/slackhq/nebula/releases/download/v1.6.0/nebula-linux-amd64.tar.gz
+About</a></div></details></nav><div id=content class=wrapped><main><header><h1>Experiment Nebula Mesh - Part 1</h1><em></em><div class=date>Saturday, July 16, 2022 · 5 minutes · 917 words</div></header><article><p>Is it possible to use the public network, namely Internet, to make 2 machines communicate securely ? And if possible something easier to install and configure than OpenVpn ?</p><p>A few months ago, I heard about Nebula from <a href=https://www.defined.net/nebula/>Defined</a> and wanted to test it : one single binary, some certificates and as secure as it can be, that sounded promising !</p><p>So here we are trying to simulate a mesh network between 2 virtual machines using <a href=https://www.vagrantup.com>Vagrant</a> on my Ubuntu Linux distribution 20.04 with Virtualbox already installed.</p><h2 id=vagrant>Vagrant</h2><p><a href=https://www.vagrantup.com/>Vagrant</a> from Hashicorp is the tool I use to manage virtual machines.</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>sudo apt install -y vagrant
+</span></span></code></pre></div><p>I configure Vagrant to have 2 virtual machines with Debian 11, named respectively boxA and boxB.</p><p>To make it simple, I use my host network interface to link the 2 virtual machines (so <code>eth0</code> in my case) and use the available DHCP of my local network.</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln> 1</span><span class=cl>cat <span class=s>&lt;&lt;EOF &gt; Vagrantfile
+</span></span></span><span class=line><span class=ln> 2</span><span class=cl><span class=s>Vagrant.configure(&#34;2&#34;) do |config|
+</span></span></span><span class=line><span class=ln> 3</span><span class=cl><span class=s>    config.vm.define &#34;boxA&#34; do |boxA|
+</span></span></span><span class=line><span class=ln> 4</span><span class=cl><span class=s>        boxA.vm.box = &#34;generic/debian11&#34;
+</span></span></span><span class=line><span class=ln> 5</span><span class=cl><span class=s>        boxA.vm.network &#34;public_network&#34;, bridge: &#34;eth0&#34;
+</span></span></span><span class=line><span class=ln> 6</span><span class=cl><span class=s>    end
+</span></span></span><span class=line><span class=ln> 7</span><span class=cl><span class=s>    config.vm.define &#34;boxB&#34; do |boxB|
+</span></span></span><span class=line><span class=ln> 8</span><span class=cl><span class=s>        boxB.vm.box = &#34;generic/debian11&#34;
+</span></span></span><span class=line><span class=ln> 9</span><span class=cl><span class=s>        boxB.vm.network &#34;public_network&#34;, bridge: &#34;eth0&#34;
+</span></span></span><span class=line><span class=ln>10</span><span class=cl><span class=s>    end
+</span></span></span><span class=line><span class=ln>11</span><span class=cl><span class=s>end
+</span></span></span><span class=line><span class=ln>12</span><span class=cl><span class=s>EOF</span>
+</span></span></code></pre></div><p>Now I can launch the 2 machines with a single command :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant up
+</span></span></code></pre></div><h2 id=nebula>Nebula</h2><p>Installing nebula is as simple as downloading the binaries from <a href=https://github.com/slackhq/nebula/releases>github</a>. I choose <code>nebula-linux-amd64.tar.gz</code> to comply to my configuration.</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>wget https://github.com/slackhq/nebula/releases/download/v1.6.0/nebula-linux-amd64.tar.gz
 </span></span></code></pre></div><p>After downloading, I uncompress the archive :</p><pre tabindex=0><code>tar xf nebula-linux-amd64.tar.gz
-</code></pre><p>I now have 2 binaries : nebula and nebula-cert.</p><ul><li><code>nebula</code> will be copied on the 2 virtual machines. This is the main binary who will establish the bridge between the machines.</li><li><code>nebula-cert</code> will be used to generate all needed certificates :</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>./nebula-cert ca -name <span style=color:#f1fa8c>&#34;ACME, Inc&#34;</span>
-</span></span><span style=display:flex><span>./nebula-cert sign -name <span style=color:#f1fa8c>&#34;boxA&#34;</span> -ip <span style=color:#f1fa8c>&#34;192.168.168.100/24&#34;</span>
-</span></span><span style=display:flex><span>./nebula-cert sign -name <span style=color:#f1fa8c>&#34;boxB&#34;</span> -ip <span style=color:#f1fa8c>&#34;192.168.168.200/24&#34;</span>
-</span></span></code></pre></div><p>I choose <code>192.168.168.*</code> as my mesh network IP addresses : .100 for boxA and .200 for boxB.</p><p>The results of the commands are this list of files :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>ca.crt
-</span></span><span style=display:flex><span>ca.key
-</span></span><span style=display:flex><span>boxA.crt
-</span></span><span style=display:flex><span>boxA.key
-</span></span><span style=display:flex><span>boxB.crt
-</span></span><span style=display:flex><span>boxB.key
-</span></span></code></pre></div><p>To make it more simple to copy the files to the virtual machines, I create a folder per machine and copy the needed files :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>mkdir boxA boxB
-</span></span><span style=display:flex><span>mv boxA.* boxA <span style=color:#ff79c6>&amp;&amp;</span> mv boxB.* boxB
-</span></span></code></pre></div><p>Now I want to generate a Nebula configuration file, that will be common for the 2 machines. I need to get their IP addresses on my local network (those assigned by my DHCP server). I know that vagrant will use the eth1 interface inside the machines, so I use some magic shell script :</p><p>First on boxA :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>boxAip</span><span style=color:#ff79c6>=</span><span style=color:#ff79c6>$(</span>vagrant ssh boxA --no-tty -c <span style=color:#f1fa8c>&#34;ip address show eth1| grep &#39;inet &#39; | sed -e &#39;s/^.*inet //&#39; -e &#39;s/\/.*</span>$<span style=color:#f1fa8c>//&#39;&#34;</span> | tr -d <span style=color:#f1fa8c>&#39;\r&#39;</span><span style=color:#ff79c6>)</span>
-</span></span></code></pre></div><p>Then on boxB :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>boxBip</span><span style=color:#ff79c6>=</span><span style=color:#ff79c6>$(</span>vagrant ssh boxB --no-tty -c <span style=color:#f1fa8c>&#34;ip address show eth1| grep &#39;inet &#39; | sed -e &#39;s/^.*inet //&#39; -e &#39;s/\/.*</span>$<span style=color:#f1fa8c>//&#39;&#34;</span> | tr -d <span style=color:#f1fa8c>&#39;\r&#39;</span><span style=color:#ff79c6>)</span>
-</span></span></code></pre></div><p>The magic is that <code>$boxAip</code> and <code>$boxBip</code> variables now contain the wanted IPs. Let use them inside the Nebula config in the <code>static_host_map</code> section :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>cat <span style=color:#f1fa8c>&lt;&lt;EOF &gt; config.yml
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>pki:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  ca: /etc/nebula/ca.crt
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  cert: /etc/nebula/host.crt
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  key: /etc/nebula/host.key
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>static_host_map:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    &#34;192.168.168.100&#34;: [&#34;$boxAip:4242&#34;]
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    &#34;192.168.168.200&#34;: [&#34;$boxBip:4242&#34;]
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>lighthouse:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  am_lighthouse: false
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>listen:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  host: 0.0.0.0
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  port: 4242
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>punchy:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  punch: true
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>tun:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  disabled: false
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  dev: nebula1
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  drop_local_broadcast: false
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  drop_multicast: false
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  tx_queue: 500
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  mtu: 1300
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  routes:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  unsafe_routes:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>logging:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  level: info
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  format: text
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>firewall:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  conntrack:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    tcp_timeout: 12m
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    udp_timeout: 3m
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    default_timeout: 10m
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    max_connections: 100000
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  outbound:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    - port: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>      proto: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>      host: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>  inbound:
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>    - port: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>      proto: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>      host: any
-</span></span></span><span style=display:flex><span><span style=color:#f1fa8c>EOF</span>
-</span></span></code></pre></div><p>It&rsquo;s time to configure the machines. First, let send all the files to each machine :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant upload ./boxA /tmp/ boxA
-</span></span><span style=display:flex><span>vagrant upload ./boxB /tmp/ boxB
-</span></span><span style=display:flex><span>vagrant upload ca.crt /tmp/ boxA
-</span></span><span style=display:flex><span>vagrant upload ca.crt /tmp/ boxB
-</span></span><span style=display:flex><span>vagrant upload config.yml /tmp/ boxA
-</span></span><span style=display:flex><span>vagrant upload config.yml /tmp/ boxB
-</span></span><span style=display:flex><span>vagrant upload nebula /tmp/ boxA
-</span></span><span style=display:flex><span>vagrant upload nebula /tmp/ boxB
-</span></span></code></pre></div><p>Now I ssh in each machine and continue the configuration :</p><p>First, boxA :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant ssh boxA
-</span></span></code></pre></div><p>Inside boxA, I move the files in their respective location and finally launch Nebula in the background before quitting boxA :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>sudo mkdir /etc/nebula
-</span></span><span style=display:flex><span>sudo mv /tmp/config.yml /etc/nebula/config.yml
-</span></span><span style=display:flex><span>sudo mv /tmp/ca.crt /etc/nebula/ca.crt
-</span></span><span style=display:flex><span>sudo mv /tmp/boxA.crt /etc/nebula/host.crt
-</span></span><span style=display:flex><span>sudo mv /tmp/boxA.key /etc/nebula/host.key
-</span></span><span style=display:flex><span>sudo mkdir /opt/nebula 
-</span></span><span style=display:flex><span>sudo mv /tmp/nebula /opt/nebula/
-</span></span><span style=display:flex><span>chmod +x /opt/nebula/nebula
-</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>cd</span> /opt/nebula
-</span></span><span style=display:flex><span>sudo ./nebula -config /etc/nebula/config.yml &amp;
-</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>exit</span>
-</span></span></code></pre></div><p>Let&rsquo;s configure boxB,</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant ssh boxB
-</span></span></code></pre></div><p>Then I move all files and launch Nebula :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>sudo mkdir /etc/nebula
-</span></span><span style=display:flex><span>sudo mv /tmp/config.yml /etc/nebula/config.yml
-</span></span><span style=display:flex><span>sudo mv /tmp/ca.crt /etc/nebula/ca.crt
-</span></span><span style=display:flex><span>sudo mv /tmp/boxB.crt /etc/nebula/host.crt
-</span></span><span style=display:flex><span>sudo mv /tmp/boxB.key /etc/nebula/host.key
-</span></span><span style=display:flex><span>sudo mkdir /opt/nebula 
-</span></span><span style=display:flex><span>sudo mv /tmp/nebula /opt/nebula/
-</span></span><span style=display:flex><span>chmod +x /opt/nebula/nebula
-</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>cd</span> /opt/nebula
-</span></span><span style=display:flex><span>sudo ./nebula -config /etc/nebula/config.yml &amp;
-</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>exit</span>
-</span></span></code></pre></div><p>Ok, at this moment, I have 2 virtual machines, with a Nebula network between them. How am I going to verify that it is really working ?</p><p>Well if I can ping boxB from boxA, it will mean that all is ok, so let&rsquo;s found out :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant ssh boxA -c <span style=color:#f1fa8c>&#34;ping 192.168.168.200&#34;</span>
-</span></span></code></pre></div><p>Hourra ! It is working. Of course, I can do it on the other side :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span>vagrant ssh boxB -c <span style=color:#f1fa8c>&#34;ping 192.168.168.100&#34;</span>
+</code></pre><p>I now have 2 binaries : nebula and nebula-cert.</p><ul><li><code>nebula</code> will be copied on the 2 virtual machines. This is the main binary who will establish the bridge between the machines.</li><li><code>nebula-cert</code> will be used to generate all needed certificates :</li></ul><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>./nebula-cert ca -name <span class=s2>&#34;ACME, Inc&#34;</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl>./nebula-cert sign -name <span class=s2>&#34;boxA&#34;</span> -ip <span class=s2>&#34;192.168.168.100/24&#34;</span>
+</span></span><span class=line><span class=ln>3</span><span class=cl>./nebula-cert sign -name <span class=s2>&#34;boxB&#34;</span> -ip <span class=s2>&#34;192.168.168.200/24&#34;</span>
+</span></span></code></pre></div><p>I choose <code>192.168.168.*</code> as my mesh network IP addresses : .100 for boxA and .200 for boxB.</p><p>The results of the commands are this list of files :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>ca.crt
+</span></span><span class=line><span class=ln>2</span><span class=cl>ca.key
+</span></span><span class=line><span class=ln>3</span><span class=cl>boxA.crt
+</span></span><span class=line><span class=ln>4</span><span class=cl>boxA.key
+</span></span><span class=line><span class=ln>5</span><span class=cl>boxB.crt
+</span></span><span class=line><span class=ln>6</span><span class=cl>boxB.key
+</span></span></code></pre></div><p>To make it more simple to copy the files to the virtual machines, I create a folder per machine and copy the needed files :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>mkdir boxA boxB
+</span></span><span class=line><span class=ln>2</span><span class=cl>mv boxA.* boxA <span class=o>&amp;&amp;</span> mv boxB.* boxB
+</span></span></code></pre></div><p>Now I want to generate a Nebula configuration file, that will be common for the 2 machines. I need to get their IP addresses on my local network (those assigned by my DHCP server). I know that vagrant will use the eth1 interface inside the machines, so I use some magic shell script :</p><p>First on boxA :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl><span class=nv>boxAip</span><span class=o>=</span><span class=k>$(</span>vagrant ssh boxA --no-tty -c <span class=s2>&#34;ip address show eth1| grep &#39;inet &#39; | sed -e &#39;s/^.*inet //&#39; -e &#39;s/\/.*</span>$<span class=s2>//&#39;&#34;</span> <span class=p>|</span> tr -d <span class=s1>&#39;\r&#39;</span><span class=k>)</span>
+</span></span></code></pre></div><p>Then on boxB :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl><span class=nv>boxBip</span><span class=o>=</span><span class=k>$(</span>vagrant ssh boxB --no-tty -c <span class=s2>&#34;ip address show eth1| grep &#39;inet &#39; | sed -e &#39;s/^.*inet //&#39; -e &#39;s/\/.*</span>$<span class=s2>//&#39;&#34;</span> <span class=p>|</span> tr -d <span class=s1>&#39;\r&#39;</span><span class=k>)</span>
+</span></span></code></pre></div><p>The magic is that <code>$boxAip</code> and <code>$boxBip</code> variables now contain the wanted IPs. Let use them inside the Nebula config in the <code>static_host_map</code> section :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln> 1</span><span class=cl>cat <span class=s>&lt;&lt;EOF &gt; config.yml
+</span></span></span><span class=line><span class=ln> 2</span><span class=cl><span class=s>pki:
+</span></span></span><span class=line><span class=ln> 3</span><span class=cl><span class=s>  ca: /etc/nebula/ca.crt
+</span></span></span><span class=line><span class=ln> 4</span><span class=cl><span class=s>  cert: /etc/nebula/host.crt
+</span></span></span><span class=line><span class=ln> 5</span><span class=cl><span class=s>  key: /etc/nebula/host.key
+</span></span></span><span class=line><span class=ln> 6</span><span class=cl><span class=s>static_host_map:
+</span></span></span><span class=line><span class=ln> 7</span><span class=cl><span class=s>    &#34;192.168.168.100&#34;: [&#34;$boxAip:4242&#34;]
+</span></span></span><span class=line><span class=ln> 8</span><span class=cl><span class=s>    &#34;192.168.168.200&#34;: [&#34;$boxBip:4242&#34;]
+</span></span></span><span class=line><span class=ln> 9</span><span class=cl><span class=s>lighthouse:
+</span></span></span><span class=line><span class=ln>10</span><span class=cl><span class=s>  am_lighthouse: false
+</span></span></span><span class=line><span class=ln>11</span><span class=cl><span class=s>listen:
+</span></span></span><span class=line><span class=ln>12</span><span class=cl><span class=s>  host: 0.0.0.0
+</span></span></span><span class=line><span class=ln>13</span><span class=cl><span class=s>  port: 4242
+</span></span></span><span class=line><span class=ln>14</span><span class=cl><span class=s>punchy:
+</span></span></span><span class=line><span class=ln>15</span><span class=cl><span class=s>  punch: true
+</span></span></span><span class=line><span class=ln>16</span><span class=cl><span class=s>tun:
+</span></span></span><span class=line><span class=ln>17</span><span class=cl><span class=s>  disabled: false
+</span></span></span><span class=line><span class=ln>18</span><span class=cl><span class=s>  dev: nebula1
+</span></span></span><span class=line><span class=ln>19</span><span class=cl><span class=s>  drop_local_broadcast: false
+</span></span></span><span class=line><span class=ln>20</span><span class=cl><span class=s>  drop_multicast: false
+</span></span></span><span class=line><span class=ln>21</span><span class=cl><span class=s>  tx_queue: 500
+</span></span></span><span class=line><span class=ln>22</span><span class=cl><span class=s>  mtu: 1300
+</span></span></span><span class=line><span class=ln>23</span><span class=cl><span class=s>  routes:
+</span></span></span><span class=line><span class=ln>24</span><span class=cl><span class=s>  unsafe_routes:
+</span></span></span><span class=line><span class=ln>25</span><span class=cl><span class=s>logging:
+</span></span></span><span class=line><span class=ln>26</span><span class=cl><span class=s>  level: info
+</span></span></span><span class=line><span class=ln>27</span><span class=cl><span class=s>  format: text
+</span></span></span><span class=line><span class=ln>28</span><span class=cl><span class=s>firewall:
+</span></span></span><span class=line><span class=ln>29</span><span class=cl><span class=s>  conntrack:
+</span></span></span><span class=line><span class=ln>30</span><span class=cl><span class=s>    tcp_timeout: 12m
+</span></span></span><span class=line><span class=ln>31</span><span class=cl><span class=s>    udp_timeout: 3m
+</span></span></span><span class=line><span class=ln>32</span><span class=cl><span class=s>    default_timeout: 10m
+</span></span></span><span class=line><span class=ln>33</span><span class=cl><span class=s>    max_connections: 100000
+</span></span></span><span class=line><span class=ln>34</span><span class=cl><span class=s>  outbound:
+</span></span></span><span class=line><span class=ln>35</span><span class=cl><span class=s>    - port: any
+</span></span></span><span class=line><span class=ln>36</span><span class=cl><span class=s>      proto: any
+</span></span></span><span class=line><span class=ln>37</span><span class=cl><span class=s>      host: any
+</span></span></span><span class=line><span class=ln>38</span><span class=cl><span class=s>  inbound:
+</span></span></span><span class=line><span class=ln>39</span><span class=cl><span class=s>    - port: any
+</span></span></span><span class=line><span class=ln>40</span><span class=cl><span class=s>      proto: any
+</span></span></span><span class=line><span class=ln>41</span><span class=cl><span class=s>      host: any
+</span></span></span><span class=line><span class=ln>42</span><span class=cl><span class=s>EOF</span>
+</span></span></code></pre></div><p>It&rsquo;s time to configure the machines. First, let send all the files to each machine :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant upload ./boxA /tmp/ boxA
+</span></span><span class=line><span class=ln>2</span><span class=cl>vagrant upload ./boxB /tmp/ boxB
+</span></span><span class=line><span class=ln>3</span><span class=cl>vagrant upload ca.crt /tmp/ boxA
+</span></span><span class=line><span class=ln>4</span><span class=cl>vagrant upload ca.crt /tmp/ boxB
+</span></span><span class=line><span class=ln>5</span><span class=cl>vagrant upload config.yml /tmp/ boxA
+</span></span><span class=line><span class=ln>6</span><span class=cl>vagrant upload config.yml /tmp/ boxB
+</span></span><span class=line><span class=ln>7</span><span class=cl>vagrant upload nebula /tmp/ boxA
+</span></span><span class=line><span class=ln>8</span><span class=cl>vagrant upload nebula /tmp/ boxB
+</span></span></code></pre></div><p>Now I ssh in each machine and continue the configuration :</p><p>First, boxA :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant ssh boxA
+</span></span></code></pre></div><p>Inside boxA, I move the files in their respective location and finally launch Nebula in the background before quitting boxA :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln> 1</span><span class=cl>sudo mkdir /etc/nebula
+</span></span><span class=line><span class=ln> 2</span><span class=cl>sudo mv /tmp/config.yml /etc/nebula/config.yml
+</span></span><span class=line><span class=ln> 3</span><span class=cl>sudo mv /tmp/ca.crt /etc/nebula/ca.crt
+</span></span><span class=line><span class=ln> 4</span><span class=cl>sudo mv /tmp/boxA.crt /etc/nebula/host.crt
+</span></span><span class=line><span class=ln> 5</span><span class=cl>sudo mv /tmp/boxA.key /etc/nebula/host.key
+</span></span><span class=line><span class=ln> 6</span><span class=cl>sudo mkdir /opt/nebula 
+</span></span><span class=line><span class=ln> 7</span><span class=cl>sudo mv /tmp/nebula /opt/nebula/
+</span></span><span class=line><span class=ln> 8</span><span class=cl>chmod +x /opt/nebula/nebula
+</span></span><span class=line><span class=ln> 9</span><span class=cl><span class=nb>cd</span> /opt/nebula
+</span></span><span class=line><span class=ln>10</span><span class=cl>sudo ./nebula -config /etc/nebula/config.yml <span class=p>&amp;</span>
+</span></span><span class=line><span class=ln>11</span><span class=cl><span class=nb>exit</span>
+</span></span></code></pre></div><p>Let&rsquo;s configure boxB,</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant ssh boxB
+</span></span></code></pre></div><p>Then I move all files and launch Nebula :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln> 1</span><span class=cl>sudo mkdir /etc/nebula
+</span></span><span class=line><span class=ln> 2</span><span class=cl>sudo mv /tmp/config.yml /etc/nebula/config.yml
+</span></span><span class=line><span class=ln> 3</span><span class=cl>sudo mv /tmp/ca.crt /etc/nebula/ca.crt
+</span></span><span class=line><span class=ln> 4</span><span class=cl>sudo mv /tmp/boxB.crt /etc/nebula/host.crt
+</span></span><span class=line><span class=ln> 5</span><span class=cl>sudo mv /tmp/boxB.key /etc/nebula/host.key
+</span></span><span class=line><span class=ln> 6</span><span class=cl>sudo mkdir /opt/nebula 
+</span></span><span class=line><span class=ln> 7</span><span class=cl>sudo mv /tmp/nebula /opt/nebula/
+</span></span><span class=line><span class=ln> 8</span><span class=cl>chmod +x /opt/nebula/nebula
+</span></span><span class=line><span class=ln> 9</span><span class=cl><span class=nb>cd</span> /opt/nebula
+</span></span><span class=line><span class=ln>10</span><span class=cl>sudo ./nebula -config /etc/nebula/config.yml <span class=p>&amp;</span>
+</span></span><span class=line><span class=ln>11</span><span class=cl><span class=nb>exit</span>
+</span></span></code></pre></div><p>Ok, at this moment, I have 2 virtual machines, with a Nebula network between them. How am I going to verify that it is really working ?</p><p>Well if I can ping boxB from boxA, it will mean that all is ok, so let&rsquo;s found out :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant ssh boxA -c <span class=s2>&#34;ping 192.168.168.200&#34;</span>
+</span></span></code></pre></div><p>Hourra ! It is working. Of course, I can do it on the other side :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl>vagrant ssh boxB -c <span class=s2>&#34;ping 192.168.168.100&#34;</span>
 </span></span></code></pre></div><p>And that&rsquo;s all folks for part 1 !</p><p>Next, I&rsquo;ll try to use this configuration to execute a MySQL server on one machine, and access it from a MySQL client on the other machine. And to make it a little more difficult, I&rsquo;ll use Podman as the container engine to execute this client and server.</p><span class=tags><a class=tag href=/tags/technical/>Technical</a>
 <a class=tag href=/tags/linux/>Linux</a></span><div class=links><span class=link><a href=https://barim.us/post/2022-04-01-udev-webcam/>← Udev Webcam</a>
 </span><span class=link><a href=https://barim.us/post/2022-08-02-experimenter-nebula-mesh-partie-2/>Experiment Nebula Mesh - Part 2 →</a></span></div></article></main></div></body></html>
