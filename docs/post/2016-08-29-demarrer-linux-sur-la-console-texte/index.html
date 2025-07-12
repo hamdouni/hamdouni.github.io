@@ -10,13 +10,13 @@ Lists
 </a><a href=/search><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5A7 7 0 113 10a7 7 0 0114 0z"/></svg>
 Search
 </a><a href=/about><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M16 7A4 4 0 118 7a4 4 0 018 0zm-4 7a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-About</a></div></details></nav><div id=content class=wrapped><main><header><h1>Boot Linux in text console</h1><em></em><div class=date>Monday, August 29, 2016 · 1 minute · 40 words</div></header><article><p>Get rid of graphic boot on Linux with a few modifications in grub configuration :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-sh data-lang=sh><span style=display:flex><span><span style=color:#6272a4># edit your grub config</span>
-</span></span><span style=display:flex><span>sudo vi /etc/default/grub
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#6272a4># remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT</span>
-</span></span><span style=display:flex><span><span style=color:#8be9fd;font-style:italic>GRUB_CMDLINE_LINUX_DEFAULT</span><span style=color:#ff79c6>=</span><span style=color:#f1fa8c>&#34;text&#34;</span>
-</span></span><span style=display:flex><span>
-</span></span><span style=display:flex><span><span style=color:#6272a4># save the file and update grub</span>
-</span></span><span style=display:flex><span>sudo update-grub
+About</a></div></details></nav><div id=content class=wrapped><main><header><h1>Boot Linux in text console</h1><em></em><div class=date>Monday, August 29, 2016 · 1 minute · 42 words</div></header><article><p>Get rid of graphic boot on Linux with a few modifications in grub configuration :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=ln>1</span><span class=cl><span class=c1># edit your grub config</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl>sudo vi /etc/default/grub
+</span></span><span class=line><span class=ln>3</span><span class=cl>
+</span></span><span class=line><span class=ln>4</span><span class=cl><span class=c1># remove splash, quiet, ... from GRUB_CMDLINE_LINUX_DEFAULT</span>
+</span></span><span class=line><span class=ln>5</span><span class=cl><span class=nv>GRUB_CMDLINE_LINUX_DEFAULT</span><span class=o>=</span><span class=s2>&#34;text&#34;</span>
+</span></span><span class=line><span class=ln>6</span><span class=cl>
+</span></span><span class=line><span class=ln>7</span><span class=cl><span class=c1># save the file and update grub</span>
+</span></span><span class=line><span class=ln>8</span><span class=cl>sudo update-grub
 </span></span></code></pre></div><span class=tags><a class=tag href=/tags/linux/>Linux</a></span><div class=links><span class=link><a href=https://barim.us/post/2016-06-07-french-git-log/>← French Git Log</a>
 </span><span class=link><a href=https://barim.us/post/2016-10-03-cheyenne-server-and-post-size-limit/>Cheyenne server and POST size limit →</a></span></div></article></main></div></body></html>

@@ -1,25 +1,25 @@
 * {
-    --blue-50: #F0F9FF;
-    --blue-100: #E0F2FE;
-    --blue-200: #BAE6FD;
-    --blue-300: #7DD3FC;
-    --blue-400: #38BDF8;
-    --blue-500: #0EA5E9;
-    --blue-600: #0284C7;
-    --blue-700: #0369A1;
-    --blue-800: #075985;
-    --blue-900: #0C4A6E;
+	--blue-50: #F0F9FF;
+	--blue-100: #E0F2FE;
+	--blue-200: #BAE6FD;
+	--blue-300: #7DD3FC;
+	--blue-400: #38BDF8;
+	--blue-500: #0EA5E9;
+	--blue-600: #0284C7;
+	--blue-700: #0369A1;
+	--blue-800: #075985;
+	--blue-900: #0C4A6E;
 
-    --gray-50: #F9FAFB;
-    --gray-100: #F3F4F6;
-    --gray-200: #E5E7EB;
-    --gray-300: #D1D5DB;
-    --gray-400: #9CA3AF;
-    --gray-500: #6B7280;
-    --gray-600: #4B5563;
-    --gray-700: #374151;
-    --gray-800: #1F2937;
-    --gray-900: #111827;
+	--gray-50: #F9FAFB;
+	--gray-100: #F3F4F6;
+	--gray-200: #E5E7EB;
+	--gray-300: #D1D5DB;
+	--gray-400: #9CA3AF;
+	--gray-500: #6B7280;
+	--gray-600: #4B5563;
+	--gray-700: #374151;
+	--gray-800: #1F2937;
+	--gray-900: #111827;
 
 	--pink-100: #FFF5F7;
 	--pink-200: #FED7E2;
@@ -29,195 +29,250 @@
 	--pink-600: #D53F8C;
 	--pink-700: #B83280;
 	--pink-800: #97266D;
-	--pink-900: #702459; 
+	--pink-900: #702459;
 
-    --main-color: var(--blue-700);
-    --main-color-light: var(--blue-200);
+	--main-color: var(--blue-700);
+	--main-color-light: var(--blue-200);
 
 	--size-margin: 1.5rem;
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 body {
-    font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 18px;
+	font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 18px;
 	line-height: 1.6;
-    color: var(--gray-50);
+	color: var(--gray-50);
 	background-color: var(--gray-700)
 }
+
 .wrapped {
 	max-width: 720px;
-    margin: auto;
-    padding: 1rem;
+	margin: auto;
+	padding: 1rem;
 }
+
+.full-width-content {
+	margin-right: -50vw;
+	max-width: fit-content;
+	position: relative;
+}
+
 .brand {
 	font-size: 1.5rem;
 }
+
 img {
-    max-width: 100%;
-    object-fit: cover;
+	max-width: 100%;
+	object-fit: cover;
 	margin: 1rem auto;
 	display: block;
 }
+
 nav {
 	top: 0;
 	position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #14151a;
 }
+
 nav .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
 nav .links a {
-    padding: 1.5rem 0 0;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+	padding: 1.5rem 0 0;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
+
 nav .links a:hover svg {
 	color: var(--blue-700);
 	background: var(--blue-300);
 }
-nav details, nav summary {
-    width: 100%;
-}
-nav details {
-    padding: 0.5rem 1rem;
-}
+
+nav details,
 nav summary {
-    list-style: none;
-    cursor: pointer;
+	width: 100%;
 }
-nav summary, nav summary div {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+
+nav details {
+	padding: 0.5rem 1rem;
 }
+
+nav summary {
+	list-style: none;
+	cursor: pointer;
+}
+
+nav summary,
+nav summary div {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
 nav details summary .close {
-    display: none;
+	display: none;
 }
+
 nav details[open] summary .open {
-    display: none;
+	display: none;
 }
+
 nav details[open] summary .close {
-    display: initial;
+	display: initial;
 }
+
 nav .icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 1rem;
-    padding: 8px;
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	padding: 8px;
 	color: var(--blue-900);
-    background-color: var(--blue-50);
-    border-radius: 24px;
+	background-color: var(--blue-50);
+	border-radius: 24px;
 }
+
 nav .lang a {
-    text-decoration: none;
-    font-size: 1rem;
-    display: block;
-    padding: 0.3rem 1rem;
+	text-decoration: none;
+	font-size: 1rem;
+	display: block;
+	padding: 0.3rem 1rem;
 }
+
 header {
-    margin: 2rem 0;
+	margin: 2rem 0;
 }
+
 header .date {
 	color: var(--gray-400);
 }
+
 dt {
-    color: var(--blue-700);
-    text-align: right;
+	color: var(--blue-700);
+	text-align: right;
 }
+
 dd {
-    font-style: italic;
+	font-style: italic;
 }
+
 dl {
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    gap: 2rem;
-    margin-bottom: 2rem;
+	display: grid;
+	grid-template-columns: min-content 1fr;
+	gap: 2rem;
+	margin-bottom: 2rem;
 }
+
 a {
-    color: var(--blue-100);
+	color: var(--blue-100);
 }
-a:hover{
+
+a:hover {
 	color: var(--blue-300);
 }
+
 .tags {
-    display: inline;
+	display: inline;
 }
+
 .tag {
 	text-decoration: none;
-    font-size: 80%;
+	font-size: 80%;
 	font-weight: bold;
-    color: var(--blue-700);
-    background-color: var(--blue-100);
-    border-radius: 1rem;
-    padding: 0.25rem 0.5rem;
+	color: var(--blue-700);
+	background-color: var(--blue-100);
+	border-radius: 1rem;
+	padding: 0.25rem 0.5rem;
 }
+
 .index_articles article {
 	margin-bottom: 3rem;
 }
-.index_articles article .header, .index_articles article .footer {
+
+.index_articles article .header,
+.index_articles article .footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
+
 .index_articles article .title {
 	text-decoration: none;
 	font-weight: bold;
 }
+
 .index_articles article .date {
 	font-size: 80%;
 	color: var(--gray-500);
 }
+
 .index_articles article .sumup {
 	display: block;
 	margin-top: 0.5rem;
 }
+
 .index_articles article .more {
 	font-size: 80%;
 }
-h1,h2,h3,.header,.brand {
-    /* font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif; */
+
+h1,
+h2,
+h3,
+.header,
+.brand {
+	/* font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif; */
 	font-family: 'Space Grotesk';
 }
-h1, h2 {
+
+h1,
+h2 {
 	letter-spacing: -1px;
 	font-weight: 700 !important;
 	word-spacing: 3px;
 	margin: 3rem 0 2rem;
 	line-height: 4rem;
 }
+
 h1 {
-    font-size: 3rem;
+	font-size: 3rem;
 }
+
 h2 {
-    font-size: 2.2rem;
+	font-size: 2.2rem;
 }
+
 p {
 	margin-bottom: 1.5rem;
 }
+
 li {
-    margin: 1rem 0 1rem 0;
+	margin: 1rem 0 1rem 0;
 }
-h1 + h2 {
-    margin: 0 0 1rem;
-    font-style: italic;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    color: var(--gray-700);
+
+h1+h2 {
+	margin: 0 0 1rem;
+	font-style: italic;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	color: var(--gray-700);
 }
+
 p code {
 	white-space: pre-wrap;
 	color: var(--pink-400);
 }
+
 .highlight pre {
 	font-size: 1rem;
 	margin: 1rem 0;
@@ -225,104 +280,125 @@ p code {
 	border-radius: 1rem;
 	overflow: auto;
 }
+
 ol {
-    margin-left: 2rem;
+	margin-left: 2rem;
 }
+
 ul {
-    margin-left: 1rem;
-    list-style-type: square;
+	margin-left: 1rem;
+	list-style-type: square;
 }
+
 blockquote {
-    font-size: 1.25em;
-    font-style: italic;
-    margin: 2rem 0;
-    background: #f0f0f0;
-    border-left: 4px solid #ccc;
-    padding: 1.2em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+	font-size: 1.25em;
+	font-style: italic;
+	margin: 2rem 0;
+	background: #f0f0f0;
+	border-left: 4px solid #ccc;
+	padding: 1.2em 10px;
+	quotes: "\201C" "\201D" "\2018" "\2019";
 }
+
 blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.2em;
+	color: #ccc;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.2em;
 }
+
 blockquote p {
-    display: inline;
+	display: inline;
 }
+
 article .links {
-    margin: 2rem 0 1rem;
-    padding: 2rem 0;
-    border-top: 1px solid var(--gray-400);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	margin: 2rem 0 1rem;
+	padding: 2rem 0;
+	border-top: 1px solid var(--gray-400);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
+
 article .links .link {
-    width: 48%;
-    font-size: 1.1rem;
-    text-align: right;
+	width: 48%;
+	font-size: 1.1rem;
+	text-align: right;
 }
+
 article .links .link:first-child {
-    text-align: left;
+	text-align: left;
 }
+
 article .links .link a {
-    text-decoration: none;
+	text-decoration: none;
 }
+
 #searchform #q {
-    width: 100%;
-    padding: 1rem;
-    font-size: inherit;
+	width: 100%;
+	padding: 1rem;
+	font-size: inherit;
 }
+
 #results .result {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 #results .result .title {
-    display: block;
-    font-size: 1.3rem;
-    margin: 0.5rem 0;
+	display: block;
+	font-size: 1.3rem;
+	margin: 0.5rem 0;
 }
+
 #results .result .date {
-    margin-top: 2rem;
-    font-size: 1rem;
+	margin-top: 2rem;
+	font-size: 1rem;
 	color: var(--gray-500);
 }
+
 #results .result .sumup {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
+
 @media screen and (max-width:768px) {
-    body {
-        font-size: 1rem;
-    }
-    h1 {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        margin: 1rem 0 0.5rem;
-    }
-    h2 {
-        font-size: 1.9rem;
-        line-height: 2.4rem;
-        margin: 2rem 0 0.5rem;
-    }
-    dl {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: unset;
-        gap: unset;
-    }
-    dt {
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
-        color: var(--gray-400);
-        text-align: left;
-    }
-    dd {
-        margin-bottom: 2rem;
-    }
+	body {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		margin: 1rem 0 0.5rem;
+	}
+
+	h2 {
+		font-size: 1.9rem;
+		line-height: 2.4rem;
+		margin: 2rem 0 0.5rem;
+	}
+
+	dl {
+		display: flex;
+		flex-direction: column;
+		grid-template-columns: unset;
+		gap: unset;
+	}
+
+	dt {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+		color: var(--gray-400);
+		text-align: left;
+	}
+
+	dd {
+		margin-bottom: 2rem;
+	}
+
 	.index_articles article {
 		display: flex;
 		flex-direction: column;
@@ -335,27 +411,35 @@ article .links .link a {
 */
 
 @media (prefers-color-scheme: light) {
-	body, nav {
+
+	body,
+	nav {
 		color: var(--gray-700);
 		background-color: var(--gray-50);
 	}
+
 	nav .links a:hover svg {
 		color: var(--blue-100);
 		background: var(--blue-900);
 	}
+
 	nav .icon {
 		color: var(--gray-50);
 		background-color: var(--gray-700);
 	}
+
 	nav {
 		border-bottom: 1px solid var(--gray-700);
 	}
+
 	a {
 		color: var(--blue-900);
 	}
-	a:hover{
+
+	a:hover {
 		color: var(--blue-500);
 	}
+
 	p code {
 		color: var(--pink-700);
 	}
@@ -370,72 +454,88 @@ article .links .link a {
 
 /* rubik-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* rubik-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: italic;
-  font-weight: 400;
-  src: url('../fonts/rubik-v28-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: italic;
+	font-weight: 400;
+	src: url('../fonts/rubik-v28-latin-italic.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* rubik-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/rubik-v28-latin-700.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* rubik-700italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: italic;
-  font-weight: 700;
-  src: url('../fonts/rubik-v28-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: italic;
+	font-weight: 700;
+	src: url('../fonts/rubik-v28-latin-700italic.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* rubik-900 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 900;
-  src: url('../fonts/rubik-v28-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/rubik-v28-latin-900.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* rubik-900italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Rubik';
-  font-style: italic;
-  font-weight: 900;
-  src: url('../fonts/rubik-v28-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Rubik';
+	font-style: italic;
+	font-weight: 900;
+	src: url('../fonts/rubik-v28-latin-900italic.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* space-grotesk-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/space-grotesk-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/space-grotesk-v16-latin-regular.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* space-grotesk-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/space-grotesk-v16-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/space-grotesk-v16-latin-700.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

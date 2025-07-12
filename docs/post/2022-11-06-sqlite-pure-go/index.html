@@ -13,17 +13,17 @@ Search
 About</a></div></details></nav><div id=content class=wrapped><main><header><h1>Sqlite Pure Go</h1><em></em><div class=date>Sunday, November 6, 2022 · 1 minute · 183 words</div></header><article><p>Would it be possible to embed a database to avoid managing a MySQL or Postgres
 instance?</p><p>Even better, can this database be queried in SQL? I don&rsquo;t want to learn another
 way to query data.</p><p>The answer is obviously yes (otherwise I will not write this post) thanks to a
-<a href=https://pkg.go.dev/modernc.org/sqlite>pure Go implementation of Sqlite3</a>.</p><p>So here is a quick introduction to this package !</p><h2 id=how-to-install-it>How to install it?</h2><p>By adding a line in the import bloc :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#ff79c6>import</span>(
-</span></span><span style=display:flex><span><span style=color:#ff79c6>...</span>
-</span></span><span style=display:flex><span>_ <span style=color:#f1fa8c>&#34;modernc.org/sqlite&#34;</span>
-</span></span><span style=display:flex><span><span style=color:#ff79c6>...</span>
-</span></span><span style=display:flex><span>)
+<a href=https://pkg.go.dev/modernc.org/sqlite>pure Go implementation of Sqlite3</a>.</p><p>So here is a quick introduction to this package !</p><h2 id=how-to-install-it>How to install it?</h2><p>By adding a line in the import bloc :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=ln>1</span><span class=cl><span class=kn>import</span><span class=p>(</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl><span class=o>...</span>
+</span></span><span class=line><span class=ln>3</span><span class=cl><span class=nx>_</span> <span class=s>&#34;modernc.org/sqlite&#34;</span>
+</span></span><span class=line><span class=ln>4</span><span class=cl><span class=o>...</span>
+</span></span><span class=line><span class=ln>5</span><span class=cl><span class=p>)</span>
 </span></span></code></pre></div><p>Don&rsquo;t forget to run a <code>go mod tidy</code> to start solving the dependencies and
-automatically download the package.</p><h2 id=how-to-use-it->How to use it ?</h2><p>Sqlite can store its data in a file, therefore we need to specify such file :</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-go data-lang=go><span style=display:flex><span><span style=color:#ff79c6>...</span>
-</span></span><span style=display:flex><span>db, err <span style=color:#ff79c6>:=</span> sql.<span style=color:#50fa7b>Open</span>(<span style=color:#f1fa8c>&#34;sqlite&#34;</span>, <span style=color:#f1fa8c>&#34;/tmp/testbase.db&#34;</span>)
-</span></span><span style=display:flex><span><span style=color:#ff79c6>...</span>
+automatically download the package.</p><h2 id=how-to-use-it->How to use it ?</h2><p>Sqlite can store its data in a file, therefore we need to specify such file :</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=ln>1</span><span class=cl><span class=o>...</span>
+</span></span><span class=line><span class=ln>2</span><span class=cl><span class=nx>db</span><span class=p>,</span> <span class=nx>err</span> <span class=o>:=</span> <span class=nx>sql</span><span class=p>.</span><span class=nf>Open</span><span class=p>(</span><span class=s>&#34;sqlite&#34;</span><span class=p>,</span> <span class=s>&#34;/tmp/testbase.db&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=ln>3</span><span class=cl><span class=o>...</span>
 </span></span></code></pre></div><h2 id=how-to-request-it>How to request it?</h2><p>Exactly like with another db, using the sql package. For instance, for a simple
-query that returns rows of results:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-go data-lang=go><span style=display:flex><span>rows, err <span style=color:#ff79c6>:=</span> db.<span style=color:#50fa7b>Query</span>(<span style=color:#f1fa8c>&#34;SELECT * FROM userinfo&#34;</span>)
+query that returns rows of results:</p><div class="highlight full-width-content"><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=ln>1</span><span class=cl><span class=nx>rows</span><span class=p>,</span> <span class=nx>err</span> <span class=o>:=</span> <span class=nx>db</span><span class=p>.</span><span class=nf>Query</span><span class=p>(</span><span class=s>&#34;SELECT * FROM userinfo&#34;</span><span class=p>)</span>
 </span></span></code></pre></div><p>That&rsquo;s it !</p><p>This package is a good way to embed a database cheaply in
 its program while keeping the SQL paradigm.</p><span class=tags><a class=tag href=/tags/technical/>Technical</a>
 <a class=tag href=/tags/go/>Go</a>
