@@ -1,0 +1,45 @@
+{
+  "infinitif": "seoir",
+  "participePasse": "seyant",
+  "participePresent": "séant,",
+  "present": [
+    "",
+    "",
+    "sied",
+    "",
+    "",
+    "siéent"
+  ],
+  "imparfait": [
+    "",
+    "",
+    "seyait",
+    "",
+    "",
+    "seyaient"
+  ],
+  "futurSimple": [
+    "",
+    "",
+    "siéra",
+    "",
+    "",
+    "siéront"
+  ],
+  "subjonctifPresent": [
+    "",
+    "",
+    "siée",
+    "",
+    "",
+    "siéent"
+  ],
+  "conditionnelPresent": [
+    "",
+    "",
+    "siérait",
+    "",
+    "",
+    "siéraient"
+  ]
+}
