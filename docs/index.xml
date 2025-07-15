@@ -155,4 +155,6 @@ done
 &lt;li>&lt;a href="https://www.arte.tv/fr/videos/100750-000-A/disparaitre-sous-les-radars-des-algorithmes/">Disparaître - Sous les radars des algorithmes&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=GNyQxXw_oMQ">Coffee with Brian Kernighan - Computerphile&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Marvel timeline</title><link>https://barim.us/marvel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://barim.us/marvel/</guid><description>&lt;p>&lt;img src="./marvel_timeline.webp" alt="Marvel timeline">&lt;/p>
-&lt;p>&lt;a href="https://www.bbc.com/news/entertainment-arts-47623536">source bbc&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://www.bbc.com/news/entertainment-arts-47623536">source bbc&lt;/a>&lt;/p></description></item><item><title>Showcase</title><link>https://barim.us/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://barim.us/showcase/</guid><description>&lt;h2 id="interactive-web-applications">Interactive Web Applications&lt;/h2>
+&lt;h3 id="conjugueur">Conjugueur&lt;/h3>
+&lt;p>French verb conjugation app built with Svelte. Conjugates over 700 French verbs with their forms, tenses, and moods.&lt;/p></description></item></channel></rss>

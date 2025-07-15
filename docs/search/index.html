@@ -4,6 +4,8 @@
 Home
 </a><a href=/post><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg>
 Posts
+</a><a href=/showcase><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.042A8.967 8.967.0 006 3.75c-1.052.0-2.062.18-3 .512v14.25A8.987 8.987.0 016 18c2.305.0 4.408.867 6 2.292m0-14.25a8.966 8.966.0 016-2.292c1.052.0 2.062.18 3 .512v14.25A8.987 8.987.0 0018 18a8.967 8.967.0 00-6 2.292m0-14.25v14.25"/></svg>
+Showcase
 </a><a href=/lists><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4A1 1 0 003 5v14a1 1 0 001 1z"/></svg>
 Lists
 </a><a href=/search><svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentcolor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5A7 7 0 113 10a7 7 0 0114 0z"/></svg>
@@ -121,7 +123,7 @@ There is a nice plugin to make Telescope the default ui selector. I added this l
 1 { 2 &#39;nvim-telescope/telescope-ui-select.nvim&#39;, 3 config = function() require(&#34;telescope&#34;).load_extension(&#34;ui-select&#34;) end, 4 } Relaunch neovim and now, Telescope is used as a picker for the code actions.
 Tips : force the language in Markdown By default, LTeX will use the default language we have configured above. But, what if you need to write a post in another language ?
 An easy way is to provide LTeX with a special header in the front matter of your markdown :
-1--- 2title: A nice title 3date: 2023-12-25T01:18:29+01:00 4lang: en-US 5--- The lang entry contains the language code expected by LTeX as seen in https://valentjn.github.io/ltex/supported-languages.html
+1--- 2title: A nice title 3date: 2023-12-25T01:18:29+01:00 4--- The lang entry contains the language code expected by LTeX as seen in https://valentjn.github.io/ltex/supported-languages.html
 LanguageTool is a multilingual spelling, style and grammar checker&#160;&#x21a9;&#xfe0e;
 LTeX plugs LanguageTool with editors via language server protocol (LSP)&#160;&#x21a9;&#xfe0e;
 `,url:"/post/2023-12-24-neovim-languagetool/",date:"2023-12-24"},"/post/2023-10-29-svelte-tabs/":{title:"Create tabs in Svelte",tags:["tuto","svelte"],content:`I often need to code some way to have multiple pages rendered in the same location : think about a configuration panel with several sub panels. The natural way to code this is using tabs.
@@ -565,4 +567,31 @@ Contact me as @CodeCadim on Mastodon, or on my email brahim ( at ) hamdouni.com.
 This blog is personal and opinions here are mine.
 `,url:"/about/",date:"0001-01-01"},"/lists/":{title:"List",tags:[],content:"Go Go resources Videos Jim Keller: Moore&rsquo;s Law, Microprocessors, and First Principles | Lex Fridman Podcast #70 Micah Lee presents “Qubes OS: The Operating System That Can Protect You Even If You Get Hacked” youtube watch later La vie devant nous Disparaître - Sous les radars des algorithmes Coffee with Brian Kernighan - Computerphile ",url:"/lists/",date:"0001-01-01"},"/marvel/":{title:"Marvel timeline",tags:[],content:`
 source bbc
-`,url:"/marvel/",date:"0001-01-01"}},idx=lunr(function(){this.use(lunr.fr),this.ref("id"),this.field("title",{boost:15}),this.field("tags"),this.field("content",{boost:10});for(const e in store)this.add({id:e,title:store[e].title,tags:store[e].category,content:store[e].content})})</script></html>
+`,url:"/marvel/",date:"0001-01-01"},"/showcase/":{title:"Showcase",tags:[],content:`Interactive Web Applications Conjugueur French verb conjugation app built with Svelte. Conjugates over 700 French verbs with their forms, tenses, and moods.
+Technologies: Svelte, JavaScript, CSS
+Source code: github.com/CodeCadim/conjugueur
+Demo: Conjugueur
+Hacker News Reader Hacker News browsing application built with Svelte. Mobile-friendly interface.
+Technologies: Svelte, REST API
+Source code: github.com/hamdouni/svelte-hackernews
+Demo: Hacker News Reader
+WebTimer Web timer with multiple phases of different durations and pauses between each. Suitable for yoga sessions or exercise routines. Features audio notifications.
+Technologies: Web Components, JavaScript, HTML5 Audio
+Source code: see the demo page source
+Demo: WebTimer
+Recette Recipe browsing application organized by type (dishes, desserts, drinks). Displays calories, preparation and cooking time, ingredient list and photos.
+Technologies: Web Components, JSON, JavaScript Source code: see the demo page source Demo: Recette
+Educational Applications (old) Multiplication Table Interactive quiz to learn multiplication tables.
+Technologies: JavaScript
+Source code: see the demo page source
+Demo: Multiplication Table
+Digestive System Educational application about the human digestive system.
+Technologies: JavaScript
+Source code: see the demo page source
+Demo: Digestive System
+Technical Articles Svelte Components Articles and tutorials on Svelte development:
+Svelte Dynamic Components Lifecycle and Reactivity Advanced esbuild Configuration Go Development Articles on Go development:
+Go Learning Resources Is Go Object-Oriented? SQLite with Pure Go System Tools Configuration and tools for Linux development:
+Neovim Configuration with LanguageTool Mesh Network with Nebula Technical Journey Background: From ZX81 BASIC to web applications, through Java, JavaScript, Go, and Svelte. Technical articles on this blog since 2005.
+Approach: Pragmatic development with focus on simplicity and continuous learning.
+`,url:"/showcase/",date:"0001-01-01"}},idx=lunr(function(){this.use(lunr.fr),this.ref("id"),this.field("title",{boost:15}),this.field("tags"),this.field("content",{boost:10});for(const e in store)this.add({id:e,title:store[e].title,tags:store[e].category,content:store[e].content})})</script></html>

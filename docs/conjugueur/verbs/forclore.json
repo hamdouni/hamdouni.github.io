@@ -1,0 +1,69 @@
+{
+  "infinitif": "forclore",
+  "participePasse": "forclos",
+  "auxiliaire": "avoir",
+  "passeCompose": [
+    "ai forclos",
+    "as forclos",
+    "a forclos",
+    "avons forclos",
+    "avez forclos",
+    "ont forclos"
+  ],
+  "plusQueParfait": [
+    "avais forclos",
+    "avais forclos",
+    "avait forclos",
+    "avions forclos",
+    "aviez forclos",
+    "avaient forclos"
+  ],
+  "passeAnterieur": [
+    "eus forclos",
+    "eus forclos",
+    "eut forclos",
+    "eûmes forclos",
+    "eûtes forclos",
+    "eurent forclos"
+  ],
+  "futurAnterieur": [
+    "aurai forclos",
+    "auras forclos",
+    "aura forclos",
+    "aurons forclos",
+    "aurez forclos",
+    "auront forclos"
+  ],
+  "subjonctifPasse": [
+    "aie forclos",
+    "aies forclos",
+    "ait forclos",
+    "ayons forclos",
+    "ayez forclos",
+    "aient forclos"
+  ],
+  "subjonctifPlusQueParfait": [
+    "eusse forclos",
+    "eusses forclos",
+    "eût forclos",
+    "eussions forclos",
+    "eussiez forclos",
+    "eussent forclos"
+  ],
+  "conditionnelPasse": [
+    "aurais forclos",
+    "aurais forclos",
+    "aurait forclos",
+    "aurions forclos",
+    "auriez forclos",
+    "auraient forclos"
+  ],
+  "conditionnelPasseII": [
+    "eusse forclos",
+    "eusses forclos",
+    "eût forclos",
+    "eussions forclos",
+    "eussiez forclos",
+    "eussent forclos"
+  ]
+}
