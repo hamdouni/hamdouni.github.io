@@ -197,14 +197,16 @@ a:hover {
 }
 
 .index_articles article {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 .index_articles article .header,
 .index_articles article .footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: left;
+	align-items: baseline;
+	gap: 1rem;
 }
 
 .index_articles article .title {
