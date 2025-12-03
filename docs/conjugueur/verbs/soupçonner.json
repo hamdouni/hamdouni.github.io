@@ -1,0 +1,143 @@
+{
+  "infinitif": "soupçonner",
+  "participePasse": "soupçonné",
+  "participePresent": "soupçonnant",
+  "auxiliaire": "avoir",
+  "formePronominale": "se soupçonner",
+  "present": [
+    "soupçonne",
+    "soupçonnes",
+    "soupçonne",
+    "soupçonnons",
+    "soupçonnez",
+    "soupçonnent"
+  ],
+  "imparfait": [
+    "soupçonnais",
+    "soupçonnais",
+    "soupçonnait",
+    "soupçonnions",
+    "soupçonniez",
+    "soupçonnaient"
+  ],
+  "passeSimple": [
+    "soupçonnai",
+    "soupçonnas",
+    "soupçonna",
+    "soupçonnâmes",
+    "soupçonnâtes",
+    "soupçonnèrent"
+  ],
+  "futurSimple": [
+    "soupçonnerai",
+    "soupçonneras",
+    "soupçonnera",
+    "soupçonnerons",
+    "soupçonnerez",
+    "soupçonneront"
+  ],
+  "passeCompose": [
+    "ai soupçonné",
+    "as soupçonné",
+    "a soupçonné",
+    "avons soupçonné",
+    "avez soupçonné",
+    "ont soupçonné"
+  ],
+  "plusQueParfait": [
+    "avais soupçonné",
+    "avais soupçonné",
+    "avait soupçonné",
+    "avions soupçonné",
+    "aviez soupçonné",
+    "avaient soupçonné"
+  ],
+  "passeAnterieur": [
+    "eus soupçonné",
+    "eus soupçonné",
+    "eut soupçonné",
+    "eûmes soupçonné",
+    "eûtes soupçonné",
+    "eurent soupçonné"
+  ],
+  "futurAnterieur": [
+    "aurai soupçonné",
+    "auras soupçonné",
+    "aura soupçonné",
+    "aurons soupçonné",
+    "aurez soupçonné",
+    "auront soupçonné"
+  ],
+  "subjonctifPresent": [
+    "soupçonne",
+    "soupçonnes",
+    "soupçonne",
+    "soupçonnions",
+    "soupçonniez",
+    "soupçonnent"
+  ],
+  "subjonctifImparfait": [
+    "soupçonnasse",
+    "soupçonnasses",
+    "soupçonnât",
+    "soupçonnassions",
+    "soupçonnassiez",
+    "soupçonnassent"
+  ],
+  "subjonctifPasse": [
+    "aie soupçonné",
+    "aies soupçonné",
+    "ait soupçonné",
+    "ayons soupçonné",
+    "ayez soupçonné",
+    "aient soupçonné"
+  ],
+  "subjonctifPlusQueParfait": [
+    "eusse soupçonné",
+    "eusses soupçonné",
+    "eût soupçonné",
+    "eussions soupçonné",
+    "eussiez soupçonné",
+    "eussent soupçonné"
+  ],
+  "conditionnelPresent": [
+    "soupçonnerais",
+    "soupçonnerais",
+    "soupçonnerait",
+    "soupçonnerions",
+    "soupçonneriez",
+    "soupçonneraient"
+  ],
+  "conditionnelPasse": [
+    "aurais soupçonné",
+    "aurais soupçonné",
+    "aurait soupçonné",
+    "aurions soupçonné",
+    "auriez soupçonné",
+    "auraient soupçonné"
+  ],
+  "conditionnelPasseII": [
+    "eusse soupçonné",
+    "eusses soupçonné",
+    "eût soupçonné",
+    "eussions soupçonné",
+    "eussiez soupçonné",
+    "eussent soupçonné"
+  ],
+  "imperatif": [
+    "",
+    "soupçonne !",
+    "",
+    "soupçonnons !",
+    "soupçonnez !",
+    ""
+  ],
+  "imperatifPasse": [
+    "",
+    "aie soupçonné !",
+    "",
+    "ayons soupçonné !",
+    "ayez soupçonné !",
+    ""
+  ]
+}
