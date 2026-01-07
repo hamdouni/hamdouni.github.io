@@ -288,7 +288,6 @@ blockquote {
 	font-size: 1.25em;
 	font-style: italic;
 	margin: 2rem 0;
-	background: #f0f0f0;
 	border-left: 4px solid #ccc;
 	padding: 1.2em 10px;
 	quotes: "\201C" "\201D" "\2018" "\2019";
