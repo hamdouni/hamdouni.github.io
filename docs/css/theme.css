@@ -1,0 +1,119 @@
+/* Site overrides on top of Sumi: tokens first, then the few rules Sumi has no class for. */
+
+:root {
+	/* no system-ui: on some Linux desktops it resolves to a monospace font */
+	--s-font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Noto Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+	/* Light palette, from the previous theme (Tailwind gray / sky / pink) */
+	--s-bg: #F9FAFB;            /* gray-50 */
+	--s-surface: #F3F4F6;       /* gray-100 */
+	--s-card: #FFFFFF;
+	--s-card-section: #F3F4F6;
+	--s-text: #374151;          /* gray-700 */
+	--s-muted: #6B7280;         /* gray-500 */
+	--s-border: #E5E7EB;        /* gray-200 */
+	--s-border-strong: #D1D5DB; /* gray-300 */
+	--s-primary: #0C4A6E;       /* blue-900 */
+	--s-on-primary: #F0F9FF;    /* blue-50 */
+	--s-secondary: #4B5563;     /* gray-600 */
+	--s-on-secondary: #F9FAFB;
+	--s-contrast: #374151;
+	--s-on-contrast: #F9FAFB;
+	--s-code-bg: #F3F4F6;
+	--c-inline-code: #B83280;   /* pink-700 */
+}
+
+/* Dark palette: Sumi needs it twice, for the system setting and for data-theme="dark" */
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme="light"]) {
+		--s-bg: #374151;            /* gray-700 */
+		--s-surface: #1F2937;       /* gray-800 */
+		--s-card: #1F2937;
+		--s-card-section: #111827;  /* gray-900 */
+		--s-text: #F9FAFB;          /* gray-50 */
+		--s-muted: #D1D5DB;         /* gray-300 */
+		--s-border: #4B5563;        /* gray-600 */
+		--s-border-strong: #6B7280; /* gray-500 */
+		--s-primary: #BAE6FD;       /* blue-200 */
+		--s-on-primary: #0C4A6E;    /* blue-900 */
+		--s-secondary: #D1D5DB;
+		--s-on-secondary: #1F2937;
+		--s-contrast: #F9FAFB;
+		--s-on-contrast: #374151;
+		--s-code-bg: #1F2937;
+		--c-inline-code: #F687B3;   /* pink-400 */
+	}
+}
+
+:root[data-theme="dark"] {
+	--s-bg: #374151;
+	--s-surface: #1F2937;
+	--s-card: #1F2937;
+	--s-card-section: #111827;
+	--s-text: #F9FAFB;
+	--s-muted: #D1D5DB;
+	--s-border: #4B5563;
+	--s-border-strong: #6B7280;
+	--s-primary: #BAE6FD;
+	--s-on-primary: #0C4A6E;
+	--s-secondary: #D1D5DB;
+	--s-on-secondary: #1F2937;
+	--s-contrast: #F9FAFB;
+	--s-on-contrast: #374151;
+	--s-code-bg: #1F2937;
+	--c-inline-code: #F687B3;
+}
+
+/* Inline code in pink, as before; code blocks keep the Chroma colors */
+:not(pre) > code {
+	color: var(--c-inline-code);
+}
+
+/* Code blocks break out of the .prose reading width, up to the width of main
+   (see post/2025-06-25-code-block-bigger-than-parent) */
+body > main {
+	container-type: inline-size;
+}
+
+.prose .highlight {
+	width: max-content;
+	max-width: 100cqi;
+}
+
+/* Post lists: date column + title column; subgrid keeps titles aligned across rows,
+   and a wrapped title stays in its own column on mobile */
+.post-list {
+	display: grid;
+	/* min width = longest short date ("29 sept."), so every year lines up */
+	grid-template-columns: minmax(4.5rem, auto) 1fr;
+	gap: .5rem 1rem;
+	padding-left: 0;
+	list-style: none;
+}
+
+.post-list > li {
+	display: grid;
+	grid-column: 1 / -1;
+	grid-template-columns: subgrid;
+	align-items: baseline;
+	margin: 0;
+}
+
+/* Header: theme toggle matches the Menu summary (same height, border, background) */
+body > header details.dropdown {
+	margin: 0;
+}
+
+#theme-toggle {
+	align-self: stretch;
+	justify-content: center;
+	padding: 0 .875rem;
+	color: var(--s-text);
+	background: var(--s-bg);
+	border-color: var(--s-border-strong);
+}
+
+/* Dropdown hover: Sumi uses --s-surface, identical to --s-card in our dark palette */
+details.dropdown > ul a:hover {
+	background: color-mix(in srgb, var(--s-text) 10%, transparent);
+}
