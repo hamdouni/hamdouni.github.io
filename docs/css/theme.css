@@ -99,21 +99,49 @@ body > main {
 	margin: 0;
 }
 
-/* Header: theme toggle matches the Menu summary (same height, border, background) */
+/* Header: no bottom margin on the Menu, so the row centers on it */
 body > header details.dropdown {
 	margin: 0;
 }
 
-#theme-toggle {
+/* Header buttons (language, theme) match the Menu summary (same height, border, background) */
+.header-btn {
+	display: flex;
 	align-self: stretch;
+	align-items: center;
 	justify-content: center;
+	margin: 0;
 	padding: 0 .875rem;
+	font-weight: 500;
+	text-decoration: none;
 	color: var(--s-text);
 	background: var(--s-bg);
-	border-color: var(--s-border-strong);
+	border: 1px solid var(--s-border-strong);
+}
+
+.header-btn:hover {
+	background: color-mix(in srgb, var(--s-text) 10%, transparent);
+	color: var(--s-text);
 }
 
 /* Dropdown hover: Sumi uses --s-surface, identical to --s-card in our dark palette */
 details.dropdown > ul a:hover {
 	background: color-mix(in srgb, var(--s-text) 10%, transparent);
+}
+
+/* Mobile: keep title and buttons on one row; the title wraps inside its own column */
+@media (max-width: 40rem) {
+	body > header.row {
+		flex-wrap: nowrap;
+	}
+
+	body > header .row {
+		flex-shrink: 0;
+		gap: .375rem;
+	}
+
+	.header-btn,
+	body > header details.dropdown > summary {
+		padding-inline: .625rem;
+	}
 }
